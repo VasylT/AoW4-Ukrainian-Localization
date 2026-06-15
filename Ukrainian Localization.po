@@ -88772,7 +88772,7 @@ msgstr "Цей телепорт не належить тобі"
 
 #| msgid "INTERFACE@TELEPORTER@NOT_OWNED"
 msgid "INTERFACE@TELEPORTER@NO_ARMY_PRESENT"
-msgstr ""
+msgstr "Немає армії"
 
 msgid "INTERFACE@TEXT@ABANDON_REALM"
 msgstr "Покинути королівство"
@@ -89149,7 +89149,7 @@ msgstr "Переможна битва"
 
 #| msgid "INTERFACE@TEXT@OVERLORD"
 msgid "INTERFACE@TEXT@BECOMEOVERLORD"
-msgstr "Зробити [rs_overlord/]Оверлордом"
+msgstr "Зробити [rs_overlord/]Володарем"
 
 msgid "INTERFACE@TEXT@BEINGCONVERTED"
 msgstr "В процесі перетворення"
@@ -91124,7 +91124,7 @@ msgstr "Перемкнути на тіньову безодню"
 
 #| msgid "INTERFACE@TEXT@MAP_LAYER_SWITCH_SHADOW"
 msgid "INTERFACE@TEXT@MAP_LAYER_SWITCH_SHROUDED"
-msgstr ""
+msgstr "Переключитися до прихованих островів"
 
 msgid "INTERFACE@TEXT@MAP_LAYER_SWITCH_SURFACE"
 msgstr "Перемкнути на поверхню"
@@ -91443,7 +91443,7 @@ msgstr "Немає"
 
 #| msgid "INTERFACE@TEXT@TOME_DESCRIPTION"
 msgid "INTERFACE@TEXT@NONE_DESCRIPTION"
-msgstr ""
+msgstr "Команди вимкнені."
 
 msgid "INTERFACE@TEXT@NORMAL"
 msgstr "Стандартний"
@@ -91636,7 +91636,7 @@ msgstr "Повелитель"
 
 #| msgid "INTERFACE@TEXT@OVERLORD"
 msgid "INTERFACE@TEXT@OVERLORD_WITH_ICON"
-msgstr ""
+msgstr "[rs_overlord/] Володар"
 
 msgid "INTERFACE@TEXT@OVERWRITE_SAVEGAME_WARNING_CONTENT"
 msgstr "Чи впевнений, що хочеш перезаписати збережену гру: {STR_FileName}?"
@@ -92177,7 +92177,7 @@ msgstr "Залишилося"
 
 #| msgid "INTERFACE@TEXT@REMAINING"
 msgid "INTERFACE@TEXT@REMAINING_GUILD_POINTS"
-msgstr ""
+msgstr "(Маєш ще {INT_Remaining})"
 
 msgid "INTERFACE@TEXT@REMAIN_AT_WAR"
 msgstr "Залишається у стані війни"
@@ -92286,11 +92286,11 @@ msgstr "Продовжити гру"
 
 #| msgid "INTERFACE@TEXT@RAISE_SELECTED_UNITS"
 msgid "INTERFACE@TEXT@RESURRECT_DEAD_UNITS"
-msgstr ""
+msgstr "Відродити мертвих юнітів"
 
 #| msgid "INTERFACE@TEXT@RECRUIT_UNITS"
 msgid "INTERFACE@TEXT@RESURRECT_UNITS"
-msgstr ""
+msgstr "Відродити вибраних юнітів"
 
 msgid "INTERFACE@TEXT@RETALIATION"
 msgstr "Відплата"
@@ -92453,7 +92453,7 @@ msgstr "Виберіть юніти для набору"
 
 #| msgid "INTERFACE@TEXT@SELECT_UNITS_TO_RECRUIT"
 msgid "INTERFACE@TEXT@SELECT_UNITS_TO_RESURRECT"
-msgstr ""
+msgstr "Виберіть юнітів для відродження"
 
 msgid "INTERFACE@TEXT@SELECT_WORLD_TITLE"
 msgstr "Оберіть пункт призначення"
@@ -93198,11 +93198,11 @@ msgstr "Васальні правителі"
 
 #| msgid "INTERFACE@TEXT@VASSAL_OF"
 msgid "INTERFACE@TEXT@VASSAL_TEAM"
-msgstr ""
+msgstr "Володар"
 
 #| msgid "INTERFACE@TEXT@ASTRAL_ECHOES_DESCRIPTION"
 msgid "INTERFACE@TEXT@VASSAL_TEAM_DESCRIPTION"
-msgstr ""
+msgstr "В одній команді один гравець є [rs_overlord/] Володар, а решта гравців — його [rs_vassalage/]Васалами. Володар керує дипломатією, а васали не можуть покинути команду без його дозволу.[br/][br/]Призначити гравця Володарем можна в меню налаштувань."
 
 msgid "INTERFACE@TEXT@VASSAL_UNDER_SIEGE_EVENT"
 msgstr "Ваш васал, {Vassal}, перебуває в облозі!"
@@ -93212,7 +93212,7 @@ msgstr "Ваш васал, [white]Free City Name[/white], в облозі!"
 
 #| msgid "INTERFACE@TEXT@VASSAL_INCOME"
 msgid "INTERFACE@TEXT@VASSAL_WITH_ICON"
-msgstr ""
+msgstr "[rs_vassalage/] Васал"
 
 msgid "INTERFACE@TEXT@VERY_COMMON"
 msgstr "Дуже поширене"
@@ -93920,11 +93920,11 @@ msgstr "Виснаження"
 
 #| msgid "INTERFACESETTINGS_UNITPROPERTIES@EXHAUSTED@DESCRIPTION"
 msgid "INTERFACESETTINGS_UNITPROPERTIES@EXHAUSTED_IMMUNITY@DESCRIPTION"
-msgstr ""
+msgstr "Цей юніт не може бути {GLOBAL.PROPERTIES.EXHAUSTED.Hyperlink} від {GLOBAL.SpeedMarchConcept.Hyperlink} та з інших джерел."
 
 #| msgid "INTERFACESETTINGS_UNITPROPERTIES@EXHAUSTED@NAME"
 msgid "INTERFACESETTINGS_UNITPROPERTIES@EXHAUSTED_IMMUNITY@NAME"
-msgstr ""
+msgstr "Імунітет до втоми"
 
 msgid "INTERFACESETTINGS_UNITPROPERTIES@FIRE_RESISTANCE@NAME"
 msgstr "Стійкість до вогню"
@@ -95692,7 +95692,7 @@ msgstr "Лук^mm"
 
 #| msgid "ITEM@TYPE@GREATAXE@NOUN_01"
 msgid "ITEM@TYPE@BREACHGUN_AXE@NOUN_01"
-msgstr ""
+msgstr "Пробивач та сокира^n"
 
 msgid "ITEM@TYPE@CESTUS@NOUN_01"
 msgstr "Цестус^mn"
@@ -95858,11 +95858,11 @@ msgstr "Кульшові штани"
 
 #| msgid "ITEM@TYPE@ROBE@NOUN_01"
 msgid "ITEM@TYPE@GRIMOIRE@NOUN_01"
-msgstr ""
+msgstr "Гримуар^n"
 
 #| msgid "ITEM@TYPE@ROBE@NOUN_02"
 msgid "ITEM@TYPE@GRIMOIRE@NOUN_02"
-msgstr ""
+msgstr "Кодекс^n"
 
 msgid "ITEM@TYPE@HALBERD@NOUN_01"
 msgstr "Алабард"
@@ -96549,7 +96549,7 @@ msgstr "Дворучний меч"
 
 #| msgid "ITEM_FORGE@TYPE@RING@NAME"
 msgid "ITEM_FORGE@TYPE@GRIMOIRE@NAME"
-msgstr ""
+msgstr "Гримуар"
 
 msgid "ITEM_FORGE@TYPE@HEAD@DESCRIPTION"
 msgstr "Можна [hyperlink,GLOBAL.InfusionConcept]зачарувати[/hyperlink] пасивними ефектами для підвищення стійкості та сприйняття."
@@ -100436,69 +100436,53 @@ msgstr "Обскурон"
 msgid "META_EMPIRE@UNKNOWN_REALM@NAME6"
 msgstr "Аномала"
 
-#| msgid "META_EMPIRE@TRAIT_INTRIGUE_HAPPENINGS@DESCRIPTION"
 msgid "META_EMPIRE@WORLD_CONTENT@COSMIC_HAPPENINGS@DESCRIPTION"
-msgstr ""
+msgstr "Цей світ стрясають космічні явища — від змінених Астральних Потоків до розладнаних зірок."
 
-#| msgid "META_EMPIRE@TRAIT_INTRIGUE_HAPPENINGS@NAME"
 msgid "META_EMPIRE@WORLD_CONTENT@COSMIC_HAPPENINGS@NAME"
-msgstr ""
+msgstr "Космічні явища"
 
-#| msgid "META_EMPIRE@TRAIT_FEY_INVASION@DESCRIPTION"
 msgid "META_EMPIRE@WORLD_CONTENT@FEY_INVASION@DESCRIPTION"
-msgstr ""
+msgstr "Цей світ уражений «Даниною Пір Року», коли таємничий народ фей виходить із туманів, щоб нападати на міста необачних."
 
-#| msgid "META_EMPIRE@TRAIT_FEY_INVASION@NAME"
 msgid "META_EMPIRE@WORLD_CONTENT@FEY_INVASION@NAME"
-msgstr ""
+msgstr "Данина Пір Року"
 
-#| msgid "META_EMPIRE@TRAIT_INTRIGUE_HAPPENINGS@DESCRIPTION"
 msgid "META_EMPIRE@WORLD_CONTENT@INTRIGUE_HAPPENINGS@DESCRIPTION"
-msgstr ""
+msgstr "У цьому світі панують інтриги й підступи. Різноманітний склад Правителів підвищує ймовірність їхньої появи."
 
-#| msgid "META_EMPIRE@TRAIT_INTRIGUE_HAPPENINGS@NAME"
 msgid "META_EMPIRE@WORLD_CONTENT@INTRIGUE_HAPPENINGS@NAME"
-msgstr ""
+msgstr "Інтриги"
 
-#| msgid "META_EMPIRE@TRAIT_CONTINENTS_MAP@DESCRIPTION"
 msgid "META_EMPIRE@WORLD_CONTENT@LOST_SOULS@DESCRIPTION"
-msgstr ""
+msgstr "Цим світом блукають загублені душі. Прокляті або ж гнані незавершеними справами, вони шукають допомоги."
 
-#| msgid "META_EMPIRE@TRAIT_CONTINENTS_MAP@NAME"
 msgid "META_EMPIRE@WORLD_CONTENT@LOST_SOULS@NAME"
-msgstr ""
+msgstr "Загублені душі"
 
-#| msgid "META_EMPIRE@TRAIT_CONTINENTS_MAP@DESCRIPTION"
 msgid "META_EMPIRE@WORLD_CONTENT@OPTION@AUTOMATIC@DESCRIPTION"
-msgstr ""
+msgstr "Цей вміст може з’явитися в цьому світі."
 
-#| msgid "META_EMPIRE@TRAIT_CONTINENTS_MAP@NAME"
 msgid "META_EMPIRE@WORLD_CONTENT@OPTION@AUTOMATIC@NAME"
-msgstr ""
+msgstr "Автоматично"
 
-#| msgid "META_EMPIRE@TRAIT_CONTINENTS_MAP@DESCRIPTION"
 msgid "META_EMPIRE@WORLD_CONTENT@OPTION@NEVER@DESCRIPTION"
-msgstr ""
+msgstr "Цей вміст буде заблоковано в цьому світі."
 
-#| msgid "META_EMPIRE@TRAIT_CONTINENTS_MAP@NAME"
 msgid "META_EMPIRE@WORLD_CONTENT@OPTION@NEVER@NAME"
-msgstr ""
+msgstr "Ніколи"
 
-#| msgid "META_EMPIRE@REALM_TUTORIAL@TRAIT@DESCRIPTION"
 msgid "META_EMPIRE@WORLD_CONTENT@OPTION@PRIORITIZED@DESCRIPTION"
-msgstr ""
+msgstr "Цей вміст буде пріоритетним, що значно підвищить імовірність його появи в цьому світі."
 
-#| msgid "META_EMPIRE@REALM_TUTORIAL@TRAIT@NAME"
 msgid "META_EMPIRE@WORLD_CONTENT@OPTION@PRIORITIZED@NAME"
-msgstr ""
+msgstr "Пріоритетно"
 
-#| msgid "META_EMPIRE@TRAIT_CONTINENTS_MAP@DESCRIPTION"
 msgid "META_EMPIRE@WORLD_CONTENT@WANDERING_MERCHANTS@DESCRIPTION"
-msgstr ""
+msgstr "Дорогами цього світу часто подорожують Мандрівні Торговці, пропонуючи екзотичних їздових тварин, цінні відомості й навіть послуги бойового наставника."
 
-#| msgid "META_EMPIRE@TRAIT_CONTINENTS_MAP@NAME"
 msgid "META_EMPIRE@WORLD_CONTENT@WANDERING_MERCHANTS@NAME"
-msgstr ""
+msgstr "Мандрівні Торговці"
 
 msgid "MINOR_FACTION@UPGRADE_SET@ASTRAL_FOLLOWER@DESCRIPTION"
 msgstr "Цей народ поклоняється астральній силі. Вони почали відкривати таємні секрети та використовувати істот з Астрального Моря і предмети, щоб посилити свої закляття."
@@ -100661,11 +100645,11 @@ msgstr "[whisperingStone/] Камінь шепоту"
 
 #| msgid "SECTORDEFINITIONS_STRATEGIC@FUNGUS_FIELDS@DESCRIPTION"
 msgid "MISCTOKENDEFINITIONS_STRATEGIC@GUILD_SLOT@DESCRIPTION"
-msgstr ""
+msgstr "Визначає, скільки Гільдій може побудувати місто."
 
 #| msgid "MISCTOKENDEFINITIONS_STRATEGIC@DIPLOMATIC@NAME"
 msgid "MISCTOKENDEFINITIONS_STRATEGIC@GUILD_SLOT@NAME"
-msgstr ""
+msgstr "Слот гільдії"
 
 msgid "MODREQUIREMENTS_UNITPROPERTIES@ABILITY_TYPE_NAME@GIANT_SMASH"
 msgstr "Розбивання велетня"
@@ -100678,14 +100662,14 @@ msgstr "Вбито союзника"
 
 #| msgid "MORALE_EVENT@ALLY_DIES@NAME"
 msgid "MORALE_EVENT@ALLY_DIES@NAME_MARTYR"
-msgstr ""
+msgstr "Вбито союзника (Мученик)"
 
 msgid "MORALE_EVENT@ALLY_ROUTED@NAME"
-msgstr "Союзника розбито"
+msgstr "Союзник втікає"
 
 #| msgid "MORALE_EVENT@ALLY_ROUTED@NAME"
 msgid "MORALE_EVENT@ALLY_ROUTED@NAME_MARTYR"
-msgstr ""
+msgstr "Союзник втікає (Мученик)"
 
 msgid "MORALE_EVENT@ARMY_LOST@NAME"
 msgstr "Новий хід: забагато союзників загинуло"
@@ -100710,7 +100694,7 @@ msgstr "Вбито союзного героя"
 
 #| msgid "MORALE_EVENT@HERO_DIES@NAME"
 msgid "MORALE_EVENT@HERO_DIES@NAME_MARTYR"
-msgstr ""
+msgstr "Вбито союзного героя (Мученик)"
 
 msgid "MORALE_EVENT@HIT_BY_CRITICAL@NAME"
 msgstr "Влучив критичний удар"
@@ -104616,47 +104600,40 @@ msgid "SEAL_VICTORY@VICTORY_CONDITION@SEAL_PROGRESS"
 msgstr "{INT_Value}/{INT_Max} одиниць [SealsVictory/]"
 
 msgid "SECRETSOFTHEARCHMAGES@STORY_REALM_01@EXTRA_OPTION_HORWYND_GATES"
-msgstr ""
+msgstr "Покажіть Медальйон Орркулятора, щоб пройти браму й схилити {EnemyUnit} на свій бік."
 
-#| msgid "DLC@ARCHONPROPHECY@STORY_REALM_01@TOOLTIP@ASTRA_CONVINCED"
 msgid "SECRETSOFTHEARCHMAGES@STORY_REALM_01@TOOLTIP@ASTRAL_REFLECTIONS_INFO"
-msgstr ""
+msgstr "{EventPlayer} створює дзеркальні образи Годірів Евермору, щоб вести армії Левіафана."
 
 msgid "SECRETSOFTHEARCHMAGES@STORY_REALM_01@TOOLTIP@BREACHED_RALLY_UNLOCK_INFO"
-msgstr ""
+msgstr "{EventStructure} розблоковує {RallyUnit} для {GLOBAL.RequestMilitaryAidConcept.Name}."
 
 msgid "SECRETSOFTHEARCHMAGES@STORY_REALM_01@TOOLTIP@ENWTINED_SCOURGE_UMBRAL"
-msgstr ""
+msgstr "{EventUnit} стає {GLOBAL.PROPERTIES.UMBRAL_DEMON.Hyperlink}."
 
-#| msgid "DLC@ARCHONPROPHECY@STORY_REALM_01@TOOLTIP@HOSTS_INVADE"
 msgid "SECRETSOFTHEARCHMAGES@STORY_REALM_01@TOOLTIP@HERO_ISLES_HINT"
-msgstr ""
+msgstr "Щоб увійти до Затулених Островів, потрібен {GLOBAL.HeroConcept.Hyperlink}."
 
-#| msgid "DLC@ELDRITCHREALMS@STORY_REALM_02@TRIGGER_TOOLTIP@MERLIN_WAR"
 msgid "SECRETSOFTHEARCHMAGES@STORY_REALM_01@TOOLTIP@MERLIN_UNLEASHED"
-msgstr ""
+msgstr "{EventPlayer} більше не стримує <<o:EventPlayer>> магічні сили й призиває могутню армію на чолі з {EventUnit}."
 
-#| msgid "DLC@ELDRITCHREALMS@STORY_REALM_02@TRIGGER_TOOLTIP@ENDAILON_INSTRUCTION_INFO"
 msgid "SECRETSOFTHEARCHMAGES@STORY_REALM_01@TOOLTIP@NEKRON_SUNLESS_ARMIES_INFO"
-msgstr ""
+msgstr "{EventPlayer} отримує просочену кров’ю армію біля кожного Орієнтира Левіафана, а всі провінції навколо цих Орієнтирів стають безсонячними."
 
-#| msgid "DLC@ELDRITCHREALMS@STORY_REALM_02@TRIGGER_TOOLTIP@ENDAILON_INSTRUCTION_INFO"
 msgid "SECRETSOFTHEARCHMAGES@STORY_REALM_01@TOOLTIP@NEKRON_VAMPIRIC_TRANSFORMATION_INFO"
-msgstr ""
+msgstr "{EventRace} отримують перетворення {GLOBAL.SPECIAL_OPERATIONS.GIFT_OF_THE_OLD_BLOOD.Hyperlink}."
 
-#| msgid "DLC@ARCHONPROPHECY@STORY_REALM_01@TOOLTIP@HOSTS_INVADE"
 msgid "SECRETSOFTHEARCHMAGES@STORY_REALM_01@TOOLTIP@OBELISKS_HINT"
-msgstr ""
+msgstr "Знайдіть і активуйте {IntObelisks} <<m:{GLOBAL.STRUCTURES.ANCIENT_OBELISK_NODE.Hyperlink}>> своїми <<m:{GLOBAL.HeroConcept.Hyperlink}>>."
 
-#| msgid "DLC@ELDRITCHREALMS@STORY_REALM_02@TRIGGER_TOOLTIP@WORLD_TREE_RITUAL_REVEAL"
 msgid "SECRETSOFTHEARCHMAGES@STORY_REALM_01@TOOLTIP@WARDEN_BLOOD_RITUAL_PROPERTIES"
-msgstr ""
+msgstr "Обидва Вартові стають {GLOBAL.PROPERTIES.UNDEAD.Hyperlink} і отримують {GLOBAL.PROPERTIES.BLOOD_OF_THE_EXARCH.Hyperlink}."
 
 msgid "SECRETSOFTHEARCHMAGES@STORY_REALM_03@TOOLTIP@ARACHNA_FEYTOUCHED_TRANSFORMATION_INFO"
-msgstr ""
+msgstr "{EventRace} отримують перетворення {GLOBAL.SPECIAL_OPERATIONS.FEYTOUCHED.Hyperlink}."
 
 msgid "SECRETSOFTHEARCHMAGES@STORY_REALM_03@TOOLTIP@ARACHNA_TRAP_ARMIES_INFO"
-msgstr ""
+msgstr "Армії Туманолазів на чолі з <<m:{EventUnit}>> з’являються по всій мапі, щоб штурмувати міста Повстання Фей. Коли така армія завойовує місто, вона переходить на бік {EventPlayer}."
 
 msgid "SECTORDEFINITIONS_STRATEGIC@ASHLANDS@DESCRIPTION"
 msgstr "Поля, наповнені сірим пилом і попелом. Тут можна побудувати <<acc:c:{GLOBAL.HutConcept.Hyperlink}>>."
@@ -119395,85 +119372,65 @@ msgstr "Залиште їх у спокої. [happiness/]"
 msgid "STORY_EVENT@1149_8@TITLE"
 msgstr "Протест корінних жителів"
 
-#| msgid "STORY_EVENT@1160_815@BODY_FOOTER"
 msgid "STORY_EVENT@1160_1605@BODY_FOOTER"
-msgstr ""
+msgstr "Хоч найгірше вже минуло, мінливі енергії цього світу й досі залишаються несталими, штовхаючи багатьох до насильства й марення — особливо на полі бою."
 
-#| msgid "STORY_EVENT@1160_815@BODY_HEADER"
 msgid "STORY_EVENT@1160_1605@BODY_HEADER"
-msgstr ""
+msgstr "Ревіння з-під землі стихає, та скверна божевілля й досі чіпляється до кожної душі по всій Ямі Аж'Руун."
 
-#| msgid "STORY_EVENT@1160_815@BODY_LORE"
 msgid "STORY_EVENT@1160_1605@BODY_LORE"
-msgstr ""
+msgstr "Хоч земля більше не здригається від люті, а киплячі моря знову вляглися в тривожний спокій, прецедент хаосу лишився. По всьому {GLOBAL.ObbadothLoreConcept.Hyperlink} численні збожеволілі від крові мешканці блукають тліючими вулицями з дикими очима й тремтячими руками, тоді як із безодні внизу все ще ледь долинає громовий гуркіт. [hyperlink,GLOBAL.DemonicOverlordLoreConcept]Демонічні Володарі[/hyperlink] послабили своє шалене підбурювання... але лише трохи."
 
-#| msgid "STORY_EVENT@1160_815@BUTTON_0"
 msgid "STORY_EVENT@1160_1605@BUTTON_0"
-msgstr ""
+msgstr "\"Ми вистояли. Голови донизу — і далі до праці.\" [production/]"
 
-#| msgid "STORY_EVENT@1160_815@TITLE"
 msgid "STORY_EVENT@1160_1605@TITLE"
-msgstr ""
+msgstr "Хаос породжує різанину"
 
-#| msgid "STORY_EVENT@1160_815@BODY_FOOTER"
 msgid "STORY_EVENT@1160_1615@BODY_FOOTER"
-msgstr ""
+msgstr "Ритуал Різанини дає збій, і через це по всій Ямі спалахують заворушення, бо розлютована безодня штовхає багатьох мешканців цього світу до безглуздого винищення."
 
-#| msgid "STORY_EVENT@1160_815@BODY_HEADER"
 msgid "STORY_EVENT@1160_1615@BODY_HEADER"
-msgstr ""
+msgstr "Земля здригається. Киплячі моря вирують. По всій Ямі Аж'Руун щось велетенське зголодніло."
 
-#| msgid "STORY_EVENT@1160_815@BODY_LORE"
 msgid "STORY_EVENT@1160_1615@BODY_LORE"
-msgstr ""
+msgstr "Нижчі біси з вереском розбігаються в жаху, кидаючись і в розпечені тріщини, і в ошпарювальні ріки. А тоді починається рев. Велетенський. Безкінечний. Хор безоденного голоду, що дряпає кожну душу в {GLOBAL.ObbadothLoreConcept.Hyperlink}.[br/][br/]\"Різанини! Різанини! Ще! ЩЕ!\" — вимагають свого [hyperlink,GLOBAL.DemonicOverlordLoreConcept]Демонічні Володарі[/hyperlink]."
 
-#| msgid "STORY_EVENT@1160_815@BUTTON_0"
 msgid "STORY_EVENT@1160_1615@BUTTON_0"
-msgstr ""
+msgstr "Загартуйтеся."
 
-#| msgid "STORY_EVENT@1160_815@TITLE"
 msgid "STORY_EVENT@1160_1615@TITLE"
-msgstr ""
+msgstr "Криза Різанини"
 
-#| msgid "STORY_EVENT@1167_16@BODY_FOOTER"
 msgid "STORY_EVENT@1160_1616@BODY_FOOTER"
-msgstr ""
+msgstr "Найгірший безоденний голод уже відступив, та Ритуал Різанини й далі вимагає своєї нескінченної данини — інакше ця ненаситна лють може прокинутися знову."
 
-#| msgid "STORY_EVENT@1167_16@BODY_HEADER"
 msgid "STORY_EVENT@1160_1616@BODY_HEADER"
-msgstr ""
+msgstr "Бурхливе безумство вщухає, коли розлючена безодня під цим світом відводить свою ненаситну лють від Ями Аж'Руун."
 
-#| msgid "STORY_EVENT@1167_16@BODY_LORE"
 msgid "STORY_EVENT@1160_1616@BODY_LORE"
-msgstr ""
+msgstr "Поволі крики згасають. Тремтяча земля завмирає.[br/]По всьому {GLOBAL.ObbadothLoreConcept.Hyperlink} залиті кров’ю мешканці виринають зі свого вбивчого марення, наче прокидаючись від кошмару. Глибоко під світом ненаситна лють [hyperlink,GLOBAL.DemonicOverlordLoreConcept]Демонічних Володарів[/hyperlink] знову відступає в темряву.[br/][br/]Наразі безодню вгамовано."
 
-#| msgid "STORY_EVENT@1167_16@BUTTON_0"
 msgid "STORY_EVENT@1160_1616@BUTTON_0"
-msgstr ""
+msgstr "\"Праця триває...\" [production/]"
 
-#| msgid "STORY_EVENT@1167_16@TITLE"
 msgid "STORY_EVENT@1160_1616@TITLE"
-msgstr ""
+msgstr "Нижні Царства вщухають"
 
-#| msgid "STORY_EVENT@1167_16@BODY_FOOTER"
 msgid "STORY_EVENT@1160_1617@BODY_FOOTER"
-msgstr ""
+msgstr "Коли Ритуал Різанини дає збій, несталі магічні потоки прокочуються цим світом, штовхаючи всіх, окрім найсильніших умів, у несамовитий шал."
 
-#| msgid "STORY_EVENT@1167_16@BODY_HEADER"
 msgid "STORY_EVENT@1160_1617@BODY_HEADER"
-msgstr ""
+msgstr "Безодня знову реве, а наростаюче безумство прокочується {GLOBAL.ObbadothLoreConcept.Hyperlink}, мов мор винищення."
 
-#| msgid "STORY_EVENT@1167_16@BODY_LORE"
 msgid "STORY_EVENT@1160_1617@BODY_LORE"
-msgstr ""
+msgstr "Ритуал знову хитається. Знову кипляча земля здригається в судомах. Знову небеса виють тим жахливим хором, що підіймається з-під світу. Але цього разу лють сильніша. Гостріша. Гнівніша. По всій Ямі Аж'Руун цілі поселення відкидають будь-яку стриманість, тоді як шалені мешканці ріжуть сусідів і рідню під невидимим поглядом розгніваних [hyperlink,GLOBAL.DemonicOverlordLoreConcept]Демонічних Володарів[/hyperlink].[br/][br/]\"Ще Різанини! ЩЕ!\""
 
-#| msgid "STORY_EVENT@1167_16@BUTTON_0"
 msgid "STORY_EVENT@1160_1617@BUTTON_0"
-msgstr ""
+msgstr "Тримайтеся крізь цей хаос."
 
-#| msgid "STORY_EVENT@1167_16@TITLE"
 msgid "STORY_EVENT@1160_1617@TITLE"
-msgstr ""
+msgstr "Яма скаженіє"
 
 msgid "STORY_EVENT@1160_769@BODY_FOOTER"
 msgstr "{EventHero.FirstName} має свої поточні амбіції. Чи дозволиш <<EventHero{йому/їй}>> змінити думку?"
@@ -119687,101 +119644,77 @@ msgstr "Ок, ок, давай заб'ємо їх молотами"
 msgid "STORY_EVENT@1165_5278@TITLE"
 msgstr "Видіння Обіцянки"
 
-#| msgid "STORY_EVENT@1167_16@BODY_FOOTER"
 msgid "STORY_EVENT@1167_1467@BODY_FOOTER"
-msgstr ""
+msgstr "Чи спробуєте ви розчавити гнилий культ у {EventCity}? Чи ж довіритеся потойбічному впливу в надії на дари?"
 
-#| msgid "STORY_EVENT@1167_16@BODY_HEADER"
 msgid "STORY_EVENT@1167_1467@BODY_HEADER"
-msgstr ""
+msgstr "Магістрат звертається до вас із великим занепокоєнням. «Маємо проблему, {PlayerLeader.Title}. У {EventCity} зароджується культ.»"
 
-#| msgid "STORY_EVENT@1167_16@BODY_LORE"
 msgid "STORY_EVENT@1167_1467@BODY_LORE"
-msgstr ""
+msgstr "<<Cp:EventUnit>> продовжує: «Дехто з вашого народу почав поклонятися потойбічним істотам, фальшивим богам, яких вони вважають вищими й всемогутніми. Відверто кажучи, це тривожить решту населення {EventCity}. З часом це може стати ще серйознішою проблемою, але, можливо, ще не пізно придушити поширення культової ідеології та змусити її зникнути.»"
 
-#| msgid "STORY_EVENT@1167_16@BUTTON_0"
 msgid "STORY_EVENT@1167_1467@BUTTON_0"
-msgstr ""
+msgstr "Відрядити міську варту [unitprod/], щоб заарештувати культистів. [population/]"
 
-#| msgid "STORY_EVENT@1167_16@BUTTON_1"
 msgid "STORY_EVENT@1167_1467@BUTTON_1"
-msgstr ""
+msgstr "Магічно допомогти [mana/] міській варті [unitprod/] вигнати культистів. [population/]"
 
-#| msgid "STORY_EVENT@1167_16@BUTTON_2"
 msgid "STORY_EVENT@1167_1467@BUTTON_2"
-msgstr ""
+msgstr "Відкрито підтримати [evilact/] культ. [chaosboon/]"
 
-#| msgid "STORY_EVENT@1167_16@BUTTON_3"
 msgid "STORY_EVENT@1167_1467@BUTTON_3"
-msgstr ""
+msgstr "Відвернути населення іграми та святами. [gold/]"
 
-#| msgid "STORY_EVENT@1167_567@BUTTON_4"
 msgid "STORY_EVENT@1167_1467@BUTTON_4"
-msgstr ""
+msgstr "Порядок править {EventCity}. Так було і так буде завжди."
 
-#| msgid "STORY_EVENT@1167_567@BUTTON_5"
 msgid "STORY_EVENT@1167_1467@BUTTON_5"
-msgstr ""
+msgstr "Не втручатися. [happiness/] Імовірно, усе владнається само собою."
 
-#| msgid "STORY_EVENT@1167_16@TITLE"
 msgid "STORY_EVENT@1167_1467@TITLE"
-msgstr ""
+msgstr "Гнилий культ"
 
-#| msgid "STORY_EVENT@1167_572@BODY_FOOTER"
 msgid "STORY_EVENT@1167_1472@BODY_FOOTER"
-msgstr ""
+msgstr "Призваний {EventUnit} дарує {EventRace} пекельну силу. Ви втрачаєте обличчя, але, можливо, це ще не найгірший можливий наслідок."
 
-#| msgid "STORY_EVENT@1167_572@BODY_HEADER"
 msgid "STORY_EVENT@1167_1472@BODY_HEADER"
-msgstr ""
+msgstr "Культ, що деякий час тому проріс у {EventCity}, дозрів. Більшість містян тепер слідує за Демонічним Володарем культу — {EventUnit}."
 
-#| msgid "STORY_EVENT@1167_572@BODY_LORE"
 msgid "STORY_EVENT@1167_1472@BODY_LORE"
-msgstr ""
+msgstr "Культисти зібралися на вулицях, щоб призвати свого володаря в цей світ під обіцянку великої, але жахливої сили."
 
-#| msgid "STORY_EVENT@1167_572@BUTTON_0"
 msgid "STORY_EVENT@1167_1472@BUTTON_0"
-msgstr ""
+msgstr "Прийняти демонічний вплив. [evilact/]"
 
-#| msgid "STORY_EVENT@1167_572@BUTTON_1"
 msgid "STORY_EVENT@1167_1472@BUTTON_1"
-msgstr ""
+msgstr "Спробувати протидіяти [mana/] перетворенню всією своєю силою."
 
-#| msgid "STORY_EVENT@1167_572@BUTTON_2"
 msgid "STORY_EVENT@1167_1472@BUTTON_2"
-msgstr ""
+msgstr "Підкорити {EventUnit} своїй волі."
 
-#| msgid "STORY_EVENT@1167_572@TITLE"
 msgid "STORY_EVENT@1167_1472@TITLE"
-msgstr ""
+msgstr "Культ проявився"
 
-#| msgid "STORY_EVENT@1167_733@BODY_FOOTER"
 msgid "STORY_EVENT@1167_1473@BODY_FOOTER"
-msgstr ""
+msgstr "Чи дозволите ви Ордену {RandomIdol} звести свою твердиню в {EventCity}?"
 
-#| msgid "STORY_EVENT@1167_733@BODY_HEADER"
 msgid "STORY_EVENT@1167_1473@BODY_HEADER"
-msgstr ""
+msgstr "{EventUnit} постає перед вами. «Вітаю, {PlayerLeader.Title}! Я представляю {RandomWarriorTitle} {RandomIdol}. Я маю для вас пропозицію.»"
 
-#| msgid "STORY_EVENT@1167_733@BODY_LORE"
 msgid "STORY_EVENT@1167_1473@BODY_LORE"
-msgstr ""
+msgstr "«До нас дійшли чутки про ваші рішучі заходи проти демонічного культу в {EventCity}. Ми шукаємо покровителя для нашої вічної боротьби зі злом та його лукавими слугами. Ми прагнемо заснувати у вашому прекрасному місті лицарський орден. Орден {RandomIdol}.»"
 
-#| msgid "STORY_EVENT@1167_730@BUTTON_0"
 msgid "STORY_EVENT@1167_1473@BUTTON_0"
-msgstr ""
+msgstr "Дозволити їм заснувати Орден, виділивши невелику допомогу. [gold/]"
 
-#| msgid "STORY_EVENT@1167_733@BUTTON_1"
 msgid "STORY_EVENT@1167_1473@BUTTON_1"
-msgstr ""
+msgstr "Допомогти {RandomWarriorTitle} звести [structureprod/] свою твердиню. Це зміцнить <<G:defenses^p,EventCity>>. [fortification/]"
 
-#| msgid "STORY_EVENT@1167_733@BUTTON_2"
 msgid "STORY_EVENT@1167_1473@BUTTON_2"
-msgstr ""
+msgstr "Відмовити й змусити {RandomWarriorTitle} залишити свою зброю [unitprod/]."
 
-#| msgid "STORY_EVENT@1167_733@TITLE"
 msgid "STORY_EVENT@1167_1473@TITLE"
-msgstr ""
+msgstr "Орден {RandomIdol}"
 
 msgid "STORY_EVENT@1167_16@BODY_FOOTER"
 msgstr "Міцні імперії будуються з потужних кам'яних блоків! <<PlayerLeader{Мій пане/Моя пані}>>, будуйте більше [quarry/] [hyperlink,GLOBAL.QuarryConcept]каменоломень[/hyperlink]! Канцлер з ентузіазмом чекає на твою відповідь."
@@ -124475,22 +124408,22 @@ msgid "STORY_EVENT@PANTHEONHERO_JOIN@BODY_FOOTER_DEFAULT"
 msgstr "{EventRuler.TitleName} пропонує свою допомогу як [hyperlink,GLOBAL.HeroConcept]<<EventRuler{герой/героїня}>>[/hyperlink] у твоєму розпорядженні. Чи приймаєш ти цю пропозицію?"
 
 msgid "STORY_EVENT@SHARED_STRING@VARIABLE_TEXT@TAG_ONLY@BINDING_FRAGMENTS"
-msgstr ""
+msgstr "[bindingfragments/]"
 
 msgid "STORY_EVENT@SHARED_STRING@VARIABLE_TEXT@TAG_ONLY@GOLD"
-msgstr ""
+msgstr "[gold/]"
 
 msgid "STORY_EVENT@SHARED_STRING@VARIABLE_TEXT@TAG_ONLY@IMPERIUM"
-msgstr ""
+msgstr "[influence/]"
 
 msgid "STORY_EVENT@SHARED_STRING@VARIABLE_TEXT@TAG_ONLY@ITEM"
-msgstr ""
+msgstr "[item/]"
 
 msgid "STORY_EVENT@SHARED_STRING@VARIABLE_TEXT@TAG_ONLY@KNOWLEDGE"
-msgstr ""
+msgstr "[knowledge/]"
 
 msgid "STORY_EVENT@SHARED_STRING@VARIABLE_TEXT@TAG_ONLY@MANA"
-msgstr ""
+msgstr "[mana/]"
 
 msgid "TACTICAL@ABILITY@AFFECTED_LINE_OF_SIGHT"
 msgstr "Під впливом правил [hyperlink,GLOBAL.LineOfSightConcept]лінії видимості[/hyperlink]."
@@ -136159,7 +136092,7 @@ msgstr "Духова трубка"
 
 #| msgid "UPGRADES_TEST_UNITPROPERTIES@RED_WYVERN@DESCRIPTION"
 msgid "UPGRADES_TEST_UNITPROPERTIES@BONE_WYVERN@DESCRIPTION"
-msgstr ""
+msgstr "Юніт має:[bulletlist][bullet/]{GLOBAL.PROPERTIES.VERY_FAST_MOVEMENT.Hyperlink}.[bullet/]Тип юніта: {GLOBAL.PROPERTIES.CAVALRY_GROUP.Hyperlink}.[bullet/]{GLOBAL.PROPERTIES.FLYING_MOVEMENT.Hyperlink}[bullet/]+{amount}{GLOBAL.BlightResistanceConcept.Hyperlink}[/bulletlist]"
 
 msgid "UPGRADES_TEST_UNITPROPERTIES@BULWARK_STANDARD@DESCRIPTION"
 msgstr "Ціль і дружні юніти поруч отримують:[bulletlist][bullet/]{GLOBAL.PROPERTIES.BOLSTERED_DEFENSE.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.BOLSTERED_RESISTANCE.Hyperlink}[/bulletlist]"
@@ -136256,19 +136189,19 @@ msgstr "Важкий щит"
 
 #| msgid "UPGRADES_TEST_UNITPROPERTIES@NIGHTMARE_MOUNT@DESCRIPTION"
 msgid "UPGRADES_TEST_UNITPROPERTIES@KNIGHTS_CHALLENGE@DEBUFF_DESCRIPTION"
-msgstr ""
+msgstr "Цей юніт завдає -{KNIGHTS_CHALLENGE_LINK_TARGET_MODIFIER>ResolvedMultiplier}% менше шкоди юніту, який кинув йому виклик."
 
 #| msgid "UPGRADES_TEST_UNITPROPERTIES@LONGBOW_RANGE@NAME"
 msgid "UPGRADES_TEST_UNITPROPERTIES@KNIGHTS_CHALLENGE@DEBUFF_NAME"
-msgstr ""
+msgstr "Прийняв виклик"
 
 #| msgid "UPGRADES_TEST_UNITPROPERTIES@NIGHTMARE_MOUNT@DESCRIPTION"
 msgid "UPGRADES_TEST_UNITPROPERTIES@KNIGHTS_CHALLENGE@DESCRIPTION"
-msgstr ""
+msgstr "Кидає виклик вибраній цілі; поки під викликом:[bulletlist][bullet/]Юніт завдає {KNIGHTS_CHALLENGE_CASTER_MODIFIER>ResolvedMultiplier}% більше шкоди цілі.[bullet/]Ціль завдає {KNIGHTS_CHALLENGE_LINK_TARGET_MODIFIER>ResolvedMultiplier}% менше шкоди юніту.[/bulletlist]"
 
 #| msgid "UPGRADES_TEST_UNITPROPERTIES@LONGBOW_RANGE@NAME"
 msgid "UPGRADES_TEST_UNITPROPERTIES@KNIGHTS_CHALLENGE@NAME"
-msgstr ""
+msgstr "Виклик лицаря"
 
 msgid "UPGRADES_TEST_UNITPROPERTIES@LONGBOW_RANGE@DESCRIPTION"
 msgstr "Базові [hyperlink,GLOBAL.RangedConcept]Атаки дальнього бою[/hyperlink] отримують +{EXTRAS_RANGE_RANGE_BOOST>ADD>MaxRange}{GLOBAL.RangeConcept.Hyperlink}."
@@ -136542,19 +136475,19 @@ msgstr "Верховий павук-мисливець^n"
 
 #| msgid "UPGRADES_TEST_UNITPROPERTIES@WEAPON@EAGLE_MOUNT"
 msgid "UPGRADES_TEST_UNITPROPERTIES@WEAPON@INFERNAL_JUGGERNAUT"
-msgstr ""
+msgstr "Їздовий інфернальний джаггернаут"
 
 #| msgid "UPGRADES_TEST_UNITPROPERTIES@WEAPON@PUNISHER_HALBERD@DESCRIPTION"
 msgid "UPGRADES_TEST_UNITPROPERTIES@WEAPON@INFERNAL_JUGGERNAUT@DESCRIPTION"
-msgstr ""
+msgstr "Юніт отримує:[bulletlist][bullet/]{GLOBAL.PROPERTIES.VERY_FAST_MOVEMENT.Hyperlink}.[bullet/]Тип юніта: {GLOBAL.PROPERTIES.CAVALRY_GROUP.Hyperlink}.[bullet/]{GLOBAL.PROPERTIES.LARGE_TARGET.Hyperlink}.[/bulletlist]"
 
 #| msgid "UPGRADES_TEST_UNITPROPERTIES@WEAPON@WARHOUND_MOUNT"
 msgid "UPGRADES_TEST_UNITPROPERTIES@WEAPON@INFERNO_HOUND_MOUNT"
-msgstr ""
+msgstr "Їздовий інфернальний пес"
 
 #| msgid "UPGRADES_TEST_UNITPROPERTIES@WEAPON@SWIFTFOOT_RAPTOR_MOUNT@DESCRIPTION"
 msgid "UPGRADES_TEST_UNITPROPERTIES@WEAPON@INFERNO_HOUND_MOUNT@DESCRIPTION"
-msgstr ""
+msgstr "Юніт отримує:[bulletlist][bullet/]{GLOBAL.PROPERTIES.VERY_FAST_MOVEMENT.Hyperlink}.[bullet/]Тип юніта: {GLOBAL.PROPERTIES.CAVALRY_GROUP.Hyperlink}.[bullet/]{GLOBAL.PROPERTIES.PACK_HUNTER.Hyperlink}.[/bulletlist]"
 
 msgid "UPGRADES_TEST_UNITPROPERTIES@WEAPON@JAVELIN"
 msgstr "Дротик"
@@ -136597,7 +136530,7 @@ msgstr "Верховий кошмар^n"
 
 #| msgid "UPGRADES_TEST_UNITPROPERTIES@WEAPONOBSIDIAN_WYVERN_MOUNT"
 msgid "UPGRADES_TEST_UNITPROPERTIES@WEAPON@OBSIDIAN_WYVERN_MOUNT"
-msgstr ""
+msgstr "Їздова обсидіанова віверна"
 
 msgid "UPGRADES_TEST_UNITPROPERTIES@WEAPON@ORBNECROMANCY"
 msgstr "Сфера некромантії^n"
