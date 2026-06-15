@@ -97856,33 +97856,26 @@ msgstr "Отримує: [bulletlist][bullet/]{GLOBAL.PROPERTIES.ASCENSION_IMPALE
 msgid "META_EMPIRE@ASCENSION_TRAIT@TENTACLE@DEEPCALLER@HERO_TRAIT_NAME"
 msgstr "Вознесіння: закликач безодні"
 
-#| msgid "META_EMPIRE@TRAIT_HOSTILE_OCEANS@DISPLAY_DESCRIPTION"
 msgid "META_EMPIRE@COMBAT_PROPERTY_GRASPING_VINES@DISPLAY_DESCRIPTION"
-msgstr ""
+msgstr "Юніти в цій {GLOBAL.ProvinceConcept.Hyperlink} зазнають:[bulletlist][bullet/]{GLOBAL.PROPERTIES.STARSEEDS_PROPERTY_GROUP.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.STARSEEDS_COMBAT_PROPERTY.Hyperlink} у бою[/bulletlist]"
 
-#| msgid "META_EMPIRE@TRAIT_REGENERATING_INFESTATIONS@NAME"
 msgid "META_EMPIRE@COMBAT_PROPERTY_GRASPING_VINES@NAME"
-msgstr ""
+msgstr "Хапкі лози"
 
-#| msgid "META_EMPIRE@PROGRESSION_ITEM@CAPE_DESCRIPTION"
 msgid "META_EMPIRE@COMBAT_PROPERTY_GRASPING_VINES@SPELL_DESCRIPTION"
-msgstr ""
+msgstr "Кожні {amount1} ходи в бою всі юніти мають {amount2}% шанс отримати {GLOBAL.PROPERTIES.IMMOBILIZED.Hyperlink} на {amount3} хід."
 
-#| msgid "META_EMPIRE@TRAIT_REGENERATING_INFESTATION@DESCRIPTION"
 msgid "META_EMPIRE@COMBAT_PROPERTY_GRASPING_VINES@UNIT_PROP@DESCRIPTION"
-msgstr ""
+msgstr "Юніт має:[bulletlist][bullet/]{STARSEEDS_STAT_BONUS>BONUS>Regen} <<m:{GLOBAL.HitPointConcept.Hyperlink}>> за хід.[bullet/]{STARSEEDS_STAT_BONUS>BONUS>SightRange} {GLOBAL.VisionRangeConcept.Hyperlink}[/bulletlist]"
 
-#| msgid "META_EMPIRE@TRAIT_REGENERATING_INFESTATIONS@NAME"
 msgid "META_EMPIRE@COMBAT_PROPERTY_GRASPING_VINES@UNIT_PROP@NAME"
-msgstr ""
+msgstr "Живий ліс"
 
-#| msgid "META_EMPIRE@TRAIT_SANDSTORMS@DISPLAY_DESCRIPTION"
 msgid "META_EMPIRE@COMBAT_PROPERTY_THUNDERSTORMS@DISPLAY_DESCRIPTION"
-msgstr ""
+msgstr "Кожного ходу в бою:[bulletlist][bullet/]Усі юніти стають {GLOBAL.PROPERTIES.WET.Hyperlink}.[bullet/]{COLOSSUS_MOON_UNIT_AUTO_SPELL>MaxCastCount} випадковий юніт зазнає {COLOSSUS_MOON_UNIT_EFFECT_DAMAGE>DAMAGE>Shock} {GLOBAL.LightningDamageConcept.Hyperlink}.[/bulletlist]"
 
-#| msgid "META_EMPIRE@TRAIT_THUNDERSTORMS@NAME"
 msgid "META_EMPIRE@COMBAT_PROPERTY_THUNDERSTORMS@NAME"
-msgstr ""
+msgstr "Грозові бурі"
 
 msgid "META_EMPIRE@OBJECTIVE_CALLTOARMS_COMPLETED@NAME"
 msgstr "Наказ завершено"
@@ -97934,11 +97927,11 @@ msgstr "Перемога"
 
 #| msgid "META_EMPIRE@PROGRESSION_ITEM@ARTISAN_ICON_NAME"
 msgid "META_EMPIRE@PROGRESSION_ITEM@ARACHNAS_CROWN@NAME"
-msgstr ""
+msgstr "Корона Арахни"
 
 #| msgid "META_EMPIRE@PROGRESSION_ITEM@ARCHON_HELMET_NAME"
 msgid "META_EMPIRE@PROGRESSION_ITEM@ARACHNAS_LEGS@NAME"
-msgstr ""
+msgstr "Павучі ноги Арахни"
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@ARCHON_HELMET_NAME"
 msgstr "Архоський гем"
@@ -97975,7 +97968,7 @@ msgstr "Ікона прапора ремісника"
 
 #| msgid "META_EMPIRE@PROGRESSION_ITEM@ARCH_MAGE_CAPE_NAME"
 msgid "META_EMPIRE@PROGRESSION_ITEM@ASTRAL_MAGIC_CIRCLE@NAME"
-msgstr ""
+msgstr "Коло магії Астралу"
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@AVIAN_REAVERS_ICON_NAME"
 msgstr "Ікона прапора Пташиних Розбійників"
@@ -98006,7 +97999,7 @@ msgstr "Іконка прапора ватажка варварів"
 
 #| msgid "META_EMPIRE@PROGRESSION_ITEM@BADGER_MOUNT@NAME"
 msgid "META_EMPIRE@PROGRESSION_ITEM@BIRD_NEST@NAME"
-msgstr ""
+msgstr "Гніздо птахів"
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@BLESS_INFUSION@NAME"
 msgstr "Здібність для предмета: \"Благословення\""
@@ -98025,14 +98018,14 @@ msgstr "Відкрий нову опцію налаштування плаща �
 
 #| msgid "META_EMPIRE@PROGRESSION_ITEM@RANGER_HEAD_NAME"
 msgid "META_EMPIRE@PROGRESSION_ITEM@CAT_EARS_AND_TAIL@NAME"
-msgstr ""
+msgstr "Котячі вуха та хвіст"
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@CHALICE_ICON_NAME"
 msgstr "Ікона прапора чаши"
 
 #| msgid "META_EMPIRE@PROGRESSION_ITEM@ARCH_MAGE_CAPE_NAME"
 msgid "META_EMPIRE@PROGRESSION_ITEM@CHAOS_MAGIC_CIRCLE@NAME"
-msgstr ""
+msgstr "Коло магії Хаосу"
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@COIN_ICON_NAME"
 msgstr "Ікона прапора ремісника"
@@ -98624,7 +98617,7 @@ msgstr "Пасивне зачарування предмета: Велике д�
 
 #| msgid "META_EMPIRE@PROGRESSION_ITEM@COIN_ICON_NAME"
 msgid "META_EMPIRE@PROGRESSION_ITEM@HELLION_ICON_NAME"
-msgstr ""
+msgstr "Іконка прапора Хеліон"
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@HELMET_DESCRIPTION"
 msgstr "Розблокуйте новий варіант налаштування плаща героя."
@@ -98896,7 +98889,7 @@ msgstr "Одяг Мисливця"
 
 #| msgid "META_EMPIRE@PROGRESSION_ITEM@PRIMAL_WARHOUND_MOUNT_NAME"
 msgid "META_EMPIRE@PROGRESSION_ITEM@INFERNO_HOUND_MOUNT@NAME"
-msgstr ""
+msgstr "Їздовий інфернальний пес"
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@INFUSION_GENERIC@DESCRIPTION"
 msgstr "Відкриває {infusion} предметів {GLOBAL.InfusionConcept.Hyperlink} в {GLOBAL.ItemForgeConcept.Hyperlink}.[br/][br/]Може бути застосовано до наступних типів:[bulletlist]{itemtypes}[/bulletlist][br/]Потребує наступних [hyperlink,GLOBAL.MagicMaterialConcept]магічних матеріалів[/hyperlink]:[bulletlist]{magicmaterials}[/bulletlist]"
@@ -98969,7 +98962,7 @@ msgstr "Рапіра та хлист Мисливця"
 
 #| msgid "META_EMPIRE@PROGRESSION_ITEM@ITEM_FORGE@MASK_GODIR@NAME"
 msgid "META_EMPIRE@PROGRESSION_ITEM@ITEM_FORGE@KARISSA_ORB@NAME"
-msgstr ""
+msgstr "{LOC.DLC@SECRETSOFTHEARCHMAGES@HERO_ITEM@KARISSA_ORB@NAME}"
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@ITEM_FORGE@LANCE_DARK@NAME"
 msgstr "Моторошне спис"
@@ -98985,7 +98978,7 @@ msgstr "Маска годіра"
 
 #| msgid "META_EMPIRE@PROGRESSION_ITEM@ITEM_FORGE@RING_MURDER@NAME"
 msgid "META_EMPIRE@PROGRESSION_ITEM@ITEM_FORGE@MERLIN_GRIMOIRE@NAME"
-msgstr ""
+msgstr "Гримуар Мерліна"
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@ITEM_FORGE@MISC_AMULET_VITALITY@NAME"
 msgstr "Амулет крові"
@@ -99106,7 +99099,7 @@ msgstr "Жезл воскресіння"
 
 #| msgid "META_EMPIRE@PROGRESSION_ITEM@ITEM_FORGE@SHIELD_GODIR@NAME"
 msgid "META_EMPIRE@PROGRESSION_ITEM@ITEM_FORGE@YSARIEL_SWORD@NAME"
-msgstr ""
+msgstr "Меч Ісаріеля"
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@ITEM_FORGE_ITEM_GENERIC@DESCRIPTION"
 msgstr "Розблоковує {EquipmentBaseUpgrade} у [hyperlink,GLOBAL.ItemForgeConcept]кузні предметів[/hyperlink]."
@@ -99140,22 +99133,22 @@ msgstr "Іконка прапора народу Кразура"
 
 #| msgid "META_EMPIRE@PROGRESSION_ITEM@ARTISAN_ICON_NAME"
 msgid "META_EMPIRE@PROGRESSION_ITEM@LEVIATHAN_ICON_NAME"
-msgstr ""
+msgstr "Іконка прапора Левіафан"
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@LINDWORM_ICON_NAME"
 msgstr "Іконка прапора друїда"
 
 #| msgid "META_EMPIRE@PROGRESSION_ITEM@GODIR_HEAD_DESCRIPTION"
 msgid "META_EMPIRE@PROGRESSION_ITEM@MAGIC_SHIELD_INFUSION@DESCRIPTION"
-msgstr ""
+msgstr "Вибраний дружній юніт отримує:[bulletlist][bullet/]{amount} {GLOBAL.PROPERTIES.GRACE.Hyperlink}[bullet/]{amount} {GLOBAL.PROPERTIES.STATUS_PROTECTION.Hyperlink} на {STATUS_PROTECTION_EFFECT_DESCRIPTION>NumTurns} [turn/][hyperlink,GLOBAL.TurnConcept]ходи[/hyperlink].[/bulletlist]"
 
 #| msgid "META_EMPIRE@PROGRESSION_ITEM@PIERCE_SHOT_INFUSION@NAME"
 msgid "META_EMPIRE@PROGRESSION_ITEM@MAGIC_SHIELD_INFUSION@NAME"
-msgstr ""
+msgstr "Магічний щит"
 
 #| msgid "META_EMPIRE@PROGRESSION_ITEM@WARLOCK_ICON_NAME"
 msgid "META_EMPIRE@PROGRESSION_ITEM@MISTWALKER_ICON_NAME"
-msgstr ""
+msgstr "Іконка прапора «Ходок туману»"
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@MOLECULE_ICON_NAME"
 msgstr "Іконка прапора «Молекула»"
@@ -99165,7 +99158,7 @@ msgstr "Розблокує нову іконку, яку можна викори
 
 #| msgid "META_EMPIRE@PROGRESSION_ITEM@CULTURE_TRAIT_COSMIC@NAME"
 msgid "META_EMPIRE@PROGRESSION_ITEM@NATURE_MAGIC_CIRCLE@NAME"
-msgstr ""
+msgstr "Магічне коло Природи"
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@NECROMANCER_CAPE_DESCRIPTION"
 msgstr "Розблокуйте новий варіант налаштування плаща героя."
@@ -103191,7 +103184,7 @@ msgstr "Завершіть виконання"
 
 #| msgid "QUESTOBJECTIVES@TEXT@DO_SPECIAL_OPERATION"
 msgid "QUESTOBJECTIVES@TEXT@DO_STRATEGIC_OPERATION"
-msgstr ""
+msgstr "Проведено операції"
 
 msgid "QUESTOBJECTIVES@TEXT@ENCOUNTER_EVENTSTACKLEADER"
 msgstr "Підрозділи, з якими впоралися"
@@ -103726,7 +103719,7 @@ msgstr "Починай із додатковим юнітом [hyperlink,GLOBAL.
 
 #| msgid "RACETRAITS_WORLD@STARTING_UNITS@SHIELD_POLEARM@DESCRIPTION"
 msgid "RACETRAITS_WORLD@STARTING_UNITS@SHOCK_SHIELD_POLEARM@DESCRIPTION"
-msgstr ""
+msgstr "Починає гру з додатковим юнітом типу: {GLOBAL.PROPERTIES.SHOCK_UNIT.Hyperlink}, {GLOBAL.PROPERTIES.SHIELD_UNIT.Hyperlink} чи {GLOBAL.PROPERTIES.POLEARM_UNIT.Hyperlink}."
 
 msgid "RACETRAITS_WORLD@STARTING_UNITS@SUPPORT_POLEARM@DESCRIPTION"
 msgstr "Починай із додатковим юнітом [hyperlink,GLOBAL.PROPERTIES.SUPPORT_UNIT]підтримки[/hyperlink] або з [hyperlink,GLOBAL.PROPERTIES.POLEARM_UNIT]списником[/hyperlink]."
@@ -103751,7 +103744,7 @@ msgstr "Територіальний"
 
 #| msgid "RACETRAITS_WORLD@WEAK@DESCRIPTION"
 msgid "RACETRAITS_WORLD@TOTAL_WAR@DESCRIPTION"
-msgstr ""
+msgstr "{GLOBAL.WarConcept.Hyperlink} без {GLOBAL.WarJustificationConcept.Hyperlink} не дає штрафу {GLOBAL.ImperiumConcept.Hyperlink}."
 
 msgid "RACETRAITS_WORLD@TRAIT10@BIO"
 msgstr "Вони — легендарні ковалі, здатні створювати найкращі обладунки та зброю."
@@ -105702,11 +105695,11 @@ msgstr "Волога"
 
 #| msgid "SHARED_MODIFIERS@GRACE@DESCRIPTION"
 msgid "SHARED_MODIFIERS@BATTLE_SHIELD@DESCRIPTION"
-msgstr ""
+msgstr "Коли {GLOBAL.HitPointConcept.Hyperlink} досягають межі {ABJURER_GLYPH_PRECOG_60_THRESHOLD>ResolvedTriggerProportion}% та {ABJURER_GLYPH_PRECOG_30_THRESHOLD>ResolvedTriggerProportion}%, він отримує {GLOBAL.PROPERTIES.PRECOGNITION.Hyperlink}."
 
 #| msgid "SHARED_MODIFIERS@GRACE@NAME"
 msgid "SHARED_MODIFIERS@BATTLE_SHIELD@NAME"
-msgstr ""
+msgstr "Бойові щити"
 
 msgid "SHARED_MODIFIERS@GRACE@DESCRIPTION"
 msgstr "Коли юніт атакований:[bulletlist][bullet/]Зцілює {GRACE_HEAL>NumHitpointsToRestore} [hyperlink,GLOBAL.TemporaryHitPointConcept][hp/] тимчасових очок здоров'я[/hyperlink].[bullet/]Видаляє стек ефекту.[/bulletlist][br/] Накопичується до {count} стеків."
@@ -107465,11 +107458,11 @@ msgstr "Глузування"
 
 #| msgid "STATUSEFFECTS_UNITPROPERTIES@DOMINATED@DESCRIPTION"
 msgid "STATUSEFFECTS_UNITPROPERTIES@THRILLING_DOMINATION@DESCRIPTION"
-msgstr ""
+msgstr "[bulletlist][bullet/]Цей юніт — {GLOBAL.PROPERTIES.BERSERK.Hyperlink}.[bullet/]Цей юніт під контролем опонента.[br/]Якщо ефект триватиме до кінця бою, контролер зможе використати [mana/] ману, щоб залишити юніта собі.[/bulletlist]"
 
 #| msgid "STATUSEFFECTS_UNITPROPERTIES@DOMINATED@NAME"
 msgid "STATUSEFFECTS_UNITPROPERTIES@THRILLING_DOMINATION@NAME"
-msgstr ""
+msgstr "Захопливе домінування"
 
 msgid "STATUSEFFECTS_UNITPROPERTIES@TORMENT@DESCRIPTION"
 msgstr "Коли юніт використовує здібність:[bulletlist][bullet/]Він зазнає {TORMENT_DAMAGE>DAMAGE>Frost} {GLOBAL.FrostDamageConcept.Hyperlink}.[bullet/]Втрачає {TORMENT_MORALE_LOSS>Morale Change Absolute} {GLOBAL.UnitMoraleConcept.Hyperlink}.[bullet/]Втрачає один заряд цього ефекту.[bullet/]Накопичується до {maxStacks} разів.[/bulletlist][br/][br/]Страждання [hyperlink,GLOBAL.OpposingStatusEffectsConcept]протистоять[/hyperlink] ефекту {GLOBAL.PROPERTIES.GRACE.Hyperlink}."
@@ -125132,7 +125125,7 @@ msgstr "Руйнівне відродження"
 
 #| msgid "TOME_WILD@SKILL2@PROPERTY@DESCRIPTION"
 msgid "TOME_ARCHDRUID@SKILL2@PROPERTY@DESCRIPTION"
-msgstr ""
+msgstr "Юніт має {DESTRUCTIVE_REGROWTH_DEFENSE>REDUCTION>Blight} {GLOBAL.BlightResistanceConcept.Hyperlink}."
 
 msgid "TOME_ARCHDRUID@SKILL3@DESCRIPTION"
 msgstr "Викликає [hyperlink,GLOBAL.PROPERTIES.MYTHIC_UNIT]містичну[/hyperlink] істоту з потужними здібностями призиву та зцілення."
@@ -125523,7 +125516,7 @@ msgstr "Яка, самозваний Бог Вогню"
 
 #| msgid "TOME_AUTHOR@BLINT"
 msgid "TOME_AUTHOR@BHAJIF"
-msgstr ""
+msgstr "Бхаджіф Ерранстар, Космічний мандрівник"
 
 msgid "TOME_AUTHOR@BIRCHFOOT"
 msgstr "Берчфут, Відлюдник з Галявини"
@@ -125536,7 +125529,7 @@ msgstr "Кантаріель з Гілрада, Вісник Слави"
 
 #| msgid "TOME_AUTHOR@NEKRON"
 msgid "TOME_AUTHOR@CINREN"
-msgstr ""
+msgstr "Цинрен Толіат, Високий спокусник"
 
 msgid "TOME_AUTHOR@EDWARD"
 msgstr "Едвард Портсміт, Останній Дредноут Спільноти"
@@ -125561,7 +125554,7 @@ msgstr "Ґлум Гукнейл, Темна Леді Спотворених Го
 
 #| msgid "TOME_AUTHOR@ENAM"
 msgid "TOME_AUTHOR@HAM"
-msgstr ""
+msgstr "Хем Бінгер, Обраний фей"
 
 msgid "TOME_AUTHOR@HAR'ACRAN"
 msgstr "Гар'Акран, Королева Дюн"
@@ -125574,7 +125567,7 @@ msgstr "Ініох, Імператор Ельфійського Двору"
 
 #| msgid "TOME_AUTHOR@INIOCH"
 msgid "TOME_AUTHOR@ISTARNECH"
-msgstr ""
+msgstr "Істарнех Проклятий Золотом, Король-зрадник."
 
 msgid "TOME_AUTHOR@JULIA"
 msgstr "Джулія з дому Ініох, Друїдська Королева Високих Ельфів"
@@ -125614,7 +125607,7 @@ msgstr "Мерлін Мандрівник"
 
 #| msgid "TOME_AUTHOR@MERLIN"
 msgid "TOME_AUTHOR@MERLIN_2"
-msgstr ""
+msgstr "Мерлін, Затьмарений Архімаг"
 
 msgid "TOME_AUTHOR@NEKRON"
 msgstr "Некрон, Майстер Смерті"
@@ -125633,7 +125626,7 @@ msgstr "Нусай, Поет-лауреат Вищеного Імперії"
 
 #| msgid "TOME_AUTHOR@ANON"
 msgid "TOME_AUTHOR@ONOKA"
-msgstr ""
+msgstr "Онока, Королева Шепотів"
 
 msgid "TOME_AUTHOR@PETRAS"
 msgstr "Петрас Селена, Ткач доль Дітей Зірок"
@@ -126968,15 +126961,15 @@ msgstr "Оживлення рослинності"
 
 #| msgid "TOME_FERTILITY@SKILL1@DESCRIPTION"
 msgid "TOME_FERTILITY@SKILL6@DESCRIPTION"
-msgstr ""
+msgstr "Коли цей юніт використовує атакувальну здібність або здібність підтримки, випадковий союзний юніт у межах {distance} клітин зцілюється на {healAmount} {GLOBAL.TemporaryHitPointConcept.Hyperlink}."
 
 #| msgid "TOME_FERTILITY@SKILL1@NAME"
 msgid "TOME_FERTILITY@SKILL6@NAME"
-msgstr ""
+msgstr "Посохи Життя"
 
 #| msgid "TOME_FERTILITY@SKILL1@DESCRIPTION"
 msgid "TOME_FERTILITY@SKILL6@PROP_DESCRIPTION"
-msgstr ""
+msgstr "Коли цей юніт використовує атакувальну здібність або здібність підтримки, випадковий союзний юніт у межах {distance} клітин зцілюється на {healAmount}{GLOBAL.TemporaryHitPointConcept.Hyperlink}."
 
 msgid "TOME_FERTILITY@TOME@GAMEPLAY_DESCRIPTION"
 msgstr "Розвивайтеся завдяки щедрим дарам природи. Забезпечте своєму імперії достаток [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink] та лікуйте свої юніти під час бою."
@@ -128144,7 +128137,7 @@ msgstr "П'янкий пилок"
 
 #| msgid "TOME_PARADISE@SKILL4@PROP_DESCRIPTION"
 msgid "TOME_PARADISE@SKILL4@AUTOSPELL_DESCRIPTION"
-msgstr ""
+msgstr "В цій області під час битви поруч із ворогом що ходу виростає жива лоза."
 
 msgid "TOME_PARADISE@SKILL4@DESCRIPTION"
 msgstr "Обране союзне місто отримує:[bulletlist][bullet/]{fortBase} очок <<gen:c:{GLOBAL.FortificationHealthConcept.Hyperlink}>>.[bullet/]{fortPerForest} очок <<gen:c:{GLOBAL.FortificationHealthConcept.Hyperlink}>> за кожен ліс або гриб на території.[bullet/]Рослинні [hyperlink,GLOBAL.Properties.PLANTConcept]юніти[/hyperlink], завербовані в місті або викликані в межах території, отримують +{amount} до [medalGold/] рангу.[bullet/]Що хід під час битви на території створюються живі ліани поруч із ворогами.[/bulletlist]"
@@ -128181,11 +128174,11 @@ msgstr "Дозволити ШІ вирішувати, що вибирати"
 
 #| msgid "TOME_GOLDEN@STATUS@DESCRIPTION"
 msgid "TOME_PDT@CATCAT@DESCRIPTION"
-msgstr ""
+msgstr "КІТ-КІТ дуже файний, бум-бум"
 
 #| msgid "TOME_GOLDEN@STATUS@NAME"
 msgid "TOME_PDT@CATCAT@NAME"
-msgstr ""
+msgstr "Кітапульта кітаклизму"
 
 msgid "TOME_PYROMANCY@HERO_SKILL@DESCRIPTION"
 msgstr "Основні атаки отримують:[bulletlist][bullet/]+{SEARING_STEEL_HS_EXTRA_DAMAGE>DAMAGE>Fire} [hyperlink,GLOBAL.FireDamageConcept]Вогняної шкоди[/hyperlink].[bullet/]+{SEARING_STEEL_DAMAGE_MULTIPLIER>ResolvedMultiplier}% шкоди проти цілей, які [hyperlink,GLOBAL.PROPERTIES.BURNING]горять[/hyperlink].[/bulletlist][br/]{LOC.INTERFACE@ENCHANTMENT_NON_REPEATING@INSERT}"
@@ -130184,7 +130177,7 @@ msgstr "Провінція поблизу <<gen:{EventStructure.Name}>> ураж
 
 #| msgid "TRIGGER@EFFECT@PYROCLASTIC_ERUPTION"
 msgid "TRIGGER@EFFECT@ASTRAL_SHATTERING"
-msgstr ""
+msgstr "Провінцію поруч із {EventCity.Name} вражає закляттям {GLOBAL.SPECIAL_OPERATIONS.COSMIC_TREMORS.Hyperlink}."
 
 msgid "TRIGGER@EFFECT@CITY_STABILITY_COST@ALL_CITIES"
 msgstr "Усі [hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] вашого [hyperlink,GLOBAL.EmpireConcept]імперії[/hyperlink] (впливає на {INT_NumCities}) втрачають {INT_Stability} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] протягом {INT_Duration} [turn/]."
@@ -133566,11 +133559,11 @@ msgstr "Аура хвороби^f"
 
 #| msgid "UNITPROPERTIES@WEAKENING_AURA@DESCRIPTION"
 msgid "UNITPROPERTIES@BLAZING_AURA@DESCRIPTION"
-msgstr ""
+msgstr "Наприкінці ходу суміжні ворожі юніти:[bulletlist][bullet/]Зазнають {BLAZING_AURA_DAMAGE>DAMAGE>Fire} {GLOBAL.FireDamageConcept.Hyperlink}.[bullet/]Мають базовий шанс {BURNING_RESISTANCE>ResolvedStrength}% отримати {GLOBAL.PROPERTIES.BURNING.Hyperlink} на {BURNING_EFFECT_DESCRIPTION>NumTurns} [turn/][hyperlink,GLOBAL.TurnConcept]ходи[/hyperlink].[/bulletlist]"
 
 #| msgid "UNITPROPERTIES@WEAKENING_AURA@NAME"
 msgid "UNITPROPERTIES@BLAZING_AURA@NAME"
-msgstr ""
+msgstr "Палаюча аура"
 
 msgid "UNITPROPERTIES@BOLSTERING_DEFENSE@DESCRIPTION"
 msgstr "Цей юніт отримує раз на хід <<acc:{GLOBAL.PROPERTIES.BOLSTERED_DEFENSE.Hyperlink}>>, коли зазнає удару від <<c:{GLOBAL.MeleeConcept.Hyperlink}>> атаки або [hyperlink,GLOBAL.RangedConcept]фізичної дистанційної[/hyperlink] атаки."
@@ -133733,11 +133726,11 @@ msgstr "Знижена точність"
 
 #| msgid "UNITPROPERTIES@MORALE_DRAIN@DESCRIPTION"
 msgid "UNITPROPERTIES@DEMORALIZER@DESCRIPTION"
-msgstr ""
+msgstr "Атаки цього юніта завдають {DEMORALIZER_CHANGE_MORALE_NEGATIVE>Morale Change Absolute} шкоди {GLOBAL.UnitMoraleConcept.Hyperlink}. Вдвічі більше проти юнітів з високим бойовим духом.[br/][br/]{LOC.INTERFACE@ENCHANTMENT_NON_REPEATING@INSERT}"
 
 #| msgid "UNITPROPERTIES@MORALE_DRAIN@NAME"
 msgid "UNITPROPERTIES@DEMORALIZER@NAME"
-msgstr ""
+msgstr "Деморалізатор"
 
 msgid "UNITPROPERTIES@DISPLACEMENT@DESCRIPTION"
 msgstr "Після отримання шкоди юніт телепортується на випадкову позицію на відстані {DISPLACEMENT_DISPLACEMENT>MaxDistance} гекси.[br/]Діє раз на хід."
@@ -134560,11 +134553,11 @@ msgstr "Флора"
 
 #| msgid "UNITPROPERTIES_TACTICALOBSTACLES@FLORA_TAG@DESCRIPTION"
 msgid "UNITPROPERTIES_TACTICALOBSTACLES@FORTUNE_TAG@DESCRIPTION"
-msgstr ""
+msgstr "Юніт на цій позиції отримує: {GLOBAL.PROPERTIES.FORTUNE.Hyperlink}."
 
 #| msgid "UNITPROPERTIES_TACTICALOBSTACLES@FLORA_TAG@NAME"
 msgid "UNITPROPERTIES_TACTICALOBSTACLES@FORTUNE_TAG@NAME"
-msgstr ""
+msgstr "Вдача"
 
 msgid "UNITPROPERTIES_TACTICALOBSTACLES@GREEN_SLUDGE@NAME"
 msgstr "Токсична жижа"
@@ -135968,7 +135961,7 @@ msgstr "Павук"
 
 #| msgid "UPGRADES_CORE_UNITPROPERTIES@SPIDER@NAME"
 msgid "UPGRADES_CORE_UNITPROPERTIES@SPIDER@TAG_NAME"
-msgstr ""
+msgstr "[unitSpider/] Павук"
 
 msgid "UPGRADES_CORE_UNITPROPERTIES@SUPPORT_UNIT@NAME"
 msgstr "Юніт підтримки"
