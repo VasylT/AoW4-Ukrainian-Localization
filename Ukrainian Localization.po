@@ -68799,58 +68799,58 @@ msgid "EMPIRE_DEVELOPMENT@ASTRAL@ALCHEMICAL_APPLICATIONS@NAME"
 msgstr "Алхімічне застосування"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@ANCIENT_STUDIES@DESCRIPTION"
-msgstr "<<m:{GLOBAL.AncientWonderConcept.Hyperlink}>> дають {knowledgeBonus} {GLOBAL.KnowledgeConcept.Hyperlink} доходу за кожен свій Рівень, коли приєднані до {GLOBAL.CityConcept.Hyperlink}."
+msgstr "[hyperlink,GLOBAL.AncientWonderConcept]Стародавні дива[/hyperlink] дають {knowledgeBonus} {GLOBAL.KnowledgeConcept.Hyperlink} доходу за кожен свій Рівень, коли приєднані до {GLOBAL.CityConcept.Hyperlink}."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@ANCIENT_STUDIES@NAME"
 msgstr "Стародавні дослідження"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@ARCANE_KEEPERS@DESCRIPTION"
-msgstr "{GLOBAL.AncientWonderConcept.Hyperlink} та Вузли {GLOBAL.MagicMaterialConcept.Hyperlink} дають {Knowledgebonus} {GLOBAL.KnowledgeConcept.Hyperlink}."
+msgstr "[hyperlink,GLOBAL.AncientWonderConcept]Стародавні дива[/hyperlink] та Вузли {GLOBAL.MagicMaterialConcept.Hyperlink} дають {Knowledgebonus} {GLOBAL.KnowledgeConcept.Hyperlink}."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@ARCANE_KEEPERS@NAME"
 msgstr "Хранителі Аркани"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@ASTRAL_ABSORPTION@DESCRIPTION"
-msgstr "Коли ворожий гравець застосовує закляття в бою з вами, ви отримуєте {castingPoints} {GLOBAL.CombatCastingPointConcept.Hyperlink} і {mana} {GLOBAL.ManaConcept.Hyperlink}."
+msgstr "Коли ворожий гравець застосовує закляття в бою з вами, ви отримуєте {castingPoints} {GLOBAL.CombatCastingPointConcept.Hyperlink} і {mana} [mana/] [hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@ASTRAL_ABSORPTION@NAME"
 msgstr "Астральне поглинання"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@ASTRAL_BINDING@DESCRIPTION"
-msgstr "Щойно призвані або завербовані [hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] [hyperlink,GLOBAL.PROPERTIES.MAGIC_ORIGIN]магічних юнітів[/hyperlink] отримують {Rankbonus} рівень рангу."
+msgstr "Щойно призвані або завербовані [hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] [hyperlink,GLOBAL.PROPERTIES.MAGIC_ORIGIN]магічного походження[/hyperlink] отримують {Rankbonus} ранг."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@ASTRAL_BINDING@FIRE_PROPERTY_DESCRIPTION"
 msgstr "Юніт отримує {ResistanceBonus} {GLOBAL.FireResistanceConcept.Hyperlink} і завдає {Damagebonus} {GLOBAL.FireDamageConcept.Hyperlink} до кінця бою."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@ASTRAL_BINDING@NAME"
-msgstr "Астральні бачення^nn{1}na{2}"
+msgstr "Астральний зв'язок"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@ASTRAL_INSPIRATION@DESCRIPTION"
-msgstr "Кожного разу, коли досліджується [hyperlink,GLOBAL.ResearchConcept]нова здатність[/hyperlink], вартість {GLOBAL.KnowledgeConcept.Hyperlink} наступної випадкової здатності зменшується на {CostReduction}."
+msgstr "Кожного разу, коли закінчуєте [hyperlink,GLOBAL.ResearchConcept]дослідження[/hyperlink], вартість {GLOBAL.KnowledgeConcept.Hyperlink} наступного випадкового дослідження зменшується на {CostReduction}."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@ASTRAL_INSPIRATION@NAME"
-msgstr "Астральне натхнення^fa{1}fn{2}"
+msgstr "Астральне натхнення"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@CASTING_RESERVES@DESCRIPTION"
-msgstr "Ти отримуєш {Castingpointbonus} [optactical/][hyperlink,GLOBAL.CombatCastingPointConcept] балів для чаклунства в бою[/hyperlink] і [opstrategic/][hyperlink,GLOBAL.WorldMapCastingPointConcept] балів для чаклунства на карті світу[/hyperlink]."
+msgstr "Отримуєте {Castingpointbonus} [optactical/][hyperlink,GLOBAL.CombatCastingPointConcept]очок чаклунства в бою[/hyperlink] і [opstrategic/][hyperlink,GLOBAL.WorldMapCastingPointConcept]очок чаклунства на мапі світу[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@CASTING_RESERVES@NAME"
-msgstr "Резерви чаклунства^Pfn{1}x{2}"
+msgstr "Резерви чаклунства"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@COSMIC_BREACHES@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.DamageSpellConcept]закляття шкоди[/hyperlink] і [hyperlink,GLOBAL.DebuffSpellConcept]закляття ослаблення[/hyperlink] у бою тепер накладають {GLOBAL.PROPERTIES.SUNDERED_RESISTANCE.Hyperlink} на свої цілі."
+msgstr "[hyperlink,GLOBAL.DamageSpellConcept]Закляття шкоди[/hyperlink] і [hyperlink,GLOBAL.DebuffSpellConcept]закляття ослаблення[/hyperlink] у бою тепер накладають {GLOBAL.PROPERTIES.SUNDERED_RESISTANCE.Hyperlink} на свої цілі."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@COSMIC_BREACHES@MODIFIER_DESCRIPTION"
-msgstr "Накладає {GLOBAL.PROPERTIES.SUNDERED_RESISTANCE.Hyperlink} на цілі."
+msgstr "Накладає {GLOBAL.PROPERTIES.SUNDERED_RESISTANCE.Hyperlink} на ціль."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@COSMIC_BREACHES@NAME"
 msgstr "Космічні розломи"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@EAGER_STUDENTS@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.PROPERTIES.BATTLE_MAGE]Бойові маги[/hyperlink] і [hyperlink,GLOBAL.PROPERTIES.SUPPORT_UNIT]підтримуючі юніти[/hyperlink] отримують [hyperlink,GLOBAL.ExperienceConcept][xp/] досвід[/hyperlink] {Expbonus} швидше."
+msgstr "[hyperlink,GLOBAL.PROPERTIES.BATTLE_MAGE]Бойові маги[/hyperlink] і [hyperlink,GLOBAL.PROPERTIES.SUPPORT_UNIT]юніти підтримки[/hyperlink] отримують {GLOBAL.ExperienceConcept.Hyperlink} на {Expbonus} швидше."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@EAGER_STUDENTS@NAME"
-msgstr "Схильні учні^Pma{1}Pmn{2}"
+msgstr "Завзяті учні"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@ENCHANTMENT_ATTUNEMENT@DESCRIPTION"
 msgstr "Утримання від заклять зачарування юнітів зменшується на {percentageAmount}."
@@ -68862,13 +68862,13 @@ msgid "EMPIRE_DEVELOPMENT@ASTRAL@EXTRAVAGANT_STUDIES@DESCRIPTION"
 msgstr "{GLOBAL.ManaConcept.Hyperlink} [hyperlink,GLOBAL.CityStructureConcept]міські споруди[/hyperlink] надають {knowledgeAmount} {GLOBAL.KnowledgeConcept.Hyperlink} доходу."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@EXTRAVAGANT_STUDIES@NAME"
-msgstr "Марнотратні дослідження"
+msgstr "Екстравагантні дослідження"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@FOCUSED_STUDIES@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.ResearchPostConcept]Дослідницькі пости[/hyperlink] забезпечують {Knowledgebonus} балів {GLOBAL.KnowledgeConcept.Hyperlink}.[br/][hyperlink,GLOBAL.ConduitConcept]Канали[/hyperlink] забезпечують {manabonus} балів [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
+msgstr "[hyperlink,GLOBAL.ResearchPostConcept]Дослідницькі пости[/hyperlink] дають дохід {Knowledgebonus} {GLOBAL.KnowledgeConcept.Hyperlink}.[br/][hyperlink,GLOBAL.ConduitConcept]Канали[/hyperlink] дають дохід {manabonus} [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@FOCUSED_STUDIES@NAME"
-msgstr "Заборонені дослідження^pfa{1}pfn{2}"
+msgstr "Зосереджені дослідження"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@GRAND_CASTING_RESERVES@DESCRIPTION"
 msgstr "Отримуєте {numCastingPoints} [caststrategic/] [hyperlink,GLOBAL.WorldMapCastingPointConcept]очок глобальних заклять[/hyperlink]."
@@ -68877,13 +68877,13 @@ msgid "EMPIRE_DEVELOPMENT@ASTRAL@GRAND_CASTING_RESERVES@NAME"
 msgstr "Великі резерви чаклування"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@INGREDIENT_EXPERIMENTATION@DESCRIPTION"
-msgstr "Твоє <<c:{GLOBAL.ThroneCityConcept.Hyperlink}>> отримує {ResearchBonus} балів {GLOBAL.KnowledgeConcept.Hyperlink} за кожен <<acc:c:{GLOBAL.MagicMaterialConcept.Hyperlink}>>, до якого твоє імперія має доступ."
+msgstr "Ваше {GLOBAL.ThroneCityConcept.Hyperlink} отримує дохід {goldBonus} {GLOBAL.GoldConcept.Hyperlink} і {manaBonus} {GLOBAL.ManaConcept.Hyperlink} за кожен {GLOBAL.MagicMaterialConcept.Hyperlink} у володіннях вашої імперії."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@INGREDIENT_EXPERIMENTATION@NAME"
-msgstr "Дослідження над складником^Pmn{1}x{2}x{3}"
+msgstr "Експерименти з інгрідієнтами"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@MANA_EXTRACTION@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.ProvinceImprovementConcept]Покращення провінції[/hyperlink] <<c:{GLOBAL.TeleporterConcept.Hyperlink}>> та <<c:{GLOBAL.SpellJammerConcept.Hyperlink}>> забезпечують дохід у вигляді {ManaBonus} балів [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
+msgstr "Покращення провінцій типу {GLOBAL.TeleporterConcept.Hyperlink} і {GLOBAL.SpellJammerConcept.Hyperlink} забезпечують дохід {ManaBonus} [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@MANA_EXTRACTION@NAME"
 msgstr "Екстракція мани^f"
