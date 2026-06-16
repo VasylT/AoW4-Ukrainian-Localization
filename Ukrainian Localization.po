@@ -1147,7 +1147,7 @@ msgid "ADVICE@LOWFOOD_REMINDER@TITLE"
 msgstr "{LowFoodCity.Name} має низькі надходження їжі"
 
 msgid "ADVICE@LOWGOLD_REMINDER@DESCRIPTION"
-msgstr "Надходження [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] у твоїй імперії є низькими.[br/][br/] Якщо доходи від золота залишаться такими низькими, скоро не вдасться задовольняти потреби твоєї імперії.[br/][br/] <<nom:{GLOBAL.UnitUpkeepConcept.Hyperlink}>> часто є причиною низьких доходів від золота. Спробуй розширити свої <<acc:c:{GLOBAL.DomainConcept.Hyperlink}>> та побудуй <<acc:c:{GLOBAL.ProvinceImprovementConcept.Hyperlink}>> або <<acc:c:{GLOBAL.CityStructureConcept.Hyperlink}>> у своєму <<loc:c:{GLOBAL.CityConcept.Hyperlink}>>, щоб отримувати більше золота за <<acc:c:{GLOBAL.TurnConcept.Hyperlink}>>."
+msgstr "Надходження [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] у твоїй імперії є низькими.[br/][br/] Якщо доходи від золота залишаться такими низькими, скоро не вдасться задовольняти потреби твоєї імперії.[br/][br/] <<nom:{GLOBAL.UnitUpkeepConcept.Hyperlink}>> часто є причиною низьких доходів від золота. Спробуй розширити свої <<acc:c:{GLOBAL.DomainConcept.Hyperlink}>> та побудуй <<acc:c:{GLOBAL.ProvinceImprovementConcept.Hyperlink}>> або <<acc:c:{GLOBAL.CityStructureConcept.Hyperlink}>> у своєму <<loc:c:{GLOBAL.CityConcept.Hyperlink}>>, щоб отримувати більше золота за <<acc:c:{GLOBAL.TurnConcept.Hyperlink}>>."
 
 msgid "ADVICE@LOWGOLD_REMINDER@INSTRUCTION"
 msgstr "Вибери, щоб відкрити панель тронного міста"
@@ -1246,7 +1246,7 @@ msgid "ADVICE@SETTLECITY_REMINDER@TITLE"
 msgstr "Аванпост можна покращити до міста"
 
 msgid "ADVICE@SETTLEOUTPOST_REMINDER@DESCRIPTION"
-msgstr "Час розширити свою [hyperlink,GLOBAL.EmpireConcept]імперії[/hyperlink].[br/][br/] Щоб побудувати нове <<acc:c:{GLOBAL.CityConcept.Hyperlink}>>, спочатку потрібно заснувати <<acc:c:{GLOBAL.OutpostConcept.Hyperlink}>>.[br/][br/] Розмісти свого [hyperlink,GLOBAL.LeaderConcept]Володаря[/hyperlink] або одного зі своїх <<m:gen:c:{GLOBAL.HeroConcept.Hyperlink}>> в центрі провінції та заснуй перший аванпост, витративши {amount} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]. Для заснування форпосту потрібно {amount2} [turn/]."
+msgstr "Час розширити свою [hyperlink,GLOBAL.EmpireConcept]імперії[/hyperlink].[br/][br/] Щоб побудувати нове <<acc:c:{GLOBAL.CityConcept.Hyperlink}>>, спочатку потрібно заснувати <<acc:c:{GLOBAL.OutpostConcept.Hyperlink}>>.[br/][br/] Розмісти свого [hyperlink,GLOBAL.LeaderConcept]Володаря[/hyperlink] або одного зі своїх <<m:gen:c:{GLOBAL.HeroConcept.Hyperlink}>> в центрі провінції та заснуй перший аванпост, витративши {amount} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]. Для заснування форпосту потрібно {amount2} [turn/]."
 
 msgid "ADVICE@SETTLEOUTPOST_REMINDER@INSTRUCTION"
 msgstr "Натисни ліву кнопку миші, щоб перейти до правителя"
@@ -1333,7 +1333,7 @@ msgid "AFFINITYCONTENT@ORDER_FINISHER_SPELL@PROP_DESCRIPTION"
 msgstr "Кожного ходу випадковий союзник отримує {amount} очок випадкових позитивних ефектів стану і втрачає всі негативні ефекти стану."
 
 msgid "AFFINITYCONTENT@ORDER_NODE_CONVERSION@DESCRIPTION"
-msgstr "Перетворює <<acc:c:{GLOBAL.RootNodeConcept.Hyperlink}>> на <<acc:c:{GLOBAL.OrderConcept.Hyperlink}>>. Це допомагає досягти <<acc:c:{GLOBAL.MagicVictoryConcept.Hyperlink}>> та додатково забезпечує +{resource} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]. {LOC.AFFINITYCONTENT@NODE_CONVERSION@CASUSBELLIWARNING}"
+msgstr "Перетворює <<acc:c:{GLOBAL.RootNodeConcept.Hyperlink}>> на <<acc:c:{GLOBAL.OrderConcept.Hyperlink}>>. Це допомагає досягти <<acc:c:{GLOBAL.MagicVictoryConcept.Hyperlink}>> та додатково забезпечує +{resource} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]. {LOC.AFFINITYCONTENT@NODE_CONVERSION@CASUSBELLIWARNING}"
 
 msgid "AFFINITYCONTENT@ORDER_NODE_CONVERSION@NAME"
 msgstr "Перетворення вузла в [order/] порядок"
@@ -4828,7 +4828,7 @@ msgid "CITYDEFINITION_STRATEGIC@CITY_PROVINCE_BASE@NAME"
 msgstr "Місто"
 
 msgid "CITYDEFINITION_STRATEGIC@FORWARD_BASE@DESCRIPTION"
-msgstr "Ця будівля займає [hyperlink,GLOBAL.ProvinceConcept]провінція[/hyperlink] для власника та створює основи для нового [hyperlink,GLOBAL.CityConcept]Міста[/hyperlink].[br/][br/]Аванпост може:[bulletlist][bullet/]Бути збудований <<acc:c:{GLOBAL.HeroConcept.Hyperlink}>>.[bullet/]Бути покращений до [hyperlink,GLOBAL.CityConcept]Міста[/hyperlink].[bullet/]Мати різні покращення, які можуть бути збудовані в ньому.[bullet/]Вороги не можуть увійти без вторгнення.[bullet/]Збирає доходи з [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink], [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] та {GLOBAL.KnowledgeConcept.Hyperlink} з <<gen:c:m:{GLOBAL.NodeConcept.Hyperlink}>> і [hyperlink,GLOBAL.MagicMaterialConcept]магічних матералів[/hyperlink].[/bulletlist][br/][br/]Кожен аванпост має вартість утримання в розмірі {amount} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] для свого власника."
+msgstr "Ця будівля займає [hyperlink,GLOBAL.ProvinceConcept]провінція[/hyperlink] для власника та створює основи для нового [hyperlink,GLOBAL.CityConcept]Міста[/hyperlink].[br/][br/]Аванпост може:[bulletlist][bullet/]Бути збудований <<acc:c:{GLOBAL.HeroConcept.Hyperlink}>>.[bullet/]Бути покращений до [hyperlink,GLOBAL.CityConcept]Міста[/hyperlink].[bullet/]Мати різні покращення, які можуть бути збудовані в ньому.[bullet/]Вороги не можуть увійти без вторгнення.[bullet/]Збирає доходи з [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink], [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] та {GLOBAL.KnowledgeConcept.Hyperlink} з <<gen:c:m:{GLOBAL.NodeConcept.Hyperlink}>> і [hyperlink,GLOBAL.MagicMaterialConcept]магічних матералів[/hyperlink].[/bulletlist][br/][br/]Кожен аванпост має вартість утримання в розмірі {amount} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] для свого власника."
 
 msgid "CITYDEFINITION_STRATEGIC@FORWARD_BASE@HYPERLINK"
 msgstr "[hyperlink,GLOBAL.OutpostConcept]Аванпост[/hyperlink]"
@@ -5961,7 +5961,7 @@ msgid "COLONYUPGRADES_STRATEGIC@PROVINCE_IMPROVEMENT_GARDEN_OF_BLISS@NAME"
 msgstr "[farm/] Сад блаженства"
 
 msgid "COLONYUPGRADES_STRATEGIC@PROVINCE_IMPROVEMENT_GOLEM_MINE@DESCRIPTION"
-msgstr "[bulletlist][bullet/]Дохід {baseincome} [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink].[bullet/]{adjacentincome} очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink] за сусідню [hyperlink,GLOBAL.QuarryConcept]каменоломню[/hyperlink].[bullet/]Призиває залізного голема на сторону власника в [hyperlink,GLOBAL.CombatConcept]битві[/hyperlink] у <<[hyperlink,GLOBAL.DomainConcept]володіннях[/hyperlink]>>.[bullet/]Рахується як {GLOBAL.MineConcept.Hyperlink}.[/bulletlist]"
+msgstr "[bulletlist][bullet/]Дохід {baseincome} [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink].[bullet/]{adjacentincome} очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink] за сусідню [hyperlink,GLOBAL.QuarryConcept]каменоломню[/hyperlink].[bullet/]Призиває залізного голема на сторону власника в [hyperlink,GLOBAL.CombatConcept]битві[/hyperlink] у <<[hyperlink,GLOBAL.DomainConcept]володіннях[/hyperlink]>>.[bullet/]Рахується як {GLOBAL.MineConcept.Hyperlink}.[/bulletlist]"
 
 msgid "COLONYUPGRADES_STRATEGIC@PROVINCE_IMPROVEMENT_GOLEM_MINE@DISPLAY_DESCRIPTION"
 msgstr "Викликає залізного голема на сторону власника для [hyperlink,GLOBAL.CombatConcept]битви[/hyperlink] у [hyperlink,GLOBAL.DomainConcept]володіннях[/hyperlink]."
@@ -5970,7 +5970,7 @@ msgid "COLONYUPGRADES_STRATEGIC@PROVINCE_IMPROVEMENT_GOLEM_MINE@NAME"
 msgstr "[mine/] Шахта голема^f"
 
 msgid "COLONYUPGRADES_STRATEGIC@PROVINCE_IMPROVEMENT_GREAT_FOUNDRY@DESCRIPTION"
-msgstr "[bulletlist][bullet/]{baseincome} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink].[bullet/]На сусідніх <<acc:c:{GLOBAL.MineConcept.Hyperlink}>>:[bulletlist][bullet/]{adjacentprodincome} очок {GLOBAL.UnitProductionConcept.Hyperlink}.[bullet/]{adjacentgoldincome} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink].[/bulletlist][bullet/]Рахується як <<nom:c:{GLOBAL.MineConcept.Hyperlink}>>.[/bulletlist]"
+msgstr "[bulletlist][bullet/]{baseincome} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink].[bullet/]На сусідніх <<acc:c:{GLOBAL.MineConcept.Hyperlink}>>:[bulletlist][bullet/]{adjacentprodincome} очок {GLOBAL.UnitProductionConcept.Hyperlink}.[bullet/]{adjacentgoldincome} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink].[/bulletlist][bullet/]Рахується як <<nom:c:{GLOBAL.MineConcept.Hyperlink}>>.[/bulletlist]"
 
 msgid "COLONYUPGRADES_STRATEGIC@PROVINCE_IMPROVEMENT_GREAT_FOUNDRY@NAME"
 msgstr "[mine/] Велика ливарня"
@@ -6048,7 +6048,7 @@ msgid "COLONYUPGRADES_STRATEGIC@PROVINCE_IMPROVEMENT_MOB_CAMP@DESCRIPTION"
 msgstr "[bulletlist][bullet/]{foodbaseamount} очок [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink].[bullet/]{prodbonus} очок {GLOBAL.UnitProductionConcept.Hyperlink}.[bullet/]Місце дислокації [hyperlink,GLOBAL.UnitConcept]юніта[/hyperlink].[bullet/]<<nom:{GLOBAL.UnitConcept.Hyperlink}>> I рівня коштують на {unitdiscount} дешевше.[bullet/]Рахується як <<nom:c:{GLOBAL.ForesterConcept.Hyperlink}>>.[/bulletlist]"
 
 msgid "COLONYUPGRADES_STRATEGIC@PROVINCE_IMPROVEMENT_MOB_CAMP@DISCOUNT"
-msgstr "[hyperlink,GLOBAL.UnitConcept]Підрозділи[/hyperlink] I рівня коштують на {discount} дешевше."
+msgstr "[hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] I рівня коштують на {discount} дешевше."
 
 msgid "COLONYUPGRADES_STRATEGIC@PROVINCE_IMPROVEMENT_MOB_CAMP@NAME"
 msgstr "[forester/] Табір бандитів"
@@ -6165,7 +6165,7 @@ msgid "COLONYUPGRADES_STRATEGIC@PROVINCE_IMPROVEMENT_TELEPORTER@REPLACEMENT"
 msgstr "Заміна на [teleporter/] Телепорт"
 
 msgid "COLONYUPGRADES_STRATEGIC@PROVINCE_IMPROVEMENT_TITHE_COLLECTOR@DESCRIPTION"
-msgstr "[bulletlist][bullet/]{goldbaseamount} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink].[bullet/]{goldbonus} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] на сусідніх [hyperlink,GLOBAL.FarmConcept]ферму[/hyperlink] або <<acc:c:{GLOBAL.ForesterConcept.Hyperlink}>>.[bullet/]Рахується як <<nom:c:{GLOBAL.MineConcept.Hyperlink}>>.[/bulletlist]"
+msgstr "[bulletlist][bullet/]{goldbaseamount} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink].[bullet/]{goldbonus} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] на сусідніх [hyperlink,GLOBAL.FarmConcept]ферму[/hyperlink] або <<acc:c:{GLOBAL.ForesterConcept.Hyperlink}>>.[bullet/]Рахується як <<nom:c:{GLOBAL.MineConcept.Hyperlink}>>.[/bulletlist]"
 
 msgid "COLONYUPGRADES_STRATEGIC@PROVINCE_IMPROVEMENT_TITHE_COLLECTOR@NAME"
 msgstr "[mine/] Збирач десятини"
@@ -6211,7 +6211,7 @@ msgstr "Це коло Трансмутації перетворює [fireforgest
 
 msgid "COLONYUPGRADES_STRATEGIC@PROVINCE_IMPROVEMENT_TRANSMUTER@FOCUS_CRYSTAL"
 msgstr ""
-"Місцевий ефект: [bulletlist][bullet/]+{GoldBonus} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink][bullet/]+{KnowledgeBonus} очок {GLOBAL.KnowledgeConcept.Hyperlink}[/bulletlist]\n"
+"Місцевий ефект: [bulletlist][bullet/]+{GoldBonus} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink][bullet/]+{KnowledgeBonus} очок {GLOBAL.KnowledgeConcept.Hyperlink}[/bulletlist]\n"
 "Унікальний глобальний ефект: [bulletlist][bullet/][hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] отримують премію {xpbonus} одиниць [xp/] досвіду.[/bulletlist]\n"
 "Набір: <<c:{GLOBAL.TOKENSETBONUS.RINGS_OF_BINDING.Hyperlink}>>"
 
@@ -6278,7 +6278,7 @@ msgid "COLONYUPGRADES_STRATEGIC@PROVINCE_IMPROVEMENT_WILDLIFE_SANCTUARY@NAME"
 msgstr "[forester/] Притулок дикої природи"
 
 msgid "COLONYUPGRADES_STRATEGIC@RETAINER_ESTATE@DESCRIPTION"
-msgstr "Якщо це місто є тронним або має спільний кордон із тронним містом, отримуєш:[bulletlist][bullet/]+{FoodIncome} одиниць прибутку [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink][bullet/]+{GoldIncome} монет прибутку [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink][bullet/]+{StabilityIncome} одиниць стабільності [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink][/bulletlist]"
+msgstr "Якщо це місто є тронним або має спільний кордон із тронним містом, отримуєш:[bulletlist][bullet/]+{FoodIncome} одиниць прибутку [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink][bullet/]+{GoldIncome} монет прибутку [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink][bullet/]+{StabilityIncome} одиниць стабільності [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink][/bulletlist]"
 
 msgid "COLONYUPGRADES_STRATEGIC@RETAINER_ESTATE@NAME"
 msgstr "Маєток васала"
@@ -6359,7 +6359,7 @@ msgid "COLONYUPGRADES_STRATEGIC@SHADOW_VICTORY_STRUCTURE_3@NAME"
 msgstr "[magicvictory/] Серце Тіні"
 
 msgid "COLONYUPGRADES_STRATEGIC@SHIP_WRIGHTS_GUILD@DESCRIPTION"
-msgstr "За кожне узбережжя або провінцію з підводним озером:[bulletlist][bullet/]+{amount1} очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink][bullet/]+{amount2} очок [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink][bullet/]+{amount3} монет [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink][bullet/]+{amount4} очок {GLOBAL.UnitProductionConcept.Hyperlink}[/bulletlist]"
+msgstr "За кожне узбережжя або провінцію з підводним озером:[bulletlist][bullet/]+{amount1} очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink][bullet/]+{amount2} очок [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink][bullet/]+{amount3} монет [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink][bullet/]+{amount4} очок {GLOBAL.UnitProductionConcept.Hyperlink}[/bulletlist]"
 
 msgid "COLONYUPGRADES_STRATEGIC@SHIP_WRIGHTS_GUILD@NAME"
 msgstr "Гільдія моряків"
@@ -16752,7 +16752,7 @@ msgid "DIPLOMACY@TRADE@RELEASE_HERO_DESCRIPTION"
 msgstr "Звільни <<HeroData{героя/героїню}>> {HeroData.Name} з в'язниці, що належить: {Captor.Name}, і поверни до: {Owner.Name}. {HeroData.FirstName} повернеться до міста, що належить <<Owner{правителю/правительці}>> {Owner.Lord.FirstName}.[br/][br/]Звільнення <<HeroData{героя/героїні}>> {HeroData.Name} буде вважатися дарунком, що поліпшить відносини ({Relation} [goodRelation/]). Ця дія вважається добрим вчинком ({Alignment}[goodact/]).[br/]{Captor.Lord.FirstName} залишить спорядження, що належить <<HeroData{герою/героїні}>> {HeroData.FirstName}."
 
 msgid "DIPLOMACY@TRADE@TRUCE_WARNING"
-msgstr "Усі захоплені <<c:m:{GLOBAL.CityConcept.Hyperlink}>>, які перебувають у стані приєднання, спустошення або міграції, негайно припинять ці дії."
+msgstr "Усі захоплені [hyperlink,GLOBAL.CityConcept]міста[/hyperlink], які перебувають у стані приєднання, спустошення або міграції, негайно припинять ці дії."
 
 msgid "DIPLOMACY@TRADE@VALUE"
 msgstr "Торгова вартість"
@@ -26117,7 +26117,7 @@ msgid "DLC@ARCHONPROPHECY@TUTORIAL@MONUMENTS_AND_WONDERSTONE@TITLE02"
 msgstr "[wonderstone/]Диво-камінь"
 
 msgid "DLC@ARCHONPROPHECY@TUTORIAL@MONUMENTS_AND_WONDERSTONE_PAGE01@DESCRIPTION"
-msgstr "<<m:{GLOBAL.ArchitectConcept.Hyperlink}>> може побудувати <<m:{GLOBAL.ArchitectMonumentConcept.Hyperlink}>>:[br/] Потужні <<m:{GLOBAL.ProvinceImprovementConcept.Hyperlink}>> присвячені <<m:{GLOBAL.AffinityConcept.Hyperlink}>>."
+msgstr "<<m:{GLOBAL.ArchitectConcept.Hyperlink}>> може побудувати <<m:{GLOBAL.ArchitectMonumentConcept.Hyperlink}>>:[br/] Потужні [hyperlink,GLOBAL.SpecialImprovementConcept]Покращення провінцій[/hyperlink] присвячені <<m:{GLOBAL.AffinityConcept.Hyperlink}>>."
 
 msgid "DLC@ARCHONPROPHECY@TUTORIAL@MONUMENTS_AND_WONDERSTONE_PAGE01@INSTRUCTIONS"
 msgstr "Після побудови, <<m:{GLOBAL.ArchitectMonumentConcept.Hyperlink}>> починаються з I рівня та можуть бути покращені до IV рівня.[br/]Кожен побудований рівень надає своїм юнітам {GLOBAL.PROPERTIES.AFFINITY_INCARNATE_UNIT_PROPERTY.Hyperlink}, тоді як вищі рівні дають <<m:{GLOBAL.AffinityConcept.Hyperlink}>> та розширюють можливості міста, до якого вони прив'язані."
@@ -27548,7 +27548,7 @@ msgid "DLC@DRAGONLORDS@HEADSIZE"
 msgstr "Розмір голови"
 
 msgid "DLC@DRAGONLORDS@HERO_DEFINITIONS@DRAGON_HOARD@DESCRIPTION"
-msgstr "Предмети в арсеналі дракона дають додатковий дохід [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink].[bulletlist][bullet/]Рівень I - {amountI} [gold/][bullet/]Рівень II - {amountII} [gold/][bullet/]Рівень III - {amountIII} [gold/][bullet/]Рівень IV - {amountIV} [gold/][/bulletlist]"
+msgstr "Предмети в арсеналі дракона дають додатковий дохід [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink].[bulletlist][bullet/]Рівень I - {amountI} [gold/][bullet/]Рівень II - {amountII} [gold/][bullet/]Рівень III - {amountIII} [gold/][bullet/]Рівень IV - {amountIV} [gold/][/bulletlist]"
 
 msgid "DLC@DRAGONLORDS@HERO_DEFINITIONS@DRAGON_HOARD@HYPELINK"
 msgstr "[hyperlink,GLOBAL.DragonHoardConcept]Скарбниця дракона[/hyperlink]"
@@ -28937,7 +28937,7 @@ msgid "DLC@DRAGONLORDS@TRAITS_BACKGROUND_CHARACTERS@MAIN_TYPE@DRAGON_LEADER"
 msgstr "Лорд-дракон"
 
 msgid "DLC@DRAGONLORDS@TRAITS_BACKGROUND_CHARACTERS@MAIN_TYPE@DRAGON_LEADER@DESCRIPTION"
-msgstr "{LOC.DLC@DRAGONLORDS@TRAITS_BACKGROUND_CHARACTERS@MAIN_TYPE@DRAGON_LEADER@DESCRIPTION_SHORT}[br/][bulletlist][bullet/]Лорди Драконів мають доступ до унікальних бойових навичок Героїв.[bullet/]Лорди Драконів отримують потужну трансформацію {GLOBAL.HeroDedication.Hyperlink} на основі [hyperlink,GLOBAL.AffinityConcept]спорідненості[/hyperlink] імперії.[bullet/]Отримують додаткове {GLOBAL.GoldConcept.Hyperlink} завдяки своїй {GLOBAL.DragonHoardConcept.Hyperlink}.[bullet/]Лорд Драконів — <<{GLOBAL.PROPERTIES.HEROTRAIT_GOVERNANCE_DRAGON_GOVERNOR.Hyperlink}>>.[bullet/]Лорди Драконів мають {amount} [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] {GLOBAL.UnitUpkeepConcept.Hyperlink} та не може бути оснащені більшістю предметів.[/bulletlist]"
+msgstr "{LOC.DLC@DRAGONLORDS@TRAITS_BACKGROUND_CHARACTERS@MAIN_TYPE@DRAGON_LEADER@DESCRIPTION_SHORT}[br/][bulletlist][bullet/]Лорди Драконів мають доступ до унікальних бойових навичок Героїв.[bullet/]Лорди Драконів отримують потужну трансформацію {GLOBAL.HeroDedication.Hyperlink} на основі [hyperlink,GLOBAL.AffinityConcept]спорідненості[/hyperlink] імперії.[bullet/]Отримують додаткове {GLOBAL.GoldConcept.Hyperlink} завдяки своїй {GLOBAL.DragonHoardConcept.Hyperlink}.[bullet/]Лорд Драконів — <<{GLOBAL.PROPERTIES.HEROTRAIT_GOVERNANCE_DRAGON_GOVERNOR.Hyperlink}>>.[bullet/]Лорди Драконів мають {amount} [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] {GLOBAL.UnitUpkeepConcept.Hyperlink} та не може бути оснащені більшістю предметів.[/bulletlist]"
 
 msgid "DLC@DRAGONLORDS@TRAITS_BACKGROUND_CHARACTERS@MAIN_TYPE@DRAGON_LEADER@DESCRIPTION_SHORT"
 msgstr "[helpcolor]Могутній Дракон, що прагне нових земель, аби сформувати їх за власним задумом.[/helpcolor]"
@@ -28979,7 +28979,7 @@ msgid "DLC@ELDRITCHREALMS@CITYDEFINITIONS_STRATEGIC@CITY_PREFIX@DWELLING"
 msgstr "Поселення"
 
 msgid "DLC@ELDRITCHREALMS@CITYDEFINITIONS_STRATEGIC@SANCTUARY@DESCRIPTION"
-msgstr "Тип <<gen:c:{GLOBAL.OutpostConcept.Hyperlink}>>, який можна побудувати лише в <<loc:c:{GLOBAL.ProvinceConcept.Hyperlink}>> у <<loc:c:{GLOBAL.UmbralAbyssConcept.Hyperlink}>> з <<ins:c:{GLOBAL.BeaconOfLightConcept.Hyperlink}>>.[bulletlist][bullet/]Союзні [hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] всередині <<gen:c:{GLOBAL.DomainConcept.Hyperlink}>> форпосту санктуарію є несприйнятливими до <<acc:c:{GLOBAL.PROPERTIES.SHADOW_SICKNESS.Hyperlink}>>.[bullet/]У санктуаріях не можна заснувати <<gen:c:{GLOBAL.CityConcept}>>.[bullet/]Після побудови можна покращити, щоб приєднати до {amount} провінцій.[bullet/]Надає {gold} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink], {mana} очок [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] і {knowledge} очок {GLOBAL.KnowledgeConcept.Hyperlink}.[/bulletlist]"
+msgstr "Тип <<gen:c:{GLOBAL.OutpostConcept.Hyperlink}>>, який можна побудувати лише в <<loc:c:{GLOBAL.ProvinceConcept.Hyperlink}>> у <<loc:c:{GLOBAL.UmbralAbyssConcept.Hyperlink}>> з <<ins:c:{GLOBAL.BeaconOfLightConcept.Hyperlink}>>.[bulletlist][bullet/]Союзні [hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] всередині <<gen:c:{GLOBAL.DomainConcept.Hyperlink}>> форпосту санктуарію є несприйнятливими до <<acc:c:{GLOBAL.PROPERTIES.SHADOW_SICKNESS.Hyperlink}>>.[bullet/]У санктуаріях не можна заснувати <<gen:c:{GLOBAL.CityConcept}>>.[bullet/]Після побудови можна покращити, щоб приєднати до {amount} провінцій.[bullet/]Надає {gold} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink], {mana} очок [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] і {knowledge} очок {GLOBAL.KnowledgeConcept.Hyperlink}.[/bulletlist]"
 
 msgid "DLC@ELDRITCHREALMS@CITYDEFINITIONS_STRATEGIC@SANCTUARY@HYPERLINK"
 msgstr "[hyperlink,GLOBAL.SanctuaryOutpostConcept]Аванпост санктуарію[/hyperlink]"
@@ -29101,7 +29101,7 @@ msgid "DLC@ELDRITCHREALMS@COSMIC_HAPPENING@ECONOMIC_01@PROPERTY_01@NAME"
 msgstr "Око Габріеля"
 
 msgid "DLC@ELDRITCHREALMS@COSMIC_HAPPENING@ECONOMIC_02@BUTTON_0_CUSTOM_TEXT"
-msgstr "Кожна з твоїх {NumUnits} одиниць приносить {EventGoldAmount} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink].[bulletlist][bullet/]{PlayerLeader} отримує загалом {EventGoldGain} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]."
+msgstr "Кожна з твоїх {NumUnits} одиниць приносить {EventGoldAmount} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink].[bulletlist][bullet/]{PlayerLeader} отримує загалом {EventGoldGain} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]."
 
 msgid "DLC@ELDRITCHREALMS@COSMIC_HAPPENING@ECONOMIC_02@PROPERTY_01@DESCRIPTION"
 msgstr "{GLOBAL.UnitUpkeepConcept.Hyperlink} зменшено на {XORN_JAVELIN_UPKEEP_MODIFIER>ResolvedUpkeepModifier}%."
@@ -29320,7 +29320,7 @@ msgid "DLC@ELDRITCHREALMS@COSMIC_HAPPENING@TOOLTIPS@COLOSSUS_MOON@SWAMPS_SECTOR_
 msgstr "Твої провінції на болотах у кількості {NumSwampSectors} забезпечують по {EventFoodAmount} очок [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink]."
 
 msgid "DLC@ELDRITCHREALMS@COSMIC_HAPPENING@TOOLTIPS@COSMIC_WINDS@DESERT_SECTOR_GOLD"
-msgstr "Твої пустельні провінції у кількості {NumDesertSectors} забезпечують по {EventGoldAmount} [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]."
+msgstr "Твої пустельні провінції у кількості {NumDesertSectors} забезпечують по {EventGoldAmount} [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]."
 
 msgid "DLC@ELDRITCHREALMS@COSMIC_HAPPENING@TOOLTIPS@INVADING_SYLVICULTURE@FOREST_SECTOR_PRODUCTION"
 msgstr "Твої лісові провінції у кількості {NumForestSectors} забезпечують по {EventProductionAmount} очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink]."
@@ -29478,7 +29478,7 @@ msgid "DLC@ELDRITCHREALMS@CRISIS@1167_417@SUB_HEADER"
 msgstr "{GLOBAL.PROPERTIES.SIGN_OF_THE_CLEFT_SHIELD_PROPERTY_GROUP.Hyperlink} впливає на <<acc:c:m:{GLOBAL.PROPERTIES.SHIELD_UNIT.Hyperlink}>>."
 
 msgid "DLC@ELDRITCHREALMS@CRISIS@1167_419@DESCRIPTION"
-msgstr "[bulletlist][bullet/]{GLOBAL.UnitUpkeepConcept.Hyperlink} зменшено на -{amount1}%.[bullet/]Міста отримують +{amount2}% прибутку {GLOBAL.UnitProductionConcept.Hyperlink}.[bullet/]Після завершення події отримайте {amount3} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] за кожну юніта у вашій імперії.[/bulletlist]"
+msgstr "[bulletlist][bullet/]{GLOBAL.UnitUpkeepConcept.Hyperlink} зменшено на -{amount1}%.[bullet/]Міста отримують +{amount2}% прибутку {GLOBAL.UnitProductionConcept.Hyperlink}.[bullet/]Після завершення події отримайте {amount3} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] за кожну юніта у вашій імперії.[/bulletlist]"
 
 msgid "DLC@ELDRITCHREALMS@CRISIS@1167_419@NAME"
 msgstr "Оголошення пробудження"
@@ -32047,7 +32047,7 @@ msgid "DLC@ELDRITCHREALMS@NODES_STRATEGIC@VOID_STONES_SET_BONUS@NAME"
 msgstr "Чорнило безодні"
 
 msgid "DLC@ELDRITCHREALMS@PICKUPS_STRATEGIC@CHITIN_PICKUP@DESCRIPTION"
-msgstr "Покинуті та затверділі оболонки різних умбральних демонів. Їх можна використовувати для створення броні, будівель або як екзотичні матеріали.[br/][br/]Можуть надати велику кількість [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink], {GLOBAL.UnitProductionConcept.Hyperlink} або [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink]."
+msgstr "Покинуті та затверділі оболонки різних умбральних демонів. Їх можна використовувати для створення броні, будівель або як екзотичні матеріали.[br/][br/]Можуть надати велику кількість [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink], {GLOBAL.UnitProductionConcept.Hyperlink} або [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink]."
 
 msgid "DLC@ELDRITCHREALMS@PICKUPS_STRATEGIC@CHITIN_PICKUP@NAME"
 msgstr "Покинута хітинова оболонка"
@@ -32125,7 +32125,7 @@ msgid "DLC@ELDRITCHREALMS@SECTORDEFINITIONS_STRATEGIC@SHADOWFOREST@NAME"
 msgstr "Ліс"
 
 msgid "DLC@ELDRITCHREALMS@SECTORDEFINITIONS_STRATEGIC@SHADOWLANDS@DESCRIPTION"
-msgstr "Територія мороку, зазвичай виявлена тільки в <<loc:c:{GLOBAL.ShadowRealmLoreConcept.Hyperlink}>>.[br/][br/][hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] (за винятком <<gen:c:m:{GLOBAL.MarauderConcept.Hyperlink}>>) у темних провінціях страждає від <<gen:c:{GLOBAL.PROPERTIES.SHADOW_SICKNESS.Hyperlink}>>, а <<c:m:{GLOBAL.CityConcept.Hyperlink}>> втрачає {happiness} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] за кожну приєднану темну [hyperlink,GLOBAL.ProvinceConcept]провінцію[/hyperlink] до їхнього <<dat:c:{GLOBAL.DomainConcept.Hyperlink}>>."
+msgstr "Територія мороку, зазвичай виявлена тільки в <<loc:c:{GLOBAL.ShadowRealmLoreConcept.Hyperlink}>>.[br/][br/][hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] (за винятком <<gen:c:m:{GLOBAL.MarauderConcept.Hyperlink}>>) у темних провінціях страждає від <<gen:c:{GLOBAL.PROPERTIES.SHADOW_SICKNESS.Hyperlink}>>, а [hyperlink,GLOBAL.CityConcept]міста[/hyperlink] втрачає {happiness} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] за кожну приєднану темну [hyperlink,GLOBAL.ProvinceConcept]провінцію[/hyperlink] до їхнього <<dat:c:{GLOBAL.DomainConcept.Hyperlink}>>."
 
 msgid "DLC@ELDRITCHREALMS@SECTORDEFINITIONS_STRATEGIC@SHADOWLANDS@NAME"
 msgstr "Землі мороку"
@@ -35848,7 +35848,7 @@ msgid "DLC@ELDRITCHREALMS@TOME_TENTACLE@TOME@SKILL3@NAME"
 msgstr "Фокус на задушення"
 
 msgid "DLC@ELDRITCHREALMS@TOME_TENTACLE@TOME@SKILL4@DESCRIPTION"
-msgstr "Місто отримує:[bulletlist][bullet/]{goldamount} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink][bullet/]{happinessamount} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink][bullet/]Під час облоги викликає ({amountTentacles}) [hyperlink,GLOBAL.UNITS.TENTACLE_UNIT]тентаклів[/hyperlink] поряд із ворожими юнітами на початку битви.[/bulletlist]"
+msgstr "Місто отримує:[bulletlist][bullet/]{goldamount} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink][bullet/]{happinessamount} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink][bullet/]Під час облоги викликає ({amountTentacles}) [hyperlink,GLOBAL.UNITS.TENTACLE_UNIT]тентаклів[/hyperlink] поряд із ворожими юнітами на початку битви.[/bulletlist]"
 
 msgid "DLC@ELDRITCHREALMS@TOME_TENTACLE@TOME@SKILL4@NAME"
 msgstr "Звивистий лабіринт"
@@ -41674,7 +41674,7 @@ msgid "DLC@EMPIRESANDASHES@TOME_ALCHEMY@SKILL5@NAME"
 msgstr "Окурення"
 
 msgid "DLC@EMPIRESANDASHES@TOME_ALCHEMY@SKILL6@DESCRIPTION"
-msgstr "[bulletlist][bullet/]{KnowledgeBonus} очок доходу {GLOBAL.KnowledgeConcept.Hyperlink}.[bullet/]{GoldBonus} очок доходу [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink].[bullet/]{KnowledgePerMaterial} очок доходу {GLOBAL.KnowledgeConcept.Hyperlink} за <<acc:c:{GLOBAL.MagicMaterialConcept.Hyperlink}>> у [hyperlink,GLOBAL.DomainConcept]володіннях[/hyperlink] цього міста.[bullet/]{GoldPerMaterial} очок доходу [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] за <<acc:c:{GLOBAL.MagicMaterialConcept.Hyperlink}>> у [hyperlink,GLOBAL.DomainConcept]володіннях[/hyperlink] цього міста.[/bulletlist]"
+msgstr "[bulletlist][bullet/]{KnowledgeBonus} очок доходу {GLOBAL.KnowledgeConcept.Hyperlink}.[bullet/]{GoldBonus} очок доходу [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink].[bullet/]{KnowledgePerMaterial} очок доходу {GLOBAL.KnowledgeConcept.Hyperlink} за <<acc:c:{GLOBAL.MagicMaterialConcept.Hyperlink}>> у [hyperlink,GLOBAL.DomainConcept]володіннях[/hyperlink] цього міста.[bullet/]{GoldPerMaterial} очок доходу [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] за <<acc:c:{GLOBAL.MagicMaterialConcept.Hyperlink}>> у [hyperlink,GLOBAL.DomainConcept]володіннях[/hyperlink] цього міста.[/bulletlist]"
 
 msgid "DLC@EMPIRESANDASHES@TOME_ALCHEMY@SKILL6@NAME"
 msgstr "Рефайнер матеріалів"
@@ -42703,7 +42703,7 @@ msgid "DLC@GIANTKINGS@CRISIS_EVENT@CC_FINISHER@MATERIUM_RESEARCH_COMPLETED"
 msgstr "Космічний конклав: завершено дослідження Матерії"
 
 msgid "DLC@GIANTKINGS@CRISIS_EVENT@CC_FINISHER@MATERIUM_RESEARCH_REWARD"
-msgstr "Дослідження <<c:{GLOBAL.MateriumConcept.Hyperlink}>> було завершено в цій країні під час космічного конклаву.[br/]Ти отримуєш середню кількість [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]."
+msgstr "Дослідження <<c:{GLOBAL.MateriumConcept.Hyperlink}>> було завершено в цій країні під час космічного конклаву.[br/]Ти отримуєш середню кількість [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]."
 
 msgid "DLC@GIANTKINGS@CRISIS_EVENT@CC_FINISHER@NATURE_RESEARCH_COMPLETED"
 msgstr "Космічний конклав: завершено дослідження Природи"
@@ -52179,7 +52179,7 @@ msgid "DLC@PRIMALFURY@SUBCULTURE_PRIMAL@MAMMOTH@NAME"
 msgstr "Льодовий Мамонт"
 
 msgid "DLC@PRIMALFURY@SUBCULTURE_PRIMAL@SABERTOOTH@DESCRIPTION"
-msgstr "Твій народ поклоняється Попельному Шаблезубому Тигру, що дає твоїй культурі такі переваги:[bulletlist][bullet/]Початкова локація: спустошені землі.[bullet/]Можливість будувати <<<gen:c:m:{GLOBAL.FarmConcept.Hyperlink}>> на спустошених землях.[bullet/]Провінції на спустошених землях є [hyperlink,GLOBAL.FavoredTerrainConcept]улюбленими землями[/hyperlink] і надають:[bulletlist][bullet/]+{amount} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink][/bulletlist][bullet/]Можливість призвати <<gen:{GLOBAL.UNITS.PRIMAL_SABERTOOTH.Hyperlink}>>.[bullet/]Юніти мають:[bulletlist][bullet/]{GLOBAL.PROPERTIES.DESOLATE_WALK.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.PRIMAL_FURY_MOD_GROUP_SABERTOOTH.Hyperlink}[/bulletlist][/bulletlist]"
+msgstr "Твій народ поклоняється Попельному Шаблезубому Тигру, що дає твоїй культурі такі переваги:[bulletlist][bullet/]Початкова локація: спустошені землі.[bullet/]Можливість будувати <<<gen:c:m:{GLOBAL.FarmConcept.Hyperlink}>> на спустошених землях.[bullet/]Провінції на спустошених землях є [hyperlink,GLOBAL.FavoredTerrainConcept]улюбленими землями[/hyperlink] і надають:[bulletlist][bullet/]+{amount} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink][/bulletlist][bullet/]Можливість призвати <<gen:{GLOBAL.UNITS.PRIMAL_SABERTOOTH.Hyperlink}>>.[bullet/]Юніти мають:[bulletlist][bullet/]{GLOBAL.PROPERTIES.DESOLATE_WALK.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.PRIMAL_FURY_MOD_GROUP_SABERTOOTH.Hyperlink}[/bulletlist][/bulletlist]"
 
 msgid "DLC@PRIMALFURY@SUBCULTURE_PRIMAL@SABERTOOTH@LORENAME"
 msgstr "Фел-Фанг^m"
@@ -52188,7 +52188,7 @@ msgid "DLC@PRIMALFURY@SUBCULTURE_PRIMAL@SABERTOOTH@NAME"
 msgstr "Попільний Шаблезуб"
 
 msgid "DLC@PRIMALFURY@SUBCULTURE_PRIMAL@SERPENT@DESCRIPTION"
-msgstr "Твій народ поклоняється Піщаному Змію, що дає твоїй культурі такі переваги:[bulletlist][bullet/]Початкова локація: пустеля.[bullet/]Можливість будувати <<<gen:c:m:{GLOBAL.FarmConcept.Hyperlink}>> на піщаних територіях.[bullet/]Провінції на пісках є [hyperlink,GLOBAL.FavoredTerrainConcept]улюбленими землями[/hyperlink] і надають:[bulletlist][bullet/]+{amount} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink][/bulletlist][bullet/]Можливість призвати <<gen:{GLOBAL.UNITS.PRIMAL_SERPENT.Hyperlink}>>.[bullet/]Юніти мають:[bulletlist][bullet/]{GLOBAL.PROPERTIES.SAND_WALK.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.PRIMAL_FURY_MOD_GROUP_SERPENT.Hyperlink}[/bulletlist][/bulletlist]"
+msgstr "Твій народ поклоняється Піщаному Змію, що дає твоїй культурі такі переваги:[bulletlist][bullet/]Початкова локація: пустеля.[bullet/]Можливість будувати <<<gen:c:m:{GLOBAL.FarmConcept.Hyperlink}>> на піщаних територіях.[bullet/]Провінції на пісках є [hyperlink,GLOBAL.FavoredTerrainConcept]улюбленими землями[/hyperlink] і надають:[bulletlist][bullet/]+{amount} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink][/bulletlist][bullet/]Можливість призвати <<gen:{GLOBAL.UNITS.PRIMAL_SERPENT.Hyperlink}>>.[bullet/]Юніти мають:[bulletlist][bullet/]{GLOBAL.PROPERTIES.SAND_WALK.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.PRIMAL_FURY_MOD_GROUP_SERPENT.Hyperlink}[/bulletlist][/bulletlist]"
 
 msgid "DLC@PRIMALFURY@SUBCULTURE_PRIMAL@SERPENT@LORENAME"
 msgstr "Ерс-Коіл^f"
@@ -52341,7 +52341,7 @@ msgid "DLC@PRIMALFURY@TOME_STORMBORNE@SKILL3@NAME"
 msgstr "Багатства моря"
 
 msgid "DLC@PRIMALFURY@TOME_STORMBORNE@SKILL4@DESCRIPTION"
-msgstr "[bulletlist][bullet/]+{amount} очок [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink][bullet/]За кожен збудований буряпорт в імперії отримуєш:[bulletlist][bullet/]+{amount2} очок [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink][bullet/]+{amount3} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink][/bulletlist][/bulletlist][br/]Потрібно прибережний <<c:{GLOBAL.ProvinceImprovementConcept.Hyperlink}>>, щоб почати будівництво."
+msgstr "[bulletlist][bullet/]+{amount} очок [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink][bullet/]За кожен збудований буряпорт в імперії отримуєш:[bulletlist][bullet/]+{amount2} очок [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink][bullet/]+{amount3} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink][/bulletlist][/bulletlist][br/]Потрібно прибережний <<c:{GLOBAL.ProvinceImprovementConcept.Hyperlink}>>, щоб почати будівництво."
 
 msgid "DLC@PRIMALFURY@TOME_STORMBORNE@SKILL4@NAME"
 msgstr "Штормпорт"
@@ -68070,7 +68070,7 @@ msgid "DLC@WAYSOFWAR@TOME_CALAMITY@SKILL6@PROP_DESCRIPTION"
 msgstr "Коли [hyperlink,GLOBAL.MeleeConcept]атака ближнього бою[/hyperlink] попадає, атакуючий має:[bulletlist][bullet/]Шанс {GHOSTFIRE_RESISTANCE>ResolvedStrength}% отримати стан <<c:{GLOBAL.PROPERTIES.GHOSTFIRE.Hyperlink}>> на {GHOSTFIRE_EFFECT_DESCRIPTION>NumTurns} [turn/].[bullet/]Шанс {MISFORTUNE_RESISTANCE>ResolvedStrength}% отримати стан [hyperlink,GLOBAL.PROPERTIES.MISFORTUNE]невдачу[/hyperlink] на {MISFORTUNE_EFFECT_DESCRIPTION>NumTurns} [turn/].[/bulletlist]"
 
 msgid "DLC@WAYSOFWAR@TOME_CALAMITY@SPI@DESCRIPTION"
-msgstr "[bulletlist][bullet/]Після розміщення перетворює територію на Спустошену.[bullet/]За кожну сусідню зруйновану провінцію отримує:[bulletlist][bullet/]+{amount1} одиниць {GLOBAL.UnitProductionConcept.Hyperlink}[bullet/]+{amount2} одиниць [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink][bullet/]+{amount3} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink][bullet/]+{amount4} одиниць {GLOBAL.KnowledgeConcept.Hyperlink}[bullet/]+{amount5} одиниць [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink][bullet/]+{amount6} одиниць [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink][/bulletlist][bullet/]Дозволяє вербування <<gen:c:{GLOBAL.UNITS.ACCURSED_OGRE.Hyperlink}>>, <<gen:c:{GLOBAL.UNITS.ACCURSED_BLADE.Hyperlink}>> і <<gen:c:{GLOBAL.UNITS.ACCURSED_TRICKSTER.Hyperlink}>>[bullet/]Вважається [hyperlink,GLOBAL.ConduitConcept]вузлом[/hyperlink].[/bulletlist]"
+msgstr "[bulletlist][bullet/]Після розміщення перетворює територію на Спустошену.[bullet/]За кожну сусідню зруйновану провінцію отримує:[bulletlist][bullet/]+{amount1} одиниць {GLOBAL.UnitProductionConcept.Hyperlink}[bullet/]+{amount2} одиниць [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink][bullet/]+{amount3} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink][bullet/]+{amount4} одиниць {GLOBAL.KnowledgeConcept.Hyperlink}[bullet/]+{amount5} одиниць [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink][bullet/]+{amount6} одиниць [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink][/bulletlist][bullet/]Дозволяє вербування <<gen:c:{GLOBAL.UNITS.ACCURSED_OGRE.Hyperlink}>>, <<gen:c:{GLOBAL.UNITS.ACCURSED_BLADE.Hyperlink}>> і <<gen:c:{GLOBAL.UNITS.ACCURSED_TRICKSTER.Hyperlink}>>[bullet/]Вважається [hyperlink,GLOBAL.ConduitConcept]вузлом[/hyperlink].[/bulletlist]"
 
 msgid "DLC@WAYSOFWAR@TOME_CALAMITY@SPI@NAME"
 msgstr "[conduit/] Проклята каплиця"
@@ -68190,7 +68190,7 @@ msgid "DLC@WAYSOFWAR@TOME_PROSPERITY@SKILL2@NAME"
 msgstr "Вищий захист"
 
 msgid "DLC@WAYSOFWAR@TOME_PROSPERITY@SKILL3@DESCRIPTION"
-msgstr "[bulletlist][bullet/]+{amount1} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink][bullet/]За кожну [hyperlink,GLOBAL.FarmConcept]ферму[/hyperlink] і <<acc:c:{GLOBAL.ForesterConcept.Hyperlink}>>, що знаходяться в володінні:[bulletlist][bullet/]+{amount2} одиниць доходу [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink][bullet/]+{amount3} доходу [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink][/bulletlist][/bulletlist]"
+msgstr "[bulletlist][bullet/]+{amount1} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink][bullet/]За кожну [hyperlink,GLOBAL.FarmConcept]ферму[/hyperlink] і <<acc:c:{GLOBAL.ForesterConcept.Hyperlink}>>, що знаходяться в володінні:[bulletlist][bullet/]+{amount2} одиниць доходу [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink][bullet/]+{amount3} доходу [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink][/bulletlist][/bulletlist]"
 
 msgid "DLC@WAYSOFWAR@TOME_PROSPERITY@SKILL3@NAME"
 msgstr "Сад достатку"
@@ -68307,7 +68307,7 @@ msgid "DLC@WAYSOFWAR@TOME_SHADES@SKILL5@NAME"
 msgstr "Тіньова мережа"
 
 msgid "DLC@WAYSOFWAR@TOME_SHADES@SMUGGLING_OPERATION@DESCRIPTION"
-msgstr "Обране <<c:{GLOBAL.CityConcept.Hyperlink}>>, що не належить гравцю, забезпечує: [bulletlist][bullet/]+{goldAmount} одиниць доходу [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink][bullet/]{visionRange} одиниць <<gen:c:{GLOBAL.VisionRangeConcept.Hyperlink}>[/bulletlist]"
+msgstr "Обране <<c:{GLOBAL.CityConcept.Hyperlink}>>, що не належить гравцю, забезпечує: [bulletlist][bullet/]+{goldAmount} одиниць доходу [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink][bullet/]{visionRange} одиниць <<gen:c:{GLOBAL.VisionRangeConcept.Hyperlink}>[/bulletlist]"
 
 msgid "DLC@WAYSOFWAR@TOME_SHADES@SMUGGLING_OPERATION@NAME"
 msgstr "Контрабанда"
@@ -68787,7 +68787,7 @@ msgid "EMPIRE_CORE@REALM_TRAITS@TIMELOCKED_TOMES@NAME"
 msgstr "Книги з часовим замком"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@ADAPTIVE_RESEARCH@DESCRIPTION"
-msgstr "Фіксація та перемішування [hyperlink,GLOBAL.ResearchConcept]досліджень[/hyperlink] в книжках коштує на {Costreduction} менше.[br/]Будівництво [hyperlink,GLOBAL.CityStructureConcept]міських споруд[/hyperlink] пов'язаних з дослідженнями коштує на {CostReduction} [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] та [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink] менше."
+msgstr "Фіксація та перемішування [hyperlink,GLOBAL.ResearchConcept]досліджень[/hyperlink] в книжках коштує на {Costreduction} менше.[br/]Будівництво [hyperlink,GLOBAL.CityStructureConcept]міських споруд[/hyperlink] пов'язаних з дослідженнями коштує на {CostReduction} [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] та [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink] менше."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@ADAPTIVE_RESEARCH@NAME"
 msgstr "Адаптовані дослідження^p"
@@ -68961,7 +68961,7 @@ msgid "EMPIRE_DEVELOPMENT@ASTRAL@STUDENTS_OF_THE_ARCANE@NAME"
 msgstr "Учні таємного знання^pn{1}x{2}x{3}"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@SUMMONING_BONDS@DESCRIPTION"
-msgstr "[bulletlist][bullet/]Ваші {GLOBAL.PROPERTIES.MAGIC_ORIGIN.Hyperlink} <<m:{GLOBAL.UnitConcept.Hyperlink}>> отримують {xpBonus} {GLOBAL.ExperienceConcept.Hyperlink} за кожен не-{GLOBAL.PROPERTIES.MAGIC_ORIGIN.Hyperlink} юніт у тій самій армії.[bullet/]Ваші не-{GLOBAL.PROPERTIES.MAGIC_ORIGIN.Hyperlink} <<m:{GLOBAL.UnitConcept.Hyperlink}>> отримують {statusResistanceBonus} {GLOBAL.StatusResistanceConcept.Hyperlink} за кожен {GLOBAL.PROPERTIES.MAGIC_ORIGIN.Hyperlink} юніт у тій самій армії.[/bulletlist]"
+msgstr "[bulletlist][bullet/]Ваші {GLOBAL.PROPERTIES.MAGIC_ORIGIN.Hyperlink} [hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] отримують {xpBonus} {GLOBAL.ExperienceConcept.Hyperlink} за кожен не-{GLOBAL.PROPERTIES.MAGIC_ORIGIN.Hyperlink} юніт у тій самій армії.[bullet/]Ваші не-{GLOBAL.PROPERTIES.MAGIC_ORIGIN.Hyperlink} [hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] отримують {statusResistanceBonus} {GLOBAL.StatusResistanceConcept.Hyperlink} за кожен {GLOBAL.PROPERTIES.MAGIC_ORIGIN.Hyperlink} юніт у тій самій армії.[/bulletlist]"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@SUMMONING_BONDS@NAME"
 msgstr "Узи призиву"
@@ -69030,7 +69030,7 @@ msgid "EMPIRE_DEVELOPMENT@ASTRAL@WARCASTER_ACADEMIES@NAME"
 msgstr "Школи чаротворців^pfn{1}x{2}"
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@BATTLEFIELD_LOOTING@DESCRIPTION"
-msgstr "Отримує {GoldIncome} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] за кожен [hyperlink,GLOBAL.UnitTierConcept]рівень[/Hyperlink], який мала <<c:{GLOBAL.UnitConcept.Hyperlink}>>, вбита в <<loc:{GLOBAL.CombatConcept.Hyperlink}>>."
+msgstr "Отримує {GoldIncome} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] за кожен [hyperlink,GLOBAL.UnitTierConcept]рівень[/Hyperlink], який мала <<c:{GLOBAL.UnitConcept.Hyperlink}>>, вбита в <<loc:{GLOBAL.CombatConcept.Hyperlink}>>."
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@BATTLEFIELD_LOOTING@NAME"
 msgstr "Утворення поля битви^nn{1}x{2}x{3}"
@@ -69060,7 +69060,7 @@ msgid "EMPIRE_DEVELOPMENT@CHAOS@DESPOILERS@NAME"
 msgstr "Спустошувачі"
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@DESTINED_CONQUERORS@DESCRIPTION"
-msgstr "{CasusBelliBonus} x <<gen:c:{GLOBAL.CasusBelliConcept.Hyperlink}>> щодо всіх [hyperlink,GLOBAL.EmpireConcept]імперій[/hyperlink]. Не можна їх продати або втратити.[br/]Отримуєш {GoldIncome} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] та {ManaIncome} очок [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] за кожну активну <<acc:c:{GLOBAL.WarConcept.Hyperlink}>>, в якій береш участь."
+msgstr "{CasusBelliBonus} x <<gen:c:{GLOBAL.CasusBelliConcept.Hyperlink}>> щодо всіх [hyperlink,GLOBAL.EmpireConcept]імперій[/hyperlink]. Не можна їх продати або втратити.[br/]Отримуєш {GoldIncome} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] та {ManaIncome} очок [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] за кожну активну <<acc:c:{GLOBAL.WarConcept.Hyperlink}>>, в якій береш участь."
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@DESTINED_CONQUERORS@NAME"
 msgstr "Приречені завойовники^p"
@@ -69072,13 +69072,13 @@ msgid "EMPIRE_DEVELOPMENT@CHAOS@DESTINY_OF_WAR@NAME"
 msgstr "Доля війни"
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@ENDLESS_HORDES@DESCRIPTION"
-msgstr "Ваші <<m:{GLOBAL.UnitConcept.Hyperlink}>> 1-го і 2-го рівня отримують {GLOBAL.PROPERTIES.EXPENDABLE.Hyperlink} і {GLOBAL.PROPERTIES.LOW_MAINTANANCE.Hyperlink}."
+msgstr "Ваші [hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] 1-го і 2-го рівня отримують {GLOBAL.PROPERTIES.EXPENDABLE.Hyperlink} і {GLOBAL.PROPERTIES.LOW_MAINTANANCE.Hyperlink}."
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@ENDLESS_HORDES@NAME"
 msgstr "Нескінченні орди"
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@FIRST_BLOOD_INITIATION@DESCRIPTION"
-msgstr "Ваші <<m:{GLOBAL.UnitConcept.Hyperlink}>> отримують {criticalChance}{GLOBAL.CriticalHitChanceConcept.Hyperlink}. Вони втрачають {lossAmount} цього бонусу за кожен [medalGold/] ранг, який мають."
+msgstr "Ваші [hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] отримують {criticalChance}{GLOBAL.CriticalHitChanceConcept.Hyperlink}. Вони втрачають {lossAmount} цього бонусу за кожен [medalGold/] ранг, який мають."
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@FIRST_BLOOD_INITIATION@NAME"
 msgstr "Посвята першою кров'ю"
@@ -69099,7 +69099,7 @@ msgid "EMPIRE_DEVELOPMENT@CHAOS@IRON_RULE@NAME"
 msgstr "Залізне правило"
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@LAWLESS_LANDS@DESCRIPTION"
-msgstr "Перебуваючи в нічийних [hyperlink,GLOBAL.ProvinceConcept]провінції[/hyperlink], ваші <<m:{GLOBAL.UnitConcept.Hyperlink}>> відновлюють {hitPoints}{GLOBAL.HitPointConcept.Hyperlink} за хід і отримують {xpAmount}{GLOBAL.ExperienceConcept.Hyperlink} за хід."
+msgstr "Перебуваючи в нічийних [hyperlink,GLOBAL.ProvinceConcept]провінції[/hyperlink], ваші [hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] відновлюють {hitPoints}{GLOBAL.HitPointConcept.Hyperlink} за хід і отримують {xpAmount}{GLOBAL.ExperienceConcept.Hyperlink} за хід."
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@LAWLESS_LANDS@NAME"
 msgstr "Беззаконні землі"
@@ -69132,13 +69132,13 @@ msgid "EMPIRE_DEVELOPMENT@CHAOS@OTHERWORLDLY_REINFORCEMENTS@NAME"
 msgstr "Потойбічні підкріплення"
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@RAPID_MILITARY_CONSTRUCTION@DESCRIPTION"
-msgstr "Вербування та будівництво оборонних споруд коштують на {Costreduction} менше [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] та очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink] для зведення."
+msgstr "Вербування та будівництво оборонних споруд коштують на {Costreduction} менше [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] та очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink] для зведення."
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@RAPID_MILITARY_CONSTRUCTION@NAME"
 msgstr "Швидке будівництво військових споруд."
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@REIGN_OF_DESTRUCTION@DESCRIPTION"
-msgstr "{GLOBAL.RazingConcept.Hyperlink} [hyperlink,GLOBAL.CityConcept]міст[/hyperlink] займає {TurnDuration} [turn/] менше.[br/]{GLOBAL.RazingConcept.Hyperlink} [hyperlink,GLOBAL.CityConcept]міст[/hyperlink] приносить о +{Rewardincrease} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] на <<acc:c:{GLOBAL.PopulationConcept.Hyperlink}>>.[br/]Забезпечує [hyperlink,GLOBAL.UnitConcept]юніта[/hyperlink] {Tier} [hyperlink,GLOBAL.UnitTierConcept]рівня[/hyperlink] з культури спустошеного міста."
+msgstr "{GLOBAL.RazingConcept.Hyperlink} [hyperlink,GLOBAL.CityConcept]міст[/hyperlink] займає {TurnDuration} [turn/] менше.[br/]{GLOBAL.RazingConcept.Hyperlink} [hyperlink,GLOBAL.CityConcept]міст[/hyperlink] приносить о +{Rewardincrease} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] на <<acc:c:{GLOBAL.PopulationConcept.Hyperlink}>>.[br/]Забезпечує [hyperlink,GLOBAL.UnitConcept]юніта[/hyperlink] {Tier} [hyperlink,GLOBAL.UnitTierConcept]рівня[/hyperlink] з культури спустошеного міста."
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@REIGN_OF_DESTRUCTION@NAME"
 msgstr "Ряди знищення^pfn{1}x{2}"
@@ -69153,7 +69153,7 @@ msgid "EMPIRE_DEVELOPMENT@CHAOS@RITE_OF_CHOSEN_WARRIORS@NAME"
 msgstr "Ритуал воїнів-вибранців^mn{1}x{2}x{3}"
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@RITE_OF_FANATICISM@DESCRIPTION"
-msgstr "Усі ваші <<m:{GLOBAL.UnitConcept.Hyperlink}>> отримують таке на {turn} <<m:{GLOBAL.TurnConcept.Hyperlink}>>:[bulletlist][bullet/]{GLOBAL.PROPERTIES.RESURGENCE.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.MARTYR.Hyperlink}[/bulletlist]"
+msgstr "Усі ваші [hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] отримують таке на {turn} <<m:{GLOBAL.TurnConcept.Hyperlink}>>:[bulletlist][bullet/]{GLOBAL.PROPERTIES.RESURGENCE.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.MARTYR.Hyperlink}[/bulletlist]"
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@RITE_OF_FANATICISM@NAME"
 msgstr "Ритуал фанатизму"
@@ -69180,13 +69180,13 @@ msgid "EMPIRE_DEVELOPMENT@CHAOS@RITE_OF_WAR@NAME"
 msgstr "Ритуал війни^mn{1}x{2}"
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@SPECIALIZED_TROOPS@DESCRIPTION"
-msgstr "{GLOBAL.ResearchConcept.Hyperlink} навички, що відкривають <<m:{GLOBAL.UnitConcept.Hyperlink}>>, коштують на {discountPercentage} менше {GLOBAL.KnowledgeConcept.Hyperlink}."
+msgstr "{GLOBAL.ResearchConcept.Hyperlink} навички, що відкривають [hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink], коштують на {discountPercentage} менше {GLOBAL.KnowledgeConcept.Hyperlink}."
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@SPECIALIZED_TROOPS@NAME"
 msgstr "Спеціалізовані війська"
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@SPOILS_OF_DESTRUCTION@DESCRIPTION"
-msgstr "{GLOBAL.RazingConcept.Hyperlink} [hyperlink,GLOBAL.CityConcept]міст[/hyperlink] надає додатково {Incomebonus} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] у вигляді постійного доходу."
+msgstr "{GLOBAL.RazingConcept.Hyperlink} [hyperlink,GLOBAL.CityConcept]міст[/hyperlink] надає додатково {Incomebonus} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] у вигляді постійного доходу."
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@SPOILS_OF_DESTRUCTION@NAME"
 msgstr "Здобич руйнації^p"
@@ -69198,7 +69198,7 @@ msgid "EMPIRE_DEVELOPMENT@CHAOS@SWIFT_RAIDERS@NAME"
 msgstr "Вправні рейдери^p"
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@TIRELESS_ARMIES@DESCRIPTION"
-msgstr "Ваші <<m:{GLOBAL.UnitConcept.Hyperlink}>> отримують {GLOBAL.PROPERTIES.EXHAUSTED_IMMUNITY.Hyperlink}."
+msgstr "Ваші [hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] отримують {GLOBAL.PROPERTIES.EXHAUSTED_IMMUNITY.Hyperlink}."
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@TIRELESS_ARMIES@NAME"
 msgstr "Невтомні армії"
@@ -69252,7 +69252,7 @@ msgid "EMPIRE_DEVELOPMENT@GENERAL@ADVANCED_LOGISTICS@NAME"
 msgstr "Розвинута логістика"
 
 msgid "EMPIRE_DEVELOPMENT@GENERAL@ADVANCED_SCRYING@DESCRIPTION"
-msgstr "Твої [hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] та <<c:m:{GLOBAL.CityConcept.Hyperlink}>> отримують {VisionrangeIncrease} одиниці [hyperlink,GLOBAL.VisionRangeConcept]видимості[/hyperlink] та {SensorrangeIncrease} одиниці [hyperlink,GLOBAL.SensorRangeConcept]видимості[/hyperlink]."
+msgstr "Твої [hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] та [hyperlink,GLOBAL.CityConcept]міста[/hyperlink] отримують {VisionrangeIncrease} одиниці [hyperlink,GLOBAL.VisionRangeConcept]видимості[/hyperlink] та {SensorrangeIncrease} одиниці [hyperlink,GLOBAL.SensorRangeConcept]видимості[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@GENERAL@ADVANCED_SCRYING@NAME"
 msgstr "Розвинуте передчуття^na{1}nn{2}"
@@ -69289,7 +69289,7 @@ msgstr "Вимагає: Розширене лідерство"
 
 #| msgid "EMPIRE_DEVELOPMENT@GENERAL@BASIC_SEAFARING@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@GENERAL@COSMIC_AFFINITY@DESCRIPTION"
-msgstr "Отримуєте {amount} очок {GLOBAL.СпорідненістьConcept.Hyperlink} за {GLOBAL.TurnConcept.Hyperlink} в кожній гілці, де маєте щонайменше {minimum} {GLOBAL.СпорідненістьConcept.Hyperlink}."
+msgstr "Отримуєте {amount} очок {GLOBAL.AffinityConcept.Hyperlink} за {GLOBAL.TurnConcept.Hyperlink} в кожній гілці, де маєте щонайменше {minimum} {GLOBAL.СпорідненістьConcept.Hyperlink}."
 
 #| msgid "EMPIRE_DEVELOPMENT@GENERAL@BASIC_SEAFARING@NAME"
 msgid "EMPIRE_DEVELOPMENT@GENERAL@COSMIC_AFFINITY@NAME"
@@ -69306,7 +69306,7 @@ msgstr "Розкопки^p"
 
 #| msgid "EMPIRE_DEVELOPMENT@GENERAL@FORCED_MARCH@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@GENERAL@FOCUSED_AFFINITY@DESCRIPTION"
-msgstr "Отримуєте {amount} очок {GLOBAL.СпорідненістьConcept.Hyperlink} за {GLOBAL.TurnConcept.Hyperlink} в гілці вашої найвищої {GLOBAL.СпорідненістьConcept.Hyperlink}."
+msgstr "Отримуєте {amount} очок {GLOBAL.AffinityConcept.Hyperlink} за {GLOBAL.TurnConcept.Hyperlink} в гілці вашої найвищої {GLOBAL.СпорідненістьConcept.Hyperlink}."
 
 #| msgid "EMPIRE_DEVELOPMENT@GENERAL@FORCED_MARCH@NAME"
 msgid "EMPIRE_DEVELOPMENT@GENERAL@FOCUSED_AFFINITY@NAME"
@@ -69343,7 +69343,7 @@ msgid "EMPIRE_DEVELOPMENT@GENERAL@RITE_OF_LAST_STAND@NAME"
 msgstr "Ритуал останньої лінії оборони^mn{1}x{2}x{3}x{4}"
 
 msgid "EMPIRE_DEVELOPMENT@GENERAL@ROAD_BUILDING@DESCRIPTION"
-msgstr "{GLOBAL.UnitConcept.Hyperlink} може будувати дорогу на [hyperlink,GLOBAL.WorldMapConcept]мапі світу[/hyperlink]. Більшість територій коштує {amount} [hyperlink,GLOBAL.MovePointConcept]одиниць руху[/hyperlink], а дороги коштують {amount2}.[br/][br/]Будування доріг можна почати в панелі [hyperlink,GLOBAL.ArmyConcept]армії[/hyperlink]. Дороги будуються на полях, уздовж яких рухається <<c:{GLOBAL.ArmyConcept.Hyperlink}>>, це коштує {cost} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] за кожне поле."
+msgstr "{GLOBAL.UnitConcept.Hyperlink} може будувати дорогу на [hyperlink,GLOBAL.WorldMapConcept]мапі світу[/hyperlink]. Більшість територій коштує {amount} [hyperlink,GLOBAL.MovePointConcept]одиниць руху[/hyperlink], а дороги коштують {amount2}.[br/][br/]Будування доріг можна почати в панелі [hyperlink,GLOBAL.ArmyConcept]армії[/hyperlink]. Дороги будуються на полях, уздовж яких рухається <<c:{GLOBAL.ArmyConcept.Hyperlink}>>, це коштує {cost} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] за кожне поле."
 
 msgid "EMPIRE_DEVELOPMENT@GENERAL@ROAD_BUILDING@NAME"
 msgstr "Будівництво доріг"
@@ -69371,7 +69371,7 @@ msgstr "Загальний ритуал"
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@LOGISTICS_GUILDS@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@BASTION_BUILDERS@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.CityDefenseStructureConcept]оборонні міські споруди[/hyperlink]:[bulletlist][bullet/]Коштують на {discountPercentage} менше {GLOBAL.GoldConcept.Hyperlink} і {GLOBAL.StructureProductionConcept.Hyperlink}.[bullet/]Надають {happinessAmount} {GLOBAL.CityStabilityConcept.Hyperlink}.[/bulletlist]"
+msgstr "[hyperlink,GLOBAL.CityDefenseStructureConcept]Оборонні міські споруди[/hyperlink]:[bulletlist][bullet/]Коштують на {discountPercentage} менше {GLOBAL.GoldConcept.Hyperlink} і {GLOBAL.StructureProductionConcept.Hyperlink}.[bullet/]Дають {happinessAmount} {GLOBAL.CityStabilityConcept.Hyperlink} і {productionIncome} {GLOBAL.StructureProductionConcept.Hyperlink}.[/bulletlist]"
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@LOGISTICS_GUILDS@NAME"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@BASTION_BUILDERS@NAME"
@@ -69379,7 +69379,7 @@ msgstr "Будівничі бастіонів"
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@MASTER_MASONS@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@COMPETITIVE_MARKETS@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.CityConcept]міста[/hyperlink] отримують додатковий {GLOBAL.GuildSlotConcept.Hyperlink}."
+msgstr "[hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] отримують додатковий {GLOBAL.GuildSlotConcept.Hyperlink}."
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@MASTER_MASONS@NAME"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@COMPETITIVE_MARKETS@NAME"
@@ -69394,14 +69394,14 @@ msgid "EMPIRE_DEVELOPMENT@MATERIUM@CONSOLIDATED_INCOME@NAME"
 msgstr "Консолідований дохід"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@CONSOLIDATED_INDUSTRY@DESCRIPTION"
-msgstr "<<m:{GLOBAL.ProvinceImprovementConcept.Hyperlink}>> забезпечують +{Stabilitybonus} одиниці [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] за кожне прилегле <<acc:c:{GLOBAL.ProvinceImprovementConcept.Hyperlink}>> того ж типу."
+msgstr "[hyperlink,GLOBAL.SpecialImprovementConcept]Покращення провінцій[/hyperlink] дають +{Stabilitybonus} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] за кожне прилегле {GLOBAL.ProvinceImprovementConcept.Hyperlink} того ж типу."
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@CONSOLIDATED_INDUSTRY@NAME"
 msgstr "Консолідована промисловість^m"
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@IMPERIAL_CONSTRUCTION@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@EFFICIENT_ALLOCATION@DESCRIPTION"
-msgstr "{GLOBAL.StructureProductionConcept.Hyperlink} [hyperlink,GLOBAL.CityStructureConcept]міські споруди[/hyperlink] надають {goldAmount} {GLOBAL.GoldConcept.Hyperlink} доходу."
+msgstr "[hyperlink,GLOBAL.StructureProductionConcept]Промислові[/hyperlink] [hyperlink,GLOBAL.CityStructureConcept]міські споруди[/hyperlink] дають дохід {goldAmount} {GLOBAL.GoldConcept.Hyperlink}."
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@IMPERIAL_CONSTRUCTION@NAME"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@EFFICIENT_ALLOCATION@NAME"
@@ -69417,27 +69417,27 @@ msgstr "Архіви формул"
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@RITE_OF_WEALTH@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@GROWING_WORKFORCE@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.QuarryConcept]каменеломні[/hyperlink] надають {foodIncome} {GLOBAL.FoodConcept.Hyperlink} доходу."
+msgstr "[hyperlink,GLOBAL.QuarryConcept]Каменеломні[/hyperlink] надають {foodIncome} {GLOBAL.FoodConcept.Hyperlink} доходу."
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@RITE_OF_WEALTH@NAME"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@GROWING_WORKFORCE@NAME"
 msgstr "Зростаюча робоча сила"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@IMPERIAL_CONSTRUCTION@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] отримують {GoldBonus} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] і {StabilityBonus} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] за кожен <<c:{GLOBAL.CityTierConcept.Hyperlink}>>."
+msgstr "[hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] отримують {GoldBonus} [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] і {StabilityBonus} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] за кожен <<c:{GLOBAL.CityTierConcept.Hyperlink}>>."
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@IMPERIAL_CONSTRUCTION@NAME"
 msgstr "Будівлі імперії^p"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@INDOMITABLE_DEFENDERS@DESCRIPTION"
-msgstr "Твої юніти отримують {Moralebonus} [hyperlink,GLOBAL.UnitMoraleConcept]бойового духу[/hyperlink] на початку кожного [hyperlink,GLOBAL.CombatConcept]битви[/hyperlink], коли вони захищаються.[br/]Твої <<c:m:{GLOBAL.CityConcept.Hyperlink}>> не несуть жодних економічних штрафів під час [hyperlink,GLOBAL.SiegeConcept]облоги[/hyperlink]."
+msgstr "Твої юніти отримують {Moralebonus} [hyperlink,GLOBAL.UnitMoraleConcept]бойового духу[/hyperlink] на початку кожного [hyperlink,GLOBAL.CombatConcept]битви[/hyperlink], коли вони захищаються.[br/]Твої [hyperlink,GLOBAL.CityConcept]міста[/hyperlink] не несуть жодних економічних штрафів під час [hyperlink,GLOBAL.SiegeConcept]облоги[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@INDOMITABLE_DEFENDERS@NAME"
-msgstr "Незламні оборонці^pma{1}pmn{2}"
+msgstr "Незламні оборонці"
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@IMPERIAL_CONSTRUCTION@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@INDUSTRIAL_INFRASTRUCTURE@DESCRIPTION"
-msgstr "{GLOBAL.StructureProductionConcept.Hyperlink} [hyperlink,GLOBAL.CityStructureConcept]міські споруди[/hyperlink] коштують на {Percentage} менше {GLOBAL.GoldConcept.Hyperlink} і {GLOBAL.StructureProductionConcept.Hyperlink}."
+msgstr "[hyperlink,GLOBAL.StructureProductionConcept]Промислові[/hyperlink] [hyperlink,GLOBAL.CityStructureConcept]міські споруди[/hyperlink] коштують на {Percentage} менше {GLOBAL.GoldConcept.Hyperlink} і {GLOBAL.StructureProductionConcept.Hyperlink}."
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@IMPERIAL_CONSTRUCTION@NAME"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@INDUSTRIAL_INFRASTRUCTURE@NAME"
@@ -69445,7 +69445,7 @@ msgstr "Промислова інфраструктура"
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@SPECIALIST_DISTRICTS@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@INNOVATOR_SPECIALISTS@DESCRIPTION"
-msgstr "<<M:{GLOBAL.SpecialImprovementConcept.Hyperlink}>> надають {knowledgeAmount} {GLOBAL.KnowledgeConcept.Hyperlink}."
+msgstr "[hyperlink,GLOBAL.SpecialImprovementConcept]Покращення провінцій[/hyperlink] дають дохід {knowledgeAmount} {GLOBAL.KnowledgeConcept.Hyperlink}."
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@SPECIALIST_DISTRICTS@NAME"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@INNOVATOR_SPECIALISTS@NAME"
@@ -69460,21 +69460,21 @@ msgid "EMPIRE_DEVELOPMENT@MATERIUM@LAND_SCULPTORS@NAME"
 msgstr "Скульптори землі"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@LEGENDARY_INDUSTRIALISTS@DESCRIPTION"
-msgstr "[Quarry/] [hyperlink,SectorImprovementA]Кар'єри[/hyperlink], [Forester/] [hyperlink,SectorImprovementC]лісники[/hyperlink] і [Mine/] [hyperlink,SectorImprovementA]шахти[/hyperlink] забезпечують {incomebonus} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]."
+msgstr "[Quarry/] [hyperlink,SectorImprovementA]Кар'єри[/hyperlink], [Forester/] [hyperlink,SectorImprovementC]лісництва[/hyperlink] і [Mine/] [hyperlink,SectorImprovementA]шахти[/hyperlink] дають дохід {incomebonus} [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@LEGENDARY_INDUSTRIALISTS@NAME"
-msgstr "Легендарні промисловці^pma{1}pmn{2}"
+msgstr "Легендарні промисловці"
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@LOGISTICS_GUILDS@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@LOGISTICAL_CENTERS@DESCRIPTION"
-msgstr "Провінції, суміжні з вашими [hyperlink,GLOBAL.CityConcept]міста[/hyperlink], надають {percentageAmount} доходу."
+msgstr "Провінції, суміжні з вашими [hyperlink,GLOBAL.CityConcept]містами[/hyperlink], дають {percentageAmount} доходу."
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@LOGISTICS_GUILDS@NAME"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@LOGISTICAL_CENTERS@NAME"
 msgstr "Логістичні центри"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@LOGISTICS_GUILDS@DESCRIPTION"
-msgstr "Будівництво доріг коштує {RoadCostreduction} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink].[br/][hyperlink,GLOBAL.OutpostConcept]Пости[/hyperlink] коштують {OutpostCostReduction} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink], а їх будівництво триває коротше на {OutpostDuration} [turn/]."
+msgstr "Будівництво доріг коштує {RoadCostreduction} [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink].[br/][hyperlink,GLOBAL.OutpostConcept]Аванпости[/hyperlink] коштують {OutpostCostReduction} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink], а їх будівництво швидше на {OutpostDuration} [turn/]."
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@LOGISTICS_GUILDS@NAME"
 msgstr "Гільдія логістів^f"
@@ -69486,10 +69486,10 @@ msgid "EMPIRE_DEVELOPMENT@MATERIUM@MARTIAL_ANCESTRY@NAME"
 msgstr "Воїнський рід^m"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@MASTER_MASONS@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.CityStructureConcept]Будівництво міських споруди[/hyperlink] коштує на {CostReduction} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] менше."
+msgstr "[hyperlink,GLOBAL.CityStructureConcept]Будівництво міських споруди[/hyperlink] коштує на {CostReduction} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] менше."
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@MASTER_MASONS@NAME"
-msgstr "Майстри каменярства^pmn{1}x{2}"
+msgstr "Майстри каменярства"
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@METROPOLITAN_SOCIETY@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@METROPOLITAN_PLANS@DESCRIPTION"
@@ -69503,17 +69503,17 @@ msgid "EMPIRE_DEVELOPMENT@MATERIUM@METROPOLITAN_SOCIETY@DESCRIPTION"
 msgstr "{GLOBAL.ThroneCityConcept.Hyperlink} та [hyperlink,GLOBAL.CityConcept]Міста[/hyperlink], які мають з ним спільний кордон, отримують бонус до всіх видів доходів рівний {IncomeBonus}."
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@METROPOLITAN_SOCIETY@NAME"
-msgstr "Міське суспільство^nn{1}na{2}"
+msgstr "Міське суспільство"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@MILITARY_ENGINEERING@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.OutpostConcept]Аванпости[/hyperlink] коштують {OutpostCostReduction} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] менше.[br/]Заснування та поліпшення аванпостів займає на {OutpostDuration} [turn/] менше."
+msgstr "[hyperlink,GLOBAL.OutpostConcept]Аванпости[/hyperlink] коштують {OutpostCostReduction} [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] менше.[br/]Заснування та поліпшення аванпостів швидше на {OutpostDuration} {GLOBAL.TurnConcept}."
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@MILITARY_ENGINEERING@NAME"
-msgstr "Військова інженерія^fn{1}fa{2}"
+msgstr "Військова інженерія"
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@MARTIAL_ANCESTRY@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@MYTHICAL_ALLOYS@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.MineConcept]шахти[/hyperlink] надають {manaIncome} {GLOBAL.ManaConcept.Hyperlink} доходу."
+msgstr "[hyperlink,GLOBAL.MineConcept]Шахти[/hyperlink] дають дохід {manaIncome} {GLOBAL.ManaConcept.Hyperlink}."
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@MARTIAL_ANCESTRY@NAME"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@MYTHICAL_ALLOYS@NAME"
@@ -69521,21 +69521,21 @@ msgstr "Міфічні сплави"
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@SIEGEMASTERS@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@OUTPOST_EXPERTISE@DESCRIPTION"
-msgstr "Зведення <<m:{GLOBAL.OutpostConcept.Hyperlink}>> займає {turnAmount} {GLOBAL.TurnConcept.Hyperlink} і коштує {goldPercentage} {GLOBAL.GoldConcept.Hyperlink}."
+msgstr "Зведення [hyperlink,GLOBAL.OutpostConcept]аванпостів[/hyperlink] займає {turnAmount} {GLOBAL.TurnConcept.Hyperlink} і коштує {goldPercentage} {GLOBAL.GoldConcept.Hyperlink}."
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@SIEGEMASTERS@NAME"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@OUTPOST_EXPERTISE@NAME"
 msgstr "Майстерність аванпостів"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@PROVINCIAL_ARCHITECTS@DESCRIPTION"
-msgstr "Будівництво [hyperlink,GLOBAL.SpecialImprovementConcept]спеціальних покращень провінцій[/hyperlink] коштує {ProductionCostReduction} одиниць [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink] та {CostReduction} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]."
+msgstr "Будівництво [hyperlink,GLOBAL.SpecialImprovementConcept]покращень провінцій[/hyperlink] коштує {ProductionCostReduction} [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink] та {CostReduction} [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@PROVINCIAL_ARCHITECTS@NAME"
-msgstr "Архітектори провінції^pmn{1}x{2}"
+msgstr "Архітектори провінції"
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@RITE_OF_WEALTH@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@PURIFIED_GOLD@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.MineConcept]шахти[/hyperlink] надають {goldIncome} {GLOBAL.GoldConcept.Hyperlink} доходу."
+msgstr "[hyperlink,GLOBAL.MineConcept]Шахти[/hyperlink] дають дохід {goldIncome} {GLOBAL.GoldConcept.Hyperlink}."
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@RITE_OF_WEALTH@NAME"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@PURIFIED_GOLD@NAME"
@@ -69545,13 +69545,13 @@ msgid "EMPIRE_DEVELOPMENT@MATERIUM@REQUIREMENT"
 msgstr "[empirematter/]"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@RESOURCEFUL_VIGOR@DESCRIPTION"
-msgstr "Твої [hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] регенерують додатково {Healbonus} одиниць [hyperlink,GLOBAL.HitPointConcept][hp/] здоров'я[/hyperlink] за кожні {Movepointcount} [hyperlink,GLOBAL.MovePointConcept]одиниці руху[/hyperlink], які залишаються їм наприкінці [turn/][hyperlink,GLOBAL.TurnConcept]ходів[/hyperlink]."
+msgstr "Твої [hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] регенерують додатково {Healbonus} одиниць [hyperlink,GLOBAL.HitPointConcept][hp/] здоров'я[/hyperlink] за кожні {Movepointcount} [hyperlink,GLOBAL.MovePointConcept]одиниці руху[/hyperlink], які залишаються їм наприкінці [turn/][hyperlink,GLOBAL.TurnConcept]ходу[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@RESOURCEFUL_VIGOR@NAME"
-msgstr "Запал рішучості^mn{1}x{2}"
+msgstr "Запал рішучості"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@RESOURCEFUL_VIGOR@PROPERTY_DESCRIPTION"
-msgstr "Ця [hyperlink,GLOBAL.UnitConcept]юніт[/hyperlink] регенерує додатково {Healbonus} одиниць [hyperlink,GLOBAL.HitPointConcept][hp/] здоров'я[/hyperlink] за кожні {Movepointcount} [hyperlink,GLOBAL.MovePointConcept]одиниці руху[/hyperlink], які залишаються на кінець [turn/][hyperlink,GLOBAL.TurnConcept]ходів[/hyperlink] її власника."
+msgstr "Цей [hyperlink,GLOBAL.UnitConcept]юніт[/hyperlink] регенерує додатково {Healbonus} одиниць [hyperlink,GLOBAL.HitPointConcept][hp/] здоров'я[/hyperlink] за кожні {Movepointcount} [hyperlink,GLOBAL.MovePointConcept]одиниці руху[/hyperlink], які залишаються на кінець [turn/][hyperlink,GLOBAL.TurnConcept]ходу[/hyperlink] його власника."
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@SUPERIOR_INDUSTRY@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@RITE_OF_INDUSTRY@DESCRIPTION"
@@ -69563,54 +69563,54 @@ msgstr "Ритуал промисловості"
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@RITE_OF_THE_DREADNOUGHT@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@RITE_OF_STOIC_DEFENSE@DESCRIPTION"
-msgstr "Усі ваші поточні <<m:{GLOBAL.UnitConcept.Hyperlink}>>:[bulletlist][bullet/]Зцілюються до максимуму своїх [hp/] [hyperlink,GLOBAL.HitPointConcept]очок здоров'я[/hyperlink].[bullet/]Отримують {defense} {GLOBAL.DefenseConcept.Hyperlink} і {resistance} {GLOBAL.ResistanceConcept.Hyperlink} до кінця свого наступного бою.[/bulletlist]"
+msgstr "Усі ваші поточні [hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink]:[bulletlist][bullet/]Зцілюються до максимуму своїх [hp/] [hyperlink,GLOBAL.HitPointConcept]очок здоров'я[/hyperlink].[bullet/]Отримують {defense} {GLOBAL.DefenseConcept.Hyperlink} і {resistance} {GLOBAL.ResistanceConcept.Hyperlink}, які не додаються при повторних використаннях цього ритуалу.[/bulletlist]"
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@RITE_OF_THE_DREADNOUGHT@NAME"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@RITE_OF_STOIC_DEFENSE@NAME"
-msgstr "Ритуал стоїчного захисту"
+msgstr "Ритуал стоїчної оборони"
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@RITE_OF_THE_DREADNOUGHT@PROPERTY_DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@RITE_OF_STOIC_DEFENSE@PROPERTY_DESCRIPTION"
 msgstr "Цей юніт має {defense} {GLOBAL.DefenseConcept.Hyperlink} і {resistance} {GLOBAL.ResistanceConcept.Hyperlink} до кінця свого наступного бою."
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@RITE_OF_THE_ARMORER@DESCRIPTION"
-msgstr "Отримує предмет героя: <<acc:c:{GLOBAL.EQUIPMENT.BREASTPLATE_OF_THE_CHAMPION.Hyperlink}>>."
+msgstr "Дає предмет героя: {GLOBAL.EQUIPMENT.BREASTPLATE_OF_THE_CHAMPION.Hyperlink}."
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@RITE_OF_THE_ARMORER@NAME"
-msgstr "Ритуал партнера^mn{1}x{2}"
+msgstr "Ритуал зброяра"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@RITE_OF_THE_DREADNOUGHT@DESCRIPTION"
-msgstr "Всі активні [hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] отримують на постійно {Defensebonus} одиниць [defense/] [hyperlink,GLOBAL.DefenseConcept]захисту[/hyperlink] та [Resistance/] [hyperlink,GLOBAL.ResistanceConcept]опору[/hyperlink]."
+msgstr "Всі активні [hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] отримують перманентно {Defensebonus} одиниць [defense/] [hyperlink,GLOBAL.DefenseConcept]захисту[/hyperlink] та [Resistance/] [hyperlink,GLOBAL.ResistanceConcept]опору[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@RITE_OF_THE_DREADNOUGHT@NAME"
-msgstr "Ритуал панцерника^mn{1}x{2}"
+msgstr "Ритуал панцерника"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@RITE_OF_THE_DREADNOUGHT@PROPERTY_DESCRIPTION"
 msgstr "Цей юніт має постійно {Defensebonus} одиниць [defense/] [hyperlink,GLOBAL.DefenseConcept]захисту[/hyperlink] та {Resistbonus} одиниць [Resistance/] [hyperlink,GLOBAL.ResistanceConcept]опору[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@RITE_OF_WEALTH@DESCRIPTION"
-msgstr "Миттєво отримує {Goldreward} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]"
+msgstr "Миттєво дає {Goldreward} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@RITE_OF_WEALTH@NAME"
-msgstr "Ритуал добробуту^mn{1}x{2}"
+msgstr "Ритуал добробуту"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@SIEGEMASTERS@DESCRIPTION"
-msgstr "Заробляй наступну кількість місць на <<acc:c:{GLOBAL.SiegeProjectConcept.Hyperlink}>>: {SiegeslotBonus}.[br/]<<acc:c:{GLOBAL.SiegeProjectConcept.Hyperlink}>> коштує менше на {DiscountPercentage}."
+msgstr "Додає {SiegeslotBonus} {GLOBAL.SiegeProjectConcept.Hyperlink}.[br/][hyperlink,GLOBAL.SiegeProjectConcept]Проекти облоги[/hyperlink] коштують на {DiscountPercentage} менше."
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@SIEGEMASTERS@NAME"
-msgstr "Майстри облоги^pmn{1}x{2}"
+msgstr "Майстри облоги"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@SPECIALIST_DISTRICTS@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.SpecialImprovementConcept]Спеціальні покращення провінції[/hyperlink] забезпечуй {Goldbonus} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]."
+msgstr "[hyperlink,GLOBAL.SpecialImprovementConcept]Спеціальні покращення провінції[/hyperlink] дають дохід {Goldbonus} [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@SPECIALIST_DISTRICTS@NAME"
-msgstr "Район спеціалістів^f"
+msgstr "Район спеціалістів"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@SUPERIOR_INDUSTRY@DESCRIPTION"
 msgstr "[hyperlink,GLOBAL.QuarryConcept]Кам'яні кар'єри[/hyperlink] та [hyperlink,GLOBAL.ForesterConcept]лісники[/hyperlink] забезпечуй {Income} одиниць. [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@SUPERIOR_INDUSTRY@NAME"
-msgstr "Першокласна промисловість^m"
+msgstr "Першокласна промисловість"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@TYPE"
 msgstr "Уміла імперія Матерії"
@@ -69623,20 +69623,20 @@ msgid "EMPIRE_DEVELOPMENT@MATERIUM@TYPE_RITE"
 msgstr "Ритуал Матерії"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@VASSAL_INDUSTRY_PARTNERS@DESCRIPTION"
-msgstr "Ваші [hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] отримують {IncomeBonus} пт. [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink] за кожного <<acc:c:{GLOBAL.PvEVassalConcept.Hyperlink}>> під контролем вашої <<gen:c:{GLOBAL.EmpireConcept.Hyperlink}>>."
+msgstr "Ваші [hyperlink,GLOBAL.CityConcept]міста[/hyperlink] отримують {IncomeBonus} пт. [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink] за кожного <<acc:c:{GLOBAL.PvEVassalConcept.Hyperlink}>> під контролем вашої <<gen:c:{GLOBAL.EmpireConcept.Hyperlink}>>."
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@VASSAL_INDUSTRY_PARTNERS@NAME"
 msgstr "Васалізовані промислові партнери"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@WARSMITHING@DESCRIPTION"
-msgstr "<<m:{GLOBAL.MineConcept.Hyperlink}>> забезпечуй {DraftIncomeBonus} пт. [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
+msgstr "[hyperlink,GLOBAL.MineConcept]шахти[/hyperlink] дають {DraftIncomeBonus} [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@WARSMITHING@NAME"
-msgstr "Таємні ремісники^pma{1}n{2}"
+msgstr "Таємні ремісники"
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@MASTER_MASONS@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@WASTELESS_PROCESS@DESCRIPTION"
-msgstr "Виробництво товарів перетворює додаткові {percentage} у [hyperlink,GLOBAL.CityConcept]міста[/hyperlink]."
+msgstr "Виробництво товарів перетворює додаткові {percentage} у [hyperlink,GLOBAL.CityConcept]містах[/hyperlink]."
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@MASTER_MASONS@NAME"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@WASTELESS_PROCESS@NAME"
@@ -69648,7 +69648,7 @@ msgstr "Взаємовиключне з:"
 
 #| msgid "EMPIRE_DEVELOPMENT@NATURE@NATURAL_ORDER@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@NATURE@ADAPT_AND_OVERCOME@DESCRIPTION"
-msgstr "Ваші <<m:{GLOBAL.UnitConcept.Hyperlink}>> отримують {GLOBAL.PROPERTIES.STATUS_PROTECTION.Hyperlink} на {turn} <<m:{GLOBAL.TurnConcept.Hyperlink}>>, коли вперше отримують {GLOBAL.NegativeStatusEffectConcept.Hyperlink} у бою."
+msgstr "Ваші [hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] отримують {GLOBAL.PROPERTIES.STATUS_PROTECTION.Hyperlink} на {turn} <<m:{GLOBAL.TurnConcept.Hyperlink}>>, коли вперше отримують {GLOBAL.NegativeStatusEffectConcept.Hyperlink} у бою."
 
 #| msgid "EMPIRE_DEVELOPMENT@NATURE@NATURAL_ORDER@NAME"
 msgid "EMPIRE_DEVELOPMENT@NATURE@ADAPT_AND_OVERCOME@NAME"
@@ -69656,7 +69656,7 @@ msgstr "Пристосуйся і здолай"
 
 #| msgid "EMPIRE_DEVELOPMENT@NATURE@SOILTENDERS@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@NATURE@COMPLETE_HARMONY@DESCRIPTION"
-msgstr "Кожне {GLOBAL.PopulationConcept.Hyperlink} не потребує {GLOBAL.FoodConcept.Hyperlink} на утримання й надає {stabilityIncome} {GLOBAL.CityStabilityConcept.Hyperlink} доходу.[br/]Ваші [hyperlink,GLOBAL.CityConcept]міста[/hyperlink] отримують {foodIncome} {GLOBAL.FoodConcept.Hyperlink} за кожну суміжну дружню провінцію."
+msgstr "Кожна одиниця {GLOBAL.PopulationConcept.Hyperlink} не потребує утримання {GLOBAL.FoodConcept.Hyperlink} і дає дохід {stabilityIncome} {GLOBAL.CityStabilityConcept.Hyperlink}.[br/]Ваші [hyperlink,GLOBAL.CityConcept]міста[/hyperlink] отримують {foodIncome} {GLOBAL.FoodConcept.Hyperlink} за кожну суміжну дружню провінцію."
 
 #| msgid "EMPIRE_DEVELOPMENT@NATURE@SOILTENDERS@NAME"
 msgid "EMPIRE_DEVELOPMENT@NATURE@COMPLETE_HARMONY@NAME"
@@ -69677,7 +69677,7 @@ msgid "EMPIRE_DEVELOPMENT@NATURE@DRUIDIC_CARE@NAME"
 msgstr "Турбота друїда^f"
 
 msgid "EMPIRE_DEVELOPMENT@NATURE@DRUIDIC_EMPIRE@DESCRIPTION"
-msgstr "Ваші <<c:m:{GLOBAL.CityConcept.Hyperlink}>> забезпечують +{incomeMultiplier}% більше [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink]."
+msgstr "Кожна одиниця {GLOBAL.PopulationConcept.Hyperlink} у ваших містах дає дохід {knowledgeAmount}{GLOBAL.KnowledgeConcept.Hyperlink}, {manaAmount}{GLOBAL.ManaConcept.Hyperlink} та {goldAmount}{GLOBAL.GoldConcept.Hyperlink}."
 
 msgid "EMPIRE_DEVELOPMENT@NATURE@DRUIDIC_EMPIRE@NAME"
 msgstr "Імперія друїдів"
@@ -69689,20 +69689,20 @@ msgid "EMPIRE_DEVELOPMENT@NATURE@EXPANSIVE_REACH@NAME"
 msgstr "Експансивний вплив^m"
 
 msgid "EMPIRE_DEVELOPMENT@NATURE@EXPERT_FORAGERS@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.UnitConcept]Підрозділи[/hyperlink] лікуються на {healamount} [hp/] [hyperlink,GLOBAL.HitPointConcept]очок здоров'я[/hyperlink] за кожні {mpamount} [hyperlink,GLOBAL.MovePointConcept]очок руху[/hyperlink], залишених на кінець [turn/][hyperlink,GLOBAL.TurnConcept]ходів[/hyperlink] стратегічного ходу."
+msgstr "[hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] лікуються на {healamount} [hp/] [hyperlink,GLOBAL.HitPointConcept]очок здоров'я[/hyperlink] за кожні {mpamount} [hyperlink,GLOBAL.MovePointConcept]очок руху[/hyperlink], залишених на кінець [turn/][hyperlink,GLOBAL.TurnConcept]ходів[/hyperlink] стратегічного ходу."
 
 msgid "EMPIRE_DEVELOPMENT@NATURE@EXPERT_FORAGERS@NAME"
-msgstr "Шукачі експерти^pm{1}pm{1}"
+msgstr "Експерти збиральництва"
 
 msgid "EMPIRE_DEVELOPMENT@NATURE@EXPERT_SEAFARERS@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.ProvinceConcept]Провінції[/hyperlink] прибережні, з річками або мають підземні озера забезпечують {Foodbonus} очок [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink].[br/]Для цілей пересування твоїх військ річки вважаються дорогами."
+msgstr "[hyperlink,GLOBAL.ProvinceConcept]Провінції[/hyperlink] на прибережжі, з річками або підземними озерами дають {Foodbonus} [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink].[br/]Подорож річками коштую {riverCost} {GLOBAL.MovePointConcept.Hyperlink}."
 
 msgid "EMPIRE_DEVELOPMENT@NATURE@EXPERT_SEAFARERS@NAME"
-msgstr "Мандрівники експерти^pmn{1}pmn{2}"
+msgstr "Мореплавці-експерти"
 
 #| msgid "EMPIRE_DEVELOPMENT@NATURE@RITE_OF_AWAKENING@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@NATURE@FIELDS_OF_FERTILITY@DESCRIPTION"
-msgstr "Провінції у ваших володіннях без [hyperlink,GLOBAL.NodeConcept]вузли[/hyperlink] дають {foodAmount}{GLOBAL.FoodConcept.Hyperlink} доходу."
+msgstr "Провінції у ваших володіннях без [hyperlink,GLOBAL.NodeConcept]вузлів[/hyperlink] дають дохід {foodAmount}{GLOBAL.FoodConcept.Hyperlink}."
 
 #| msgid "EMPIRE_DEVELOPMENT@NATURE@RITE_OF_AWAKENING@NAME"
 msgid "EMPIRE_DEVELOPMENT@NATURE@FIELDS_OF_FERTILITY@NAME"
@@ -69710,7 +69710,7 @@ msgstr "Поля родючості"
 
 #| msgid "EMPIRE_DEVELOPMENT@NATURE@DRUIDIC_CARE@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@NATURE@FOOD_INFRASTRUCTURE@DESCRIPTION"
-msgstr "{GLOBAL.FoodConcept.Hyperlink} [hyperlink,GLOBAL.CityStructureConcept]міські споруди[/hyperlink] коштують на {Percentage} менше {GLOBAL.GoldConcept.Hyperlink} і {GLOBAL.StructureProductionConcept.Hyperlink} для зведення."
+msgstr "[hyperlink,GLOBAL.FoodConcept]Продовольчі[/hyperlink] [hyperlink,GLOBAL.CityStructureConcept]міські споруди[/hyperlink] коштують на {Percentage} менше {GLOBAL.GoldConcept.Hyperlink} і {GLOBAL.StructureProductionConcept.Hyperlink} для зведення."
 
 #| msgid "EMPIRE_DEVELOPMENT@NATURE@DRUIDIC_CARE@NAME"
 msgid "EMPIRE_DEVELOPMENT@NATURE@FOOD_INFRASTRUCTURE@NAME"
@@ -69718,7 +69718,7 @@ msgstr "Харчова інфраструктура"
 
 #| msgid "EMPIRE_DEVELOPMENT@NATURE@RANGERS@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@NATURE@FORAGING@DESCRIPTION"
-msgstr "Перебуваючи у дружніх володіннях, ваші <<m:{GLOBAL.UnitConcept.Hyperlink}>> відновлюють {hitPoints}{GLOBAL.HitPointConcept.Hyperlink} за хід і отримують {xpAmount}{GLOBAL.ExperienceConcept.Hyperlink} за хід."
+msgstr "Перебуваючи у дружніх володіннях, ваші [hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] відновлюють {hitPoints}{GLOBAL.HitPointConcept.Hyperlink} за хід і отримують {xpAmount}{GLOBAL.ExperienceConcept.Hyperlink} за хід."
 
 #| msgid "EMPIRE_DEVELOPMENT@NATURE@RANGERS@NAME"
 msgid "EMPIRE_DEVELOPMENT@NATURE@FORAGING@NAME"
@@ -69732,7 +69732,7 @@ msgstr "Плідна інтеграція^fa{1}fn{2}"
 
 #| msgid "EMPIRE_DEVELOPMENT@NATURE@RANGERS@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@NATURE@LASTING_BOONS@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.PositiveStatusEffectConcept]позитивні ефекти стану[/hyperlink] на ваших <<m:{GLOBAL.UnitConcept.Hyperlink}>>, що тривають щонайменше {turn2} <<m:{GLOBAL.TurnConcept.Hyperlink}>>, тривають на {turn1} <<m:{GLOBAL.TurnConcept.Hyperlink}>> довше."
+msgstr "[hyperlink,GLOBAL.PositiveStatusEffectConcept]позитивні ефекти стану[/hyperlink] на ваших [hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink], що тривають щонайменше {turn2} <<m:{GLOBAL.TurnConcept.Hyperlink}>>, тривають на {turn1} <<m:{GLOBAL.TurnConcept.Hyperlink}>> довше."
 
 #| msgid "EMPIRE_DEVELOPMENT@NATURE@RANGERS@NAME"
 msgid "EMPIRE_DEVELOPMENT@NATURE@LASTING_BOONS@NAME"
@@ -69742,7 +69742,7 @@ msgid "EMPIRE_DEVELOPMENT@NATURE@NATURAL_ABUNDANCE@DESCRIPTION"
 msgstr "[hyperlink,GLOBAL.ForesterConcept]Лісники[/hyperlink] забезпечують {Productionbonus} очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink] та {FoodBonus} очок [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@NATURE@NATURAL_ABUNDANCE@NAME"
-msgstr "Природна багатство^fa{1}fn{2}"
+msgstr "Природне багатство"
 
 msgid "EMPIRE_DEVELOPMENT@NATURE@NATURAL_ORDER@DESCRIPTION"
 msgstr "[hyperlink,GLOBAL.ProvinceConcept]Провінції[/hyperlink] з <<ins:c:{GLOBAL.ProvinceFeatureConcept.Hyperlink}>> лісом забезпечують {Stabilitybonus} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink]."
@@ -69812,10 +69812,10 @@ msgid "EMPIRE_DEVELOPMENT@NATURE@RITE_OF_NATURES_GUARDIANS@NAME"
 msgstr "Ритуал охоронців природи"
 
 msgid "EMPIRE_DEVELOPMENT@NATURE@RITE_OF_THE_GUARDIAN_SPIRIT@DESCRIPTION"
-msgstr "Негайно викликаєш <<acc:c:{GLOBAL.UNITS.SPIRIT_WOLF.Hyperlink}>> з <<ins:c:{GLOBAL.PROPERTIES.GUARDIAN_SPIRIT.Hyperlink}>> та <<ins:c:{GLOBAL.PROPERTIES.RESURGENCE.Hyperlink}>> у своєму <<loc:c:{GLOBAL.ThroneCityConcept.Hyperlink}>>."
+msgstr "Негайно викликає {GLOBAL.UNITS.SPIRIT_WOLF.Hyperlink} з <<ins:c:{GLOBAL.PROPERTIES.GUARDIAN_SPIRIT.Hyperlink}>> та <<ins:c:{GLOBAL.PROPERTIES.RESURGENCE.Hyperlink}>> у вашому [hyperlink,GLOBAL.ThroneCityConcept]тронному місті[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@NATURE@RITE_OF_THE_GUARDIAN_SPIRIT@NAME"
-msgstr "Ритуал опікунського духа^mn{1}x{2}x{3}"
+msgstr "Ритуал духа-хранителя"
 
 #| msgid "EMPIRE_DEVELOPMENT@NATURE@RANGERS@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@NATURE@SACRED_WATERS@DESCRIPTION"
@@ -69827,7 +69827,7 @@ msgstr "Священні води"
 
 #| msgid "EMPIRE_DEVELOPMENT@NATURE@RITE_OF_AWAKENING@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@NATURE@SITES_OF_SERENITY@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.FarmConcept]ферми[/hyperlink] і [hyperlink,GLOBAL.ForesterConcept]лісництва[/hyperlink] надають {Stability}{GLOBAL.CityStabilityConcept.Hyperlink} доходу."
+msgstr "[hyperlink,GLOBAL.FarmConcept]Ферми[/hyperlink] і [hyperlink,GLOBAL.ForesterConcept]лісництва[/hyperlink] надають {Stability}{GLOBAL.CityStabilityConcept.Hyperlink} доходу."
 
 #| msgid "EMPIRE_DEVELOPMENT@NATURE@RITE_OF_AWAKENING@NAME"
 msgid "EMPIRE_DEVELOPMENT@NATURE@SITES_OF_SERENITY@NAME"
@@ -69841,14 +69841,14 @@ msgstr "Тендери на землі^p"
 
 #| msgid "EMPIRE_DEVELOPMENT@NATURE@SPIRIT_WISDOM@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@NATURE@SPIRITUAL_GROUNDS@DESCRIPTION"
-msgstr "{GLOBAL.FoodConcept.Hyperlink} [hyperlink,GLOBAL.NodeConcept]вузли[/hyperlink] надають {knowledgeAmount}{GLOBAL.KnowledgeConcept.Hyperlink} доходу."
+msgstr "[hyperlink,GLOBAL.NodeConcept]Вузли[/hyperlink] {GLOBAL.FoodConcept.Hyperlink} дають {knowledgeAmount}{GLOBAL.KnowledgeConcept.Hyperlink} доходу."
 
 #| msgid "EMPIRE_DEVELOPMENT@NATURE@SPIRIT_WISDOM@NAME"
 msgid "EMPIRE_DEVELOPMENT@NATURE@SPIRITUAL_GROUNDS@NAME"
 msgstr "Духовні землі"
 
 msgid "EMPIRE_DEVELOPMENT@NATURE@SPIRIT_WISDOM@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.ConduitConcept]Канали[/hyperlink] забезпечують прихід у вигляді {Knowledge} очок {GLOBAL.KnowledgeConcept.Hyperlink}."
+msgstr "[hyperlink,GLOBAL.ConduitConcept]Канали[/hyperlink] дають дохід {Knowledge} {GLOBAL.KnowledgeConcept.Hyperlink}."
 
 msgid "EMPIRE_DEVELOPMENT@NATURE@SPIRIT_WISDOM@NAME"
 msgstr "Мудрість духа^f"
@@ -69933,7 +69933,7 @@ msgstr "Узи братерства"
 
 #| msgid "EMPIRE_DEVELOPMENT@ORDER@CAREER_SOLDIERS@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@ORDER@CALL_TO_ARMS@DESCRIPTION"
-msgstr "<<m:{GLOBAL.UnitConcept.Hyperlink}>> з {GLOBAL.RequestMilitaryAidConcept.Hyperlink}:[bulletlist][bullet/]Коштують {goldModifier}{GLOBAL.GoldConcept.Hyperlink}.[bullet/]Починають із {medalBonus} рангів.[/bulletlist]"
+msgstr "[hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] з {GLOBAL.RequestMilitaryAidConcept.Hyperlink}:[bulletlist][bullet/]Коштують {goldModifier}{GLOBAL.GoldConcept.Hyperlink}.[bullet/]Починають із {medalBonus} рангів.[/bulletlist]"
 
 #| msgid "EMPIRE_DEVELOPMENT@ORDER@CAREER_SOLDIERS@NAME"
 msgid "EMPIRE_DEVELOPMENT@ORDER@CALL_TO_ARMS@NAME"
@@ -69982,7 +69982,7 @@ msgid "EMPIRE_DEVELOPMENT@ORDER@DUTIFUL_WATCH@NAME"
 msgstr "Сумлінна варта"
 
 msgid "EMPIRE_DEVELOPMENT@ORDER@EXEMPLAR@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.UnitConcept]Підрозділи[/hyperlink], найняті через <<acc:c:{GLOBAL.RequestMilitaryAidConcept.Hyperlink}>>, отримують {Rankbonus} рангів під час рекрутування."
+msgstr "[hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink], найняті через <<acc:c:{GLOBAL.RequestMilitaryAidConcept.Hyperlink}>>, отримують {Rankbonus} рангів під час рекрутування."
 
 msgid "EMPIRE_DEVELOPMENT@ORDER@EXEMPLAR@NAME"
 msgstr "Взірець"
@@ -69996,7 +69996,7 @@ msgid "EMPIRE_DEVELOPMENT@ORDER@GOLD_INFRASTRUCTURE@NAME"
 msgstr "Золота інфраструктура"
 
 msgid "EMPIRE_DEVELOPMENT@ORDER@HOUSE_LEVIES@DESCRIPTION"
-msgstr "Вербування [hyperlink,GLOBAL.UnitConcept]юнітів[/hyperlink] під час <<gen:c:{GLOBAL.RequestMilitaryAidConcept.Hyperlink}>> коштує на {Goldreduction} менше [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink].[br/]Час між <<ins:c:m:{GLOBAL.RequestMilitaryAidConcept.Hyperlink}>> скорочується на {Turnreduction} [turn/]."
+msgstr "Вербування [hyperlink,GLOBAL.UnitConcept]юнітів[/hyperlink] під час <<gen:c:{GLOBAL.RequestMilitaryAidConcept.Hyperlink}>> коштує на {Goldreduction} менше [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink].[br/]Час між <<ins:c:m:{GLOBAL.RequestMilitaryAidConcept.Hyperlink}>> скорочується на {Turnreduction} [turn/]."
 
 msgid "EMPIRE_DEVELOPMENT@ORDER@HOUSE_LEVIES@NAME"
 msgstr "Родовий герб^m"
@@ -70179,13 +70179,13 @@ msgid "EMPIRE_DEVELOPMENT@ORDER@SWORDS_TO_POWSHARES@NAME"
 msgstr "ВІстря для лемешів^p"
 
 msgid "EMPIRE_DEVELOPMENT@ORDER@TRADE_ROUTES@DESCRIPTION"
-msgstr "Твої [hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] отримують {GoldIncome} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] за кожне <<c:{GLOBAL.PvEVassalConcept.Hyperlink}>>."
+msgstr "Твої [hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] отримують {GoldIncome} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] за кожне <<c:{GLOBAL.PvEVassalConcept.Hyperlink}>>."
 
 msgid "EMPIRE_DEVELOPMENT@ORDER@TRADE_ROUTES@NAME"
 msgstr "Торгові шляхи^p"
 
 msgid "EMPIRE_DEVELOPMENT@ORDER@TRIBUTARIES@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.PvEVassalConcept]Васальні міста[/hyperlink] забезпечують {Incomebonus} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] у вигляді данини."
+msgstr "[hyperlink,GLOBAL.PvEVassalConcept]Васальні міста[/hyperlink] забезпечують {Incomebonus} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] у вигляді данини."
 
 msgid "EMPIRE_DEVELOPMENT@ORDER@TRIBUTARIES@NAME"
 msgstr "Тваринники^p"
@@ -70234,7 +70234,7 @@ msgid "EMPIRE_DEVELOPMENT@SHADOW@ANCIENT_CHANNELING@NAME"
 msgstr "Стародавнє послання^n"
 
 msgid "EMPIRE_DEVELOPMENT@SHADOW@CLEVER_PACTS@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.UnitConcept]Підрозділи[/hyperlink] [hyperlink,GLOBAL.PROPERTIES.MAGIC_ORIGIN]магічного походження[/hyperlink] коштують {Upkeepreduction} очок <<gen:c:{GLOBAL.UnitUpkeepConcept.Hyperlink}>>."
+msgstr "[hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] [hyperlink,GLOBAL.PROPERTIES.MAGIC_ORIGIN]магічного походження[/hyperlink] коштують {Upkeepreduction} очок <<gen:c:{GLOBAL.UnitUpkeepConcept.Hyperlink}>>."
 
 msgid "EMPIRE_DEVELOPMENT@SHADOW@CLEVER_PACTS@NAME"
 msgstr "Кмітливі пакти^p"
@@ -70284,7 +70284,7 @@ msgid "EMPIRE_DEVELOPMENT@SHADOW@EYES_EVERYWHERE@NAME"
 msgstr "Очі всюди"
 
 msgid "EMPIRE_DEVELOPMENT@SHADOW@FEEDING_ON_FEAR@DESCRIPTION"
-msgstr "<<m:{GLOBAL.UnitConcept.Hyperlink}>> зцілюються на {healAmount} <<m:{GLOBAL.HitPointConcept.Hyperlink}>> за кожен ворожий юніт, що [hyperlink,GLOBAL.RoutingConcept]втік[/hyperlink] під час {GLOBAL.CombatConcept.Hyperlink}."
+msgstr "[hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] зцілюються на {healAmount} <<m:{GLOBAL.HitPointConcept.Hyperlink}>> за кожен ворожий юніт, що [hyperlink,GLOBAL.RoutingConcept]втік[/hyperlink] під час {GLOBAL.CombatConcept.Hyperlink}."
 
 msgid "EMPIRE_DEVELOPMENT@SHADOW@FEEDING_ON_FEAR@NAME"
 msgstr "Живлення страхом"
@@ -70532,7 +70532,7 @@ msgid "EMPIRE_PROGRESSIONITEMS@SOCIETY_TRAITS@VIGILANTE_KNIGHTS@STARTING_BONUS"
 msgstr "Початкові [hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] отримують {rankbonus} ранг."
 
 msgid "EMPIRE_PROGRESSIONITEMS@SOCIETY_TRAITS@VIGILANTE_KNIGHTS@TRAIT_BONUS_1"
-msgstr "Завершення <<gen:c:{GLOBAL.CallToArmsConcept.Hyperlink}>> забезпечує {bonus} золота [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] та очки [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink], а також додаткові {imperiumbonus} очок [hyperlink,GLOBAL.ImperiumConcept]імперіуму[/hyperlink] як нагороду."
+msgstr "Завершення <<gen:c:{GLOBAL.CallToArmsConcept.Hyperlink}>> забезпечує {bonus} золота [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] та очки [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink], а також додаткові {imperiumbonus} очок [hyperlink,GLOBAL.ImperiumConcept]імперіуму[/hyperlink] як нагороду."
 
 msgid "EMPIRE_PROGRESSIONITEMS@SOCIETY_TRAITS@VIGILANTE_KNIGHTS@TRAIT_BONUS_2"
 msgstr "З кожним разом, коли у вас не активовано <<gen:c:{GLOBAL.CallToArmsConcept.Hyperlink}>>, ви отримуєте пропозицію замовлення на <<acc:c:{GLOBAL.InfestationConcept.Hyperlink}>> неподалік, на яке ще ніхто не націлювався. У разі відсутності додаткових напастей нове замовлення не буде створено."
@@ -72464,7 +72464,7 @@ msgid "EXPLORATIONSITES_STRATEGIC@STRUCTURE_FORGE@NAME_OVERRIDE@THEONE_3"
 msgstr "Горнило Чорного Молота"
 
 msgid "EXPLORATIONSITES_STRATEGIC@STRUCTURE_GOLDEN_ZIGGURAT@DESCRIPTION"
-msgstr "[bulletlist][bullet/][hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] [hyperlink,GLOBAL.PROPERTIES.MAGIC_ORIGIN]магічних юнітів[/hyperlink] вимагають {amount}% менше [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] та [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] для <<acc:c:{GLOBAL.UnitUpkeepConcept.Hyperlink}>> на території <<gen:c:{GLOBAL.DomainConcept.Hyperlink}>> цього [hyperlink,GLOBAL.CityConcept]міста[/hyperlink].[bullet/]Додає юніт <<acc:c:{GLOBAL.UNITS.PHOENIX.Hyperlink}>> до ради васалів.[/bulletlist]"
+msgstr "[bulletlist][bullet/][hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] [hyperlink,GLOBAL.PROPERTIES.MAGIC_ORIGIN]магічних юнітів[/hyperlink] вимагають {amount}% менше [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] та [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] для <<acc:c:{GLOBAL.UnitUpkeepConcept.Hyperlink}>> на території <<gen:c:{GLOBAL.DomainConcept.Hyperlink}>> цього [hyperlink,GLOBAL.CityConcept]міста[/hyperlink].[bullet/]Додає юніт <<acc:c:{GLOBAL.UNITS.PHOENIX.Hyperlink}>> до ради васалів.[/bulletlist]"
 
 msgid "EXPLORATIONSITES_STRATEGIC@STRUCTURE_GOLDEN_ZIGGURAT@LORE"
 msgstr "[lorefontsize][lorefont][hyperlink,GLOBAL.ArchonsLoreConcept]Цивілізація архонів[/hyperlink] побудувала ці монолітні конструкції з великими зусиллями. Учені припускають, що вони могли використовуватися як портали до інших [hyperlink,GLOBAL.WorldsWithinLoreConcept]світів[/hyperlink]. Однак нині, коли їхні творці давно зникли, сюди прибувають опортуністи та істоти із зловмисними намірами, щоб відкрити забуті можливості цього місця.[/lorefont][/lorefontsize]"
@@ -72473,10 +72473,10 @@ msgid "EXPLORATIONSITES_STRATEGIC@STRUCTURE_GOLDEN_ZIGGURAT@NAME"
 msgstr "Золотий зіккурат"
 
 msgid "EXPLORATIONSITES_STRATEGIC@STRUCTURE_GOLDEN_ZIGGURAT@UNIT_PROPERTY"
-msgstr "Цей юніт вимагає {amount1}% менше [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] та [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] для <<acc:c:{GLOBAL.UnitUpkeepConcept.Hyperlink}>>."
+msgstr "Цей юніт вимагає {amount1}% менше [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] та [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] для <<acc:c:{GLOBAL.UnitUpkeepConcept.Hyperlink}>>."
 
 msgid "EXPLORATIONSITES_STRATEGIC@STRUCTURE_MAGMA_FORGE@DESCRIPTION"
-msgstr "[bulletlist][bullet/]Юніти коштують на {amount}% менше [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] для вербування.[bullet/]Додає юніт <<acc:c:{GLOBAL.UNITS.FIRE_GIANT.Hyperlink}>> до ради васалів.[/bulletlist]"
+msgstr "[bulletlist][bullet/]Юніти коштують на {amount}% менше [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] для вербування.[bullet/]Додає юніт <<acc:c:{GLOBAL.UNITS.FIRE_GIANT.Hyperlink}>> до ради васалів.[/bulletlist]"
 
 msgid "EXPLORATIONSITES_STRATEGIC@STRUCTURE_MAGMA_FORGE@LORE"
 msgstr "[lorefontsize][lorefont]Велична кузня, що використовує тепло безпосередньо з киплячого ядра світу. Легенди говорять, що колись титанів використовували ці надзвичайні інструменти для своїх грандіозних проектів, і що ці місця могли стати колискою перших гномів.[/lorefont][/lorefontsize]"
@@ -74743,7 +74743,7 @@ msgid "HERO@DESTINY@PRIVATEER_NAME"
 msgstr "<<Hero{Корсар/Корсара}>>"
 
 msgid "HERO@DESTINY@PROSPECTOR@PROPERTY@DESCRIPTION"
-msgstr "Коли очолює армію, всі інші юніти в армії отримують:[bulletlist][bullet/]+{ARTISAN_EQUIPMENT_STAT_BONUS>BONUS>HitPoints} [hp/] [hyperlink,GLOBAL.HitPointConcept]одиниць здоров'я[/hyperlink].[bullet/]+{ARTISAN_EQUIPMENT_STAT_BONUS>BONUS>DEFENSE>Armor} одиниць [defense/] [hyperlink,GLOBAL.DefenseConcept]захисту[/hyperlink][bullet/]+{ARTISAN_EQUIPMENT_STAT_BONUS>BONUS>DEFENSE>Resistance} одиниць [Resistance/] [hyperlink,GLOBAL.ResistanceConcept]опору[/hyperlink][bullet/]+{ARTISAN_EQUIPMENT_DAMAGE_MULTIPLIER>ResolvedMultiplier}% шкоди[/bulletlist][br/][br/]Цей герой коштує +{ARTISAN_EQUIPMENT_UPKEEP_MODIFIER>FlatUpkeep} монет [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] <<gen:c:{GLOBAL.UnitUpkeepConcept.Hyperlink}>>"
+msgstr "Коли очолює армію, всі інші юніти в армії отримують:[bulletlist][bullet/]+{ARTISAN_EQUIPMENT_STAT_BONUS>BONUS>HitPoints} [hp/] [hyperlink,GLOBAL.HitPointConcept]одиниць здоров'я[/hyperlink].[bullet/]+{ARTISAN_EQUIPMENT_STAT_BONUS>BONUS>DEFENSE>Armor} одиниць [defense/] [hyperlink,GLOBAL.DefenseConcept]захисту[/hyperlink][bullet/]+{ARTISAN_EQUIPMENT_STAT_BONUS>BONUS>DEFENSE>Resistance} одиниць [Resistance/] [hyperlink,GLOBAL.ResistanceConcept]опору[/hyperlink][bullet/]+{ARTISAN_EQUIPMENT_DAMAGE_MULTIPLIER>ResolvedMultiplier}% шкоди[/bulletlist][br/][br/]Цей герой коштує +{ARTISAN_EQUIPMENT_UPKEEP_MODIFIER>FlatUpkeep} монет [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] <<gen:c:{GLOBAL.UnitUpkeepConcept.Hyperlink}>>"
 
 msgid "HERO@DESTINY@PROSPECTOR@PROPERTY@NAME"
 msgstr "Ремісниче обладнання"
@@ -78375,7 +78375,7 @@ msgid "HERO_TRAIT@FRENZIED@NAME"
 msgstr "Шалений"
 
 msgid "HERO_TRAIT@GOVERNANCE@AGRICULTURAL_GOVERNOR@DESCRIPTION"
-msgstr "Коли цей герой є губернатором, його місто отримує вигоду залежно від рівня його репутації:[bulletlist][bullet/][white]1 рівень репутації[/white][br/]Кожна <<c:{GLOBAL.FarmConcept.Hyperlink}>> забезпечує +{FoodBonus} [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink][bullet/][white]2 рівень репутації[/white][br/]Кожна <<c:{GLOBAL.FarmConcept.Hyperlink}>> забезпечує +{StabilityBonus} [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink][bullet/][white]3 рівень репутації[/white][br/]Кожна одиниця <<c:{GLOBAL.PopulationConcept.Hyperlink}>> забезпечує +{GoldBonusIncome} [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink], +{ManaBonusIncome} [mana/] [hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] та +{KnowledgeBonusIncome} <<gen:c:{GLOBAL.KnowledgeConcept}>>[bullet/][white]4 рівень репутації[/white][br/]Ріст <<{GLOBAL.PopulationConcept}>> вимагає на {amount}% менше [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink].[/bulletlist]"
+msgstr "Коли цей герой є губернатором, його місто отримує вигоду залежно від рівня його репутації:[bulletlist][bullet/][white]1 рівень репутації[/white][br/]Кожна <<c:{GLOBAL.FarmConcept.Hyperlink}>> забезпечує +{FoodBonus} [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink][bullet/][white]2 рівень репутації[/white][br/]Кожна <<c:{GLOBAL.FarmConcept.Hyperlink}>> забезпечує +{StabilityBonus} [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink][bullet/][white]3 рівень репутації[/white][br/]Кожна одиниця <<c:{GLOBAL.PopulationConcept.Hyperlink}>> забезпечує +{GoldBonusIncome} [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink], +{ManaBonusIncome} [mana/] [hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] та +{KnowledgeBonusIncome} <<gen:c:{GLOBAL.KnowledgeConcept}>>[bullet/][white]4 рівень репутації[/white][br/]Ріст <<{GLOBAL.PopulationConcept}>> вимагає на {amount}% менше [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink].[/bulletlist]"
 
 msgid "HERO_TRAIT@GOVERNANCE@AGRICULTURAL_GOVERNOR@LVL0"
 msgstr "Кожен <<c:{GLOBAL.FarmConcept.Hyperlink}>> надає +{FoodBonus} [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink]."
@@ -78384,7 +78384,7 @@ msgid "HERO_TRAIT@GOVERNANCE@AGRICULTURAL_GOVERNOR@LVL1"
 msgstr "Кожен <<c:{GLOBAL.FarmConcept.Hyperlink}>> надає +{StabilityBonus} [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink]."
 
 msgid "HERO_TRAIT@GOVERNANCE@AGRICULTURAL_GOVERNOR@LVL2"
-msgstr "Кожна одиниця <<c:{GLOBAL.PopulationConcept.Hyperlink}>> забезпечує +{GoldBonusIncome} [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink], +{ManaBonusIncome} [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] та +{KnowledgeBonusIncome} {GLOBAL.KnowledgeConcept.Hyperlink}."
+msgstr "Кожна одиниця <<c:{GLOBAL.PopulationConcept.Hyperlink}>> забезпечує +{GoldBonusIncome} [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink], +{ManaBonusIncome} [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] та +{KnowledgeBonusIncome} {GLOBAL.KnowledgeConcept.Hyperlink}."
 
 msgid "HERO_TRAIT@GOVERNANCE@AGRICULTURAL_GOVERNOR@LVL3"
 msgstr "Ріст <<{GLOBAL.PopulationConcept}>> вимагає на {amount}% менше [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink]."
@@ -78411,7 +78411,7 @@ msgid "HERO_TRAIT@GOVERNANCE@ARCANE_GOVERNOR@NAME"
 msgstr "Губернатор-містик"
 
 msgid "HERO_TRAIT@GOVERNANCE@ASCENDED_GOVERNOR@DESCRIPTION"
-msgstr "Коли цей герой є губернатором, його місто отримує вигоду залежно від рівня його репутації:[bulletlist][bullet/][white]1 рівень репутації[/white][br/]{FoodBonus} очок [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink] більше[bullet/][white]2 рівень репутації[/white][br/]Ріст <<{GLOBAL.PopulationConcept}>> вимагає на {amount}% менше [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink][bullet/][white]3 рівень репутації[/white][br/]Кожна одиниця <<c:{GLOBAL.PopulationConcept.Hyperlink}>> забезпечує +{GoldBonusIncome} [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink], +{ManaBonusIncome} [mana/] [hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] та +{KnowledgeBonusIncome} <<gen:c:{GLOBAL.KnowledgeConcept}>>[bullet/][white]4 рівень репутації[/white][br/]Найняті юніти мають +{Rankbonus2}[medalGold/] рангу[/bulletlist]"
+msgstr "Коли цей герой є губернатором, його місто отримує вигоду залежно від рівня його репутації:[bulletlist][bullet/][white]1 рівень репутації[/white][br/]{FoodBonus} очок [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink] більше[bullet/][white]2 рівень репутації[/white][br/]Ріст <<{GLOBAL.PopulationConcept}>> вимагає на {amount}% менше [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink][bullet/][white]3 рівень репутації[/white][br/]Кожна одиниця <<c:{GLOBAL.PopulationConcept.Hyperlink}>> забезпечує +{GoldBonusIncome} [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink], +{ManaBonusIncome} [mana/] [hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] та +{KnowledgeBonusIncome} <<gen:c:{GLOBAL.KnowledgeConcept}>>[bullet/][white]4 рівень репутації[/white][br/]Найняті юніти мають +{Rankbonus2}[medalGold/] рангу[/bulletlist]"
 
 msgid "HERO_TRAIT@GOVERNANCE@ASCENDED_GOVERNOR@NAME"
 msgstr "Піднесений губернатор"
@@ -78468,10 +78468,10 @@ msgid "HERO_TRAIT@GOVERNANCE@ELDRITCH_GOVERNOR@NAME"
 msgstr "Потойбічний-губернатор"
 
 msgid "HERO_TRAIT@GOVERNANCE@FORTIFYING_GOVERNOR@DESCRIPTION"
-msgstr "Коли цей герой є губернатором, його місто отримує вигоду залежно від рівня його репутації:[bulletlist][bullet/][white]1 рівень репутації[/white][br/]Будівництво оборонних <<gen:c:m:{GLOBAL.CityStructureConcept}>> коштує на {GoldCostMultiplier}% менше [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] та на {ProductionCostMultiplier}% менше очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink].[bullet/][white]2 рівень репутації[/white][br/]Оборонні <<c:m:{GLOBAL.CityStructureConcept}>> забезпечують +{StabilityBonus} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink][bullet/][white]3 рівень репутації[/white][br/]Оборонні <<c:m:{GLOBAL.CityStructureConcept}>> забезпечують +{DraftBonus} очок {GLOBAL.UnitProductionConcept.Hyperlink}[bullet/][white]4 рівень репутації[/white][br/]Контрольоване місто не отримує жодних штрафів до доходу під час окупації або коли його провінції спустошені.[/bulletlist]"
+msgstr "Коли цей герой є губернатором, його місто отримує вигоду залежно від рівня його репутації:[bulletlist][bullet/][white]1 рівень репутації[/white][br/]Будівництво оборонних <<gen:c:m:{GLOBAL.CityStructureConcept}>> коштує на {GoldCostMultiplier}% менше [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] та на {ProductionCostMultiplier}% менше очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink].[bullet/][white]2 рівень репутації[/white][br/]Оборонні <<c:m:{GLOBAL.CityStructureConcept}>> забезпечують +{StabilityBonus} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink][bullet/][white]3 рівень репутації[/white][br/]Оборонні <<c:m:{GLOBAL.CityStructureConcept}>> забезпечують +{DraftBonus} очок {GLOBAL.UnitProductionConcept.Hyperlink}[bullet/][white]4 рівень репутації[/white][br/]Контрольоване місто не отримує жодних штрафів до доходу під час окупації або коли його провінції спустошені.[/bulletlist]"
 
 msgid "HERO_TRAIT@GOVERNANCE@FORTIFYING_GOVERNOR@LVL0"
-msgstr "Будівництво оборонних [hyperlink,GLOBAL.CityStructureConcept]міських споруд[/hyperlink] коштує на {GoldCostMultiplier}% менше [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] та на -{ProductionCostMultiplier}% очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink] менше."
+msgstr "Будівництво оборонних [hyperlink,GLOBAL.CityStructureConcept]міських споруд[/hyperlink] коштує на {GoldCostMultiplier}% менше [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] та на -{ProductionCostMultiplier}% очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink] менше."
 
 msgid "HERO_TRAIT@GOVERNANCE@FORTIFYING_GOVERNOR@LVL1"
 msgstr "Оборонні <<c:m:{GLOBAL.CityStructureConcept.Hyperlink}>> надають +{StabilityBonus} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink]."
@@ -78504,7 +78504,7 @@ msgid "HERO_TRAIT@GOVERNANCE@GODIR_GOVERNOR@NAME"
 msgstr "годір-губернатор"
 
 msgid "HERO_TRAIT@GOVERNANCE@INDUSTRIOUS_GOVERNOR@DESCRIPTION"
-msgstr "Коли цей герой є губернатором, його місто отримує вигоду залежно від рівня його репутації:[bulletlist][bullet/][white]1 рівень репутації[/white][br/]Кожна <<c:{GLOBAL.QuarryConcept.Hyperlink}>> забезпечує +{StructureProdBonus} очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink][bullet/][white]2 рівень репутації[/white][br/]Кожна <<c:{GLOBAL.QuarryConcept.Hyperlink}>> забезпечує +{StabilityBonus} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink][bullet/][white]3 рівень репутації[/white][br/][hyperlink,GLOBAL.CityStructureConcept]Міські споруди[/hyperlink] коштують на {GoldCostMultiplier}% менше [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink][bullet/][white]4 рівень репутації[/white][br/][hyperlink,GLOBAL.CityStructureConcept]Міські споруди[/hyperlink] забезпечують додаткові +{GoldBonusIncome} золота [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] окрім своїх стандартних ефектів.[/bulletlist]"
+msgstr "Коли цей герой є губернатором, його місто отримує вигоду залежно від рівня його репутації:[bulletlist][bullet/][white]1 рівень репутації[/white][br/]Кожна <<c:{GLOBAL.QuarryConcept.Hyperlink}>> забезпечує +{StructureProdBonus} очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink][bullet/][white]2 рівень репутації[/white][br/]Кожна <<c:{GLOBAL.QuarryConcept.Hyperlink}>> забезпечує +{StabilityBonus} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink][bullet/][white]3 рівень репутації[/white][br/][hyperlink,GLOBAL.CityStructureConcept]Міські споруди[/hyperlink] коштують на {GoldCostMultiplier}% менше [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink][bullet/][white]4 рівень репутації[/white][br/][hyperlink,GLOBAL.CityStructureConcept]Міські споруди[/hyperlink] забезпечують додаткові +{GoldBonusIncome} золота [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] окрім своїх стандартних ефектів.[/bulletlist]"
 
 msgid "HERO_TRAIT@GOVERNANCE@INDUSTRIOUS_GOVERNOR@LVL0"
 msgstr "Кожен <<c:{GLOBAL.QuarryConcept.Hyperlink}>> надає +{StructureProdBonus} очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink]."
@@ -78513,16 +78513,16 @@ msgid "HERO_TRAIT@GOVERNANCE@INDUSTRIOUS_GOVERNOR@LVL1"
 msgstr "Кожен <<c:{GLOBAL.QuarryConcept.Hyperlink}>> надає +{StabilityBonus} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink]."
 
 msgid "HERO_TRAIT@GOVERNANCE@INDUSTRIOUS_GOVERNOR@LVL2"
-msgstr "[hyperlink,GLOBAL.CityStructureConcept]Міські споруди[/hyperlink] коштують на {GoldCostMultiplier}% менше [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]."
+msgstr "[hyperlink,GLOBAL.CityStructureConcept]Міські споруди[/hyperlink] коштують на {GoldCostMultiplier}% менше [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]."
 
 msgid "HERO_TRAIT@GOVERNANCE@INDUSTRIOUS_GOVERNOR@LVL3"
-msgstr "[hyperlink,GLOBAL.CityStructureConcept]Міські споруди[/hyperlink] надають +{GoldBonusIncome} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] на додачу до своїх стандартних ефектів."
+msgstr "[hyperlink,GLOBAL.CityStructureConcept]Міські споруди[/hyperlink] надають +{GoldBonusIncome} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] на додачу до своїх стандартних ефектів."
 
 msgid "HERO_TRAIT@GOVERNANCE@INDUSTRIOUS_GOVERNOR@NAME"
 msgstr "Губернатор-індустріал"
 
 msgid "HERO_TRAIT@GOVERNANCE@NAUTICAL_GOVERNOR@DESCRIPTION"
-msgstr "Коли цей герой є губернатором, його місто отримує вигоду залежно від рівня його репутації:[bulletlist][bullet/][white]1 рівень репутації[/white][br/]Прибережні провінції та підводні озера забезпечують +{FoodBonus} очок [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink][bullet/][white]2 рівень репутації[/white][br/]Спустошення провінцій, що є частинами цих володінь, займає на {TurnDuration} [turn/] більше.[bullet/][white]3 рівень репутації[/white][br/]Прибережні провінції та підводні озера забезпечують +{ManaBonusIncome} очок [mana/] [hyperlink,GLOBAL.ManaConcept]мани[/hyperlink][bullet/][white]4 рівень репутації[/white][br/]Прибережні провінції та підводні озера забезпечують +{GoldBonusIncome} золота [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink][/bulletlist]"
+msgstr "Коли цей герой є губернатором, його місто отримує вигоду залежно від рівня його репутації:[bulletlist][bullet/][white]1 рівень репутації[/white][br/]Прибережні провінції та підводні озера забезпечують +{FoodBonus} очок [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink][bullet/][white]2 рівень репутації[/white][br/]Спустошення провінцій, що є частинами цих володінь, займає на {TurnDuration} [turn/] більше.[bullet/][white]3 рівень репутації[/white][br/]Прибережні провінції та підводні озера забезпечують +{ManaBonusIncome} очок [mana/] [hyperlink,GLOBAL.ManaConcept]мани[/hyperlink][bullet/][white]4 рівень репутації[/white][br/]Прибережні провінції та підводні озера забезпечують +{GoldBonusIncome} золота [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink][/bulletlist]"
 
 msgid "HERO_TRAIT@GOVERNANCE@NAUTICAL_GOVERNOR@LVL0"
 msgstr "Прибережні або водні провінції надають +{FoodBonus} очок [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink]."
@@ -78534,37 +78534,37 @@ msgid "HERO_TRAIT@GOVERNANCE@NAUTICAL_GOVERNOR@LVL2"
 msgstr "Прибережні або водні провінції надають +{ManaBonusIncome} очок [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
 
 msgid "HERO_TRAIT@GOVERNANCE@NAUTICAL_GOVERNOR@LVL3"
-msgstr "Прибережні або водні провінції надають +{GoldBonusIncome} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]."
+msgstr "Прибережні або водні провінції надають +{GoldBonusIncome} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]."
 
 msgid "HERO_TRAIT@GOVERNANCE@NAUTICAL_GOVERNOR@NAME"
 msgstr "Губернатор-лісник"
 
 msgid "HERO_TRAIT@GOVERNANCE@PROSPECTING_GOVERNOR@DESCRIPTION"
-msgstr "Коли цей герой є губернатором, його місто отримує вигоду залежно від рівня його репутації:[bulletlist][bullet/][white]1 рівень репутації[/white][br/]Кожна <<c:{GLOBAL.MineConcept.Hyperlink}>> забезпечує +{GoldBonus} золота [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink][bullet/][white]2 рівень репутації[/white][br/]Кожна <<c:{GLOBAL.MineConcept.Hyperlink}>> забезпечує +{StabilityBonus} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink][bullet/][white]3 рівень репутації[/white][br/]Кожна одиниця <<c:{GLOBAL.PopulationConcept.Hyperlink}>> забезпечує +{GoldPopBonusIncome} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink][bullet/][white]4 рівень репутації[/white][br/]+{GoldMultiplier}% більше доходів від [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink].[/bulletlist]"
+msgstr "Коли цей герой є губернатором, його місто отримує вигоду залежно від рівня його репутації:[bulletlist][bullet/][white]1 рівень репутації[/white][br/]Кожна <<c:{GLOBAL.MineConcept.Hyperlink}>> забезпечує +{GoldBonus} золота [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink][bullet/][white]2 рівень репутації[/white][br/]Кожна <<c:{GLOBAL.MineConcept.Hyperlink}>> забезпечує +{StabilityBonus} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink][bullet/][white]3 рівень репутації[/white][br/]Кожна одиниця <<c:{GLOBAL.PopulationConcept.Hyperlink}>> забезпечує +{GoldPopBonusIncome} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink][bullet/][white]4 рівень репутації[/white][br/]+{GoldMultiplier}% більше доходів від [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink].[/bulletlist]"
 
 msgid "HERO_TRAIT@GOVERNANCE@PROSPECTING_GOVERNOR@LVL0"
-msgstr "Кожна {GLOBAL.MineConcept.Hyperlink} надає +{GoldBonus} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]."
+msgstr "Кожна {GLOBAL.MineConcept.Hyperlink} надає +{GoldBonus} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]."
 
 msgid "HERO_TRAIT@GOVERNANCE@PROSPECTING_GOVERNOR@LVL1"
 msgstr "Кожна {GLOBAL.MineConcept.Hyperlink} надає +{StabilityBonus} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink]."
 
 msgid "HERO_TRAIT@GOVERNANCE@PROSPECTING_GOVERNOR@LVL2"
-msgstr "Кожна одиниця {GLOBAL.PopulationConcept.Hyperlink} дає +{GoldPopBonusIncome} [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]."
+msgstr "Кожна одиниця {GLOBAL.PopulationConcept.Hyperlink} дає +{GoldPopBonusIncome} [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]."
 
 msgid "HERO_TRAIT@GOVERNANCE@PROSPECTING_GOVERNOR@LVL3"
-msgstr "+{GoldMultiplier}% прибутку [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]."
+msgstr "+{GoldMultiplier}% прибутку [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]."
 
 msgid "HERO_TRAIT@GOVERNANCE@PROSPECTING_GOVERNOR@NAME"
 msgstr "Губернатор-проспектор"
 
 msgid "HERO_TRAIT@GOVERNANCE@RECRUITING_GOVERNOR@DESCRIPTION"
-msgstr "Коли цей герой є губернатором, його місто отримує вигоду залежно від рівня його репутації:[bulletlist][bullet/][white]1 рівень репутації[/white][br/]+{DraftBonus} очок {GLOBAL.UnitProductionConcept.Hyperlink} більше[bullet/][white]2 рівень репутації[/white][br/]Одиниці коштують на {Discount}% менше [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] для вербування[bullet/][white]3 рівень репутації[/white][br/]Рекрутовані юніти мають +{Rankbonus1}[medalGold/] рангу[bullet/][white]4 рівень репутації[/white][br/]Рекрутовані юніти мають +{Rankbonus2}[medalGold/] рангу[/bulletlist]"
+msgstr "Коли цей герой є губернатором, його місто отримує вигоду залежно від рівня його репутації:[bulletlist][bullet/][white]1 рівень репутації[/white][br/]+{DraftBonus} очок {GLOBAL.UnitProductionConcept.Hyperlink} більше[bullet/][white]2 рівень репутації[/white][br/]Одиниці коштують на {Discount}% менше [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] для вербування[bullet/][white]3 рівень репутації[/white][br/]Рекрутовані юніти мають +{Rankbonus1}[medalGold/] рангу[bullet/][white]4 рівень репутації[/white][br/]Рекрутовані юніти мають +{Rankbonus2}[medalGold/] рангу[/bulletlist]"
 
 msgid "HERO_TRAIT@GOVERNANCE@RECRUITING_GOVERNOR@LVL0"
 msgstr "+{DraftBonus} очок {GLOBAL.UnitProductionConcept.Hyperlink}."
 
 msgid "HERO_TRAIT@GOVERNANCE@RECRUITING_GOVERNOR@LVL1"
-msgstr "Рекрутинг юнітів коштує на {Discount}% менше [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]."
+msgstr "Рекрутинг юнітів коштує на {Discount}% менше [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]."
 
 msgid "HERO_TRAIT@GOVERNANCE@RECRUITING_GOVERNOR@LVL2"
 msgstr "Рекрутовані юніти мають +{Rankbonus1}[medalGold/] рангу."
@@ -78594,10 +78594,10 @@ msgid "HERO_TRAIT@GOVERNANCE@SCHOLARLY_GOVERNOR@NAME"
 msgstr "Губернатор-вчений"
 
 msgid "HERO_TRAIT@GOVERNANCE@SPECIALIST_GOVERNOR@DESCRIPTION"
-msgstr "Коли цей герой є губернатором, його місто отримує вигоду залежно від рівня його репутації:[bulletlist][bullet/][white]1 рівень репутації[/white][br/]Будівництво кожного <<gen:c:{GLOBAL.SpecialImprovementConcept.Hyperlink}>> коштує -{GoldCostMultiplier}% [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] та -{ProductionCostMultiplier}% очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink].[bullet/][white]2 рівень репутації[/white][br/]Кожне <<c:{GLOBAL.SpecialImprovementConcept.Hyperlink}>> забезпечує +{StabilityBonus} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink][bullet/][white]3 рівень репутації[/white][br/]Кожне <<c:{GLOBAL.SpecialImprovementConcept.Hyperlink}>> забезпечує +{KnowledgeProvinceBonusIncome} очок <<gen:c:{GLOBAL.KnowledgeConcept}>>[bullet/][white]4 рівень репутації[/white][br/]Кожен <<c:{GLOBAL.SpecialImprovementConcept.Hyperlink}>> забезпечує +{ManaProvinceBonusIncome} очок [mana/] [hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] та +{GoldProvinceBonusIncome} золота [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink][/bulletlist]"
+msgstr "Коли цей герой є губернатором, його місто отримує вигоду залежно від рівня його репутації:[bulletlist][bullet/][white]1 рівень репутації[/white][br/]Будівництво кожного <<gen:c:{GLOBAL.SpecialImprovementConcept.Hyperlink}>> коштує -{GoldCostMultiplier}% [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] та -{ProductionCostMultiplier}% очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink].[bullet/][white]2 рівень репутації[/white][br/]Кожне <<c:{GLOBAL.SpecialImprovementConcept.Hyperlink}>> забезпечує +{StabilityBonus} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink][bullet/][white]3 рівень репутації[/white][br/]Кожне <<c:{GLOBAL.SpecialImprovementConcept.Hyperlink}>> забезпечує +{KnowledgeProvinceBonusIncome} очок <<gen:c:{GLOBAL.KnowledgeConcept}>>[bullet/][white]4 рівень репутації[/white][br/]Кожен <<c:{GLOBAL.SpecialImprovementConcept.Hyperlink}>> забезпечує +{ManaProvinceBonusIncome} очок [mana/] [hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] та +{GoldProvinceBonusIncome} золота [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink][/bulletlist]"
 
 msgid "HERO_TRAIT@GOVERNANCE@SPECIALIST_GOVERNOR@LVL0"
-msgstr "Будівництво кожного <<gen:c:{GLOBAL.SpecialImprovementConcept.Hyperlink}>> коштує -{GoldCostMultiplier}% [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] та -{ProductionCostMultiplier}% очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink]."
+msgstr "Будівництво кожного <<gen:c:{GLOBAL.SpecialImprovementConcept.Hyperlink}>> коштує -{GoldCostMultiplier}% [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] та -{ProductionCostMultiplier}% очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink]."
 
 msgid "HERO_TRAIT@GOVERNANCE@SPECIALIST_GOVERNOR@LVL1"
 msgstr "Кожне <<c:{GLOBAL.SpecialImprovementConcept.Hyperlink}>> надає +{StabilityBonus} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink]."
@@ -78606,7 +78606,7 @@ msgid "HERO_TRAIT@GOVERNANCE@SPECIALIST_GOVERNOR@LVL2"
 msgstr "Кожне <<c:{GLOBAL.SpecialImprovementConcept.Hyperlink}>> надає +{KnowledgeProvinceBonusIncome} очок {GLOBAL.KnowledgeConcept.Hyperlink}."
 
 msgid "HERO_TRAIT@GOVERNANCE@SPECIALIST_GOVERNOR@LVL3"
-msgstr "Кожне <<c:{GLOBAL.SpecialImprovementConcept.Hyperlink}>> надає +{ManaProvinceBonusIncome} очок [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] та +{GoldProvinceBonusIncome} од. [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]."
+msgstr "Кожне <<c:{GLOBAL.SpecialImprovementConcept.Hyperlink}>> надає +{ManaProvinceBonusIncome} очок [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] та +{GoldProvinceBonusIncome} од. [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]."
 
 msgid "HERO_TRAIT@GOVERNANCE@SPECIALIST_GOVERNOR@NAME"
 msgstr "Губернатор-спеціаліст"
@@ -78672,7 +78672,7 @@ msgid "HERO_TRAIT@GOVERNANCE_05@NAME"
 msgstr "Зміцнений"
 
 msgid "HERO_TRAIT@GOVERNANCE_06@DESCRIPTION"
-msgstr "{GLOBAL.SpecialImprovementConcept.Hyperlink} коштує на {amount}% менше [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] і [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink] у місті цього губернатора."
+msgstr "{GLOBAL.SpecialImprovementConcept.Hyperlink} коштує на {amount}% менше [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] і [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink] у місті цього губернатора."
 
 msgid "HERO_TRAIT@GOVERNANCE_06@NAME"
 msgstr "Інженер-спеціаліст"
@@ -80460,7 +80460,7 @@ msgid "INTERFACE@DIPLOMACY@DWELLING"
 msgstr "[minorcity/] Поселення"
 
 msgid "INTERFACE@DIPLOMACY@DWELLING@DESCRIPTION"
-msgstr "[minorcity/] Поселення — це незалежні <<c:m:{GLOBAL.CityConcept.Hyperlink}>>, населені певними видами [hyperlink,GLOBAL.UnitConcept]юніта[/hyperlink].[br/]Подібно до <<c:m:{GLOBAL.IndependentCityConcept.Hyperlink}>>, вони не належать до жодної [hyperlink,GLOBAL.EmpireConcept]імперії[/hyperlink], але мають <<acc:c:{GLOBAL.FreeCityLordConcept.Hyperlink}>> і [hyperlink,GLOBAL.PvEDiplStateConcept]дипломатичні стосунки[/hyperlink], які можна покращити для отримання додаткових вигодиниць[br/][br/]Властивості території чи <<c:m:{GLOBAL.SpellConcept.Hyperlink}>>, які впливають на вільні міста, не впливають на поселення."
+msgstr "[minorcity/] Поселення — це незалежні [hyperlink,GLOBAL.CityConcept]міста[/hyperlink], населені певними видами [hyperlink,GLOBAL.UnitConcept]юніта[/hyperlink].[br/]Подібно до <<c:m:{GLOBAL.IndependentCityConcept.Hyperlink}>>, вони не належать до жодної [hyperlink,GLOBAL.EmpireConcept]імперії[/hyperlink], але мають <<acc:c:{GLOBAL.FreeCityLordConcept.Hyperlink}>> і [hyperlink,GLOBAL.PvEDiplStateConcept]дипломатичні стосунки[/hyperlink], які можна покращити для отримання додаткових вигодиниць[br/][br/]Властивості території чи <<c:m:{GLOBAL.SpellConcept.Hyperlink}>>, які впливають на вільні міста, не впливають на поселення."
 
 msgid "INTERFACE@DIPLOMACY@DWELLING@HYPERLINK"
 msgstr "[minorcity/][hyperlink,GLOBAL.DwellingConcept]Поселення[/hyperlink]"
@@ -88594,7 +88594,7 @@ msgid "INTERFACE@STRATEGIC_MAP@MAGIC_MATERIAL_HYPERLINK"
 msgstr "[hyperlink,GLOBAL.MagicMaterialConcept]Магічний матеріал[/hyperlink]"
 
 msgid "INTERFACE@STRATEGIC_MAP@MINE_DESCRIPTION"
-msgstr "Шахта — це одне з основних [hyperlink,GLOBAL.ProvinceImprovementConcept]покращень провінцій[/hyperlink] з такими перевагами:[bulletlist][bullet/]Забезпечує надходження [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink].{LOC.INTERFACE@STRATEGIC_MAP@BASE_IMPROVEMENT_DESCRIPTION}[/bulletlist]"
+msgstr "Шахта — це одне з основних [hyperlink,GLOBAL.ProvinceImprovementConcept]покращень провінцій[/hyperlink] з такими перевагами:[bulletlist][bullet/]Забезпечує надходження [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink].{LOC.INTERFACE@STRATEGIC_MAP@BASE_IMPROVEMENT_DESCRIPTION}[/bulletlist]"
 
 msgid "INTERFACE@STRATEGIC_MAP@MINE_HYPERLINK"
 msgstr "[mine/][hyperlink,GLOBAL.MineConcept]Шахта[/hyperlink]"
@@ -89430,7 +89430,7 @@ msgid "INTERFACE@TEXT@CITY_CAP_PENALTY"
 msgstr "-{Value}% міських доходів через перевищення ліміту міст на наступну кількість: {NumOver}"
 
 msgid "INTERFACE@TEXT@CITY_CAP_WARNING_DESCRIPTION"
-msgstr "Перевищення <<gen:c:{GLOBAL.CityCapConcept.Hyperlink}>> знижує доходи всіх ваших [hyperlink,GLOBAL.CityConcept]міста[/hyperlink].[br/][br/]Якщо ви продовжите, ви перевищите ліміт на {Citiesover}, і ваші <<c:m:{GLOBAL.CityConcept.Hyperlink}>> втратять {Incomepercentage} очок <<gen:c:{GLOBAL.CityIncomeConcept.Hyperlink}>> як штраф.[br/][br/]{GLOBAL.CityCapConcept.Hyperlink} можна збільшити за допомогою <<gen:c:{GLOBAL.EmpireDevelopmentConcept.Hyperlink}>>."
+msgstr "Перевищення <<gen:c:{GLOBAL.CityCapConcept.Hyperlink}>> знижує доходи всіх ваших [hyperlink,GLOBAL.CityConcept]міста[/hyperlink].[br/][br/]Якщо ви продовжите, ви перевищите ліміт на {Citiesover}, і ваші [hyperlink,GLOBAL.CityConcept]міста[/hyperlink] втратять {Incomepercentage} очок <<gen:c:{GLOBAL.CityIncomeConcept.Hyperlink}>> як штраф.[br/][br/]{GLOBAL.CityCapConcept.Hyperlink} можна збільшити за допомогою <<gen:c:{GLOBAL.EmpireDevelopmentConcept.Hyperlink}>>."
 
 msgid "INTERFACE@TEXT@CITY_CAP_WARNING_TITLE"
 msgstr "Увага: Ви скоро перевищите ліміт міст"
@@ -90381,7 +90381,7 @@ msgid "INTERFACE@TEXT@GENERATE_ENERGY"
 msgstr "Генерувати товари"
 
 msgid "INTERFACE@TEXT@GENERATE_ENERGY_TOOLTIP"
-msgstr "Генеруйте {INT_Amount} [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]"
+msgstr "Генеруйте {INT_Amount} [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]"
 
 msgid "INTERFACE@TEXT@GENERATE_FOOD"
 msgstr "Генерувати продовольчі пайки"
@@ -90814,7 +90814,7 @@ msgid "INTERFACE@TEXT@INSUFFICIENT_FUNDS"
 msgstr "Недостатньо коштів"
 
 msgid "INTERFACE@TEXT@INSUFFICIENT_FUNDS_DESCRIPTION"
-msgstr "У вас недостатньо [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] або [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink], щоб оплатити <<gen:c:{GLOBAL.UnitUpkeepConcept.Hyperlink}>> цього юніта. Він отримуватиме штраф у розмірі {MoralePenalty} очок до [hyperlink,GLOBAL.UnitMoraleConcept]бойового духу[/hyperlink], а також існує ризик, що юніт стане дезертиром."
+msgstr "У вас недостатньо [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] або [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink], щоб оплатити <<gen:c:{GLOBAL.UnitUpkeepConcept.Hyperlink}>> цього юніта. Він отримуватиме штраф у розмірі {MoralePenalty} очок до [hyperlink,GLOBAL.UnitMoraleConcept]бойового духу[/hyperlink], а також існує ризик, що юніт стане дезертиром."
 
 msgid "INTERFACE@TEXT@INT_TURNS_REMAINING"
 msgstr "Залишилося {INT_turns} [turn/]"
@@ -90844,7 +90844,7 @@ msgid "INTERFACE@TEXT@ITEM_FORGE"
 msgstr "Кузня предметів"
 
 msgid "INTERFACE@TEXT@ITEM_FORGE@DESCRIPTION"
-msgstr "У кузні предметів можна створювати нові предмети для героїв. Створення предметів вимагає <<gen:c:{GLOBAL.BindingEssenceConcept.Hyperlink}>>, [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] та часу. Одночасно може виготовлятися лише один предмет.[br/][br/]Вартість і час виготовлення предмета залежать від кількості <<gen:c:m:{GLOBAL.InfusionPointConcept.Hyperlink}>> використаних для його створення. Кількість <<gen:c:m:{GLOBAL.InfusionConcept.Hyperlink}>> також збільшує ці витрати.[br/][br/]Доступність зачарувань залежить від типів зібраних [hyperlink,GLOBAL.MagicMaterialConcept]магічних матералів[/hyperlink]. Збір більшої кількості магічних матеріалів одного типу розблокує потужніші зачарування.[br/][br/]Кузню предметів можна побудувати в [hyperlink,GLOBAL.WizardTowerConcept]вежі чарівника[/hyperlink]."
+msgstr "У кузні предметів можна створювати нові предмети для героїв. Створення предметів вимагає <<gen:c:{GLOBAL.BindingEssenceConcept.Hyperlink}>>, [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] та часу. Одночасно може виготовлятися лише один предмет.[br/][br/]Вартість і час виготовлення предмета залежать від кількості <<gen:c:m:{GLOBAL.InfusionPointConcept.Hyperlink}>> використаних для його створення. Кількість <<gen:c:m:{GLOBAL.InfusionConcept.Hyperlink}>> також збільшує ці витрати.[br/][br/]Доступність зачарувань залежить від типів зібраних [hyperlink,GLOBAL.MagicMaterialConcept]магічних матералів[/hyperlink]. Збір більшої кількості магічних матеріалів одного типу розблокує потужніші зачарування.[br/][br/]Кузню предметів можна побудувати в [hyperlink,GLOBAL.WizardTowerConcept]вежі чарівника[/hyperlink]."
 
 msgid "INTERFACE@TEXT@ITEM_FORGE@DESCRIPTION_SHORT"
 msgstr "Кузня предметів дозволяє створювати нові предмети для героя."
@@ -92095,7 +92095,7 @@ msgid "INTERFACE@TEXT@RAZING"
 msgstr "Спустошення"
 
 msgid "INTERFACE@TEXT@RAZING_DESCRIPTION"
-msgstr "<<m:{GLOBAL.ArmyConcept.Hyperlink}>> можуть знищити <<acc:c:{GLOBAL.DomainConcept.Hyperlink}>> імперії в провінції, спустошивши центр <<gen:c:{GLOBAL.OutpostConcept.Hyperlink}>> або [hyperlink,GLOBAL.CityConcept]міста[/hyperlink]. <<m:{GLOBAL.ProvinceImprovementConcept.Hyperlink}>> не можна спустошити, але можна [hyperlink,GLOBAL.PillageConcept]розграбувати[/hyperlink].[br/][br/]Спустошення міст перетворює їх на руїни, які можна відбудувати, витративши очки [imperium/] [hyperlink,GLOBAL.ImperiumConcept]імперіуму[/hyperlink]."
+msgstr "<<m:{GLOBAL.ArmyConcept.Hyperlink}>> можуть знищити <<acc:c:{GLOBAL.DomainConcept.Hyperlink}>> імперії в провінції, спустошивши центр <<gen:c:{GLOBAL.OutpostConcept.Hyperlink}>> або [hyperlink,GLOBAL.CityConcept]міста[/hyperlink]. [hyperlink,GLOBAL.SpecialImprovementConcept]Покращення провінцій[/hyperlink] не можна спустошити, але можна [hyperlink,GLOBAL.PillageConcept]розграбувати[/hyperlink].[br/][br/]Спустошення міст перетворює їх на руїни, які можна відбудувати, витративши очки [imperium/] [hyperlink,GLOBAL.ImperiumConcept]імперіуму[/hyperlink]."
 
 msgid "INTERFACE@TEXT@RAZING_HYPERLINK"
 msgstr "[hyperlink,GLOBAL.RazingConcept]Спустошення[/hyperlink]"
@@ -92216,7 +92216,7 @@ msgid "INTERFACE@TEXT@REPORT_USER_REASON"
 msgstr "Причина"
 
 msgid "INTERFACE@TEXT@REQUEST_MILITARY_AID_DESCRIPTION"
-msgstr "Тут ви можете вербувати [hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] для вашої імперії або допомагати захищати свої [hyperlink,GLOBAL.PvEVassalConcept]міста-васали[/hyperlink], використовуючи [recruitmentPoints/] [hyperlink,GLOBAL.RecruitmentPointsConcept]очок вербування[/hyperlink].[br/][br/]Пул доступних юнітів складається переважно з юнітів, які надають вам лояльні <<c:m:{GLOBAL.CityConcept.Hyperlink}>> та приєднані <<c:m:{GLOBAL.AncientWonderConcept.Hyperlink}>>. Кількість доступних юнітів залежить від кількості доступних очок вербування. Підрозділи, надані містами, будуть обрані випадковим чином на основі юнітів, які місто здатне створити, з урахуванням найвищих рівнів юнітів.[br/][br/]Збори будуть проводитися кожні 15 [turn/][hyperlink,GLOBAL.TurnConcept]ходів[/hyperlink], і лише тоді пул доступних юнітів та кількість очок, які ви можете витратити, буде оновлено. Однак раз на збір ви можете використати прискорення, щоб зменшити кількість турів, що залишилися, наполовину."
+msgstr "Тут ви можете вербувати [hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] для вашої імперії або допомагати захищати свої [hyperlink,GLOBAL.PvEVassalConcept]міста-васали[/hyperlink], використовуючи [recruitmentPoints/] [hyperlink,GLOBAL.RecruitmentPointsConcept]очок вербування[/hyperlink].[br/][br/]Пул доступних юнітів складається переважно з юнітів, які надають вам лояльні [hyperlink,GLOBAL.CityConcept]міста[/hyperlink] та приєднані <<c:m:{GLOBAL.AncientWonderConcept.Hyperlink}>>. Кількість доступних юнітів залежить від кількості доступних очок вербування. Підрозділи, надані містами, будуть обрані випадковим чином на основі юнітів, які місто здатне створити, з урахуванням найвищих рівнів юнітів.[br/][br/]Збори будуть проводитися кожні 15 [turn/][hyperlink,GLOBAL.TurnConcept]ходів[/hyperlink], і лише тоді пул доступних юнітів та кількість очок, які ви можете витратити, буде оновлено. Однак раз на збір ви можете використати прискорення, щоб зменшити кількість турів, що залишилися, наполовину."
 
 msgid "INTERFACE@TEXT@REQUEST_MILITARY_AID_HYPERLINK"
 msgstr "[hyperlink,GLOBAL.RequestMilitaryAidConcept]Збір васалів[/hyperlink]"
@@ -92389,7 +92389,7 @@ msgid "INTERFACE@TEXT@SCOUT_PROSPECTING@NAME"
 msgstr "Пошуки копалин"
 
 msgid "INTERFACE@TEXT@SCOUT_PROSPECTING@PROPERTY@DESCRIPTION"
-msgstr "Цей юніт може досліджувати [hyperlink,GLOBAL.ProvinceConcept]провінції[/hyperlink], де є скелі, пагорби або сталагміти. Це приносить нагороди у вигляді очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink], [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] або предмета для героя."
+msgstr "Цей юніт може досліджувати [hyperlink,GLOBAL.ProvinceConcept]провінції[/hyperlink], де є скелі, пагорби або сталагміти. Це приносить нагороди у вигляді очок [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink], [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] або предмета для героя."
 
 msgid "INTERFACE@TEXT@SECTOR"
 msgstr "Провінція"
@@ -92750,7 +92750,7 @@ msgid "INTERFACE@TEXT@STRUCTURE_QUEUE"
 msgstr "Черга будівель"
 
 msgid "INTERFACE@TEXT@STRUCTURE_QUEUE_DESCRIPTION"
-msgstr "У черзі будівництва зводяться [hyperlink,GLOBAL.CityStructureConcept]міські споруди[/hyperlink] за допомогою [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] і в межах [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink]."
+msgstr "У черзі будівництва зводяться [hyperlink,GLOBAL.CityStructureConcept]міські споруди[/hyperlink] за допомогою [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] і в межах [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink]."
 
 msgid "INTERFACE@TEXT@STRUCTURE_QUEUE_HYPERLINK"
 msgstr "[hyperlink,GLOBAL.StructureQueueConcept]Черга будівництва[/hyperlink]"
@@ -97122,7 +97122,7 @@ msgid "MAGICMATERIALS@ELDRITCH_BONE@DESCRIPTION"
 msgstr "[bulletlist][bullet/]{GLOBAL.UnitSummonConcept} отримує {damagebuff} одиниць до шкоди від усіх атак.[red]*[/red][/bulletlist]"
 
 msgid "MAGICMATERIALS@FIREFORGE_STONE@DESCRIPTION"
-msgstr "Унікальний глобальний ефект:[bulletlist][bullet/][hyperlink,GLOBAL.UnitConcept]Підрозділи[/hyperlink] вимагають на {discount} менше витрат {GLOBAL.UnitProductionConcept.Hyperlink}.[/bulletlist]"
+msgstr "Унікальний глобальний ефект:[bulletlist][bullet/][hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] вимагають на {discount} менше витрат {GLOBAL.UnitProductionConcept.Hyperlink}.[/bulletlist]"
 
 msgid "MAGICMATERIALS@FIREFORGE_STONE@LORE"
 msgstr "Кажуть, що камені Вогненної кузні — це залишки серця вулкану. Вони постійно випромінюють тепло, яке неможливо погасити. Магічно підвищена температура цих каменів значно прискорює процес кування зброї.[br/][br/] Фангір Рокборн, Щоденники з другого століття: ч. I"
@@ -98073,7 +98073,7 @@ msgid "META_EMPIRE@PROGRESSION_ITEM@CULTURE_TRAIT@DESCRIPTION"
 msgstr "Відкрий <<acc:c:{SocietyTrait}>>, щоб мати можливість вибирати риси для твоєї фракції."
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@CULTURE_TRAIT_01@EFFECT1_DESCRIPTION"
-msgstr "Отримує +{amount1} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] за кожне місто в [hyperlink,GLOBAL.EmpireConcept]імперії[/hyperlink], населене іншими расами."
+msgstr "Отримує +{amount1} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] за кожне місто в [hyperlink,GLOBAL.EmpireConcept]імперії[/hyperlink], населене іншими расами."
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@CULTURE_TRAIT_01@EFFECT2_DESCRIPTION"
 msgstr "Отримує +{amount1} {GLOBAL.GoldConcept.Hyperlink} за кожне місто у вашій {GLOBAL.EmpireConcept.Hyperlink}, де проживає інша раса."
@@ -98145,7 +98145,7 @@ msgid "META_EMPIRE@PROGRESSION_ITEM@CULTURE_TRAIT_ARTISAN@DESCRIPTION"
 msgstr "Відкрий: {SocietyTrait}."
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@CULTURE_TRAIT_ARTISAN@EFFECT1_DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.CityStructureConcept]Міські споруди[/hyperlink] коштують на {ProductionCostMultiplier} більше [production/] [hyperlink,GLOBAL.ProductionConcept]очок виробництва[/hyperlink], але надають {StabilityBonusIncome} [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] і {GoldBonusIncome} [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] додатково до їх власних бонусів."
+msgstr "[hyperlink,GLOBAL.CityStructureConcept]Міські споруди[/hyperlink] коштують на {ProductionCostMultiplier} більше [production/] [hyperlink,GLOBAL.ProductionConcept]очок виробництва[/hyperlink], але надають {StabilityBonusIncome} [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] і {GoldBonusIncome} [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] додатково до їх власних бонусів."
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@CULTURE_TRAIT_ARTISAN@EFFECT2_DESCRIPTION"
 msgstr "Расові юніти {UnitTier} [hyperlink,GLOBAL.UnitTierConcept]рівня[/hyperlink] отримують {rank} ранг."
@@ -98235,7 +98235,7 @@ msgid "META_EMPIRE@PROGRESSION_ITEM@CULTURE_TRAIT_DRUID@BIO"
 msgstr "Опікуни порядку природи, що дбають про ретельно підтримувану екосистему."
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@CULTURE_TRAIT_DRUID@EFFECT1_DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] отримують:[bulletlist][bullet/]+{amount} [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink], якщо головна провінція міста містить гаї, поля грибів або болота.[bullet/]+{amount2} [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink], якщо головна провінція міста містить ліси, скелі або гори.[bullet/]+{amount3} [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink], якщо головна провінція міста містить попелясті землі.[bullet/]+{amount4} [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink], якщо головна провінція міста містить сніги, кригу або піски.[/bulletlist]"
+msgstr "[hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] отримують:[bulletlist][bullet/]+{amount} [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink], якщо головна провінція міста містить гаї, поля грибів або болота.[bullet/]+{amount2} [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink], якщо головна провінція міста містить ліси, скелі або гори.[bullet/]+{amount3} [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink], якщо головна провінція міста містить попелясті землі.[bullet/]+{amount4} [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink], якщо головна провінція міста містить сніги, кригу або піски.[/bulletlist]"
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@CULTURE_TRAIT_DRUID@EFFECT2_DESCRIPTION"
 msgstr "Заклинання терраформування коштують на {amount} менше {GLOBAL.ManaConcept.Hyperlink} і менше {GLOBAL.WorldMapCastingPointConcept.Hyperlink}."
@@ -98313,7 +98313,7 @@ msgid "META_EMPIRE@PROGRESSION_ITEM@CULTURE_TRAIT_RANGER@DESCRIPTION"
 msgstr "Відкрий: {SocietyTrait}."
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@CULTURE_TRAIT_RANGER@EFFECT1_DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] отримують +{amount} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink], {GLOBAL.KnowledgeConcept.Hyperlink}, [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink], [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink] та {GLOBAL.UnitProductionConcept.Hyperlink} за кожен <<acc:c:{GLOBAL.MagicMaterialConcept.Hyperlink}>> у своїх <<gen:c:{GLOBAL.DomainConcept.Hyperlink}>>."
+msgstr "[hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] отримують +{amount} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink], {GLOBAL.KnowledgeConcept.Hyperlink}, [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink], [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink] та {GLOBAL.UnitProductionConcept.Hyperlink} за кожен <<acc:c:{GLOBAL.MagicMaterialConcept.Hyperlink}>> у своїх <<gen:c:{GLOBAL.DomainConcept.Hyperlink}>>."
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@CULTURE_TRAIT_RANGER@EFFECT2_DESCRIPTION"
 msgstr "<<m:{GLOBAL.PROPERTIES.ANIMAL.Hyperlink}>> мають ранг {rank}"
@@ -98409,7 +98409,7 @@ msgid "META_EMPIRE@PROGRESSION_ITEM@CULTURE_TRAIT_WARLOCK@EFFECT2_DESCRIPTION"
 msgstr "<<m:{GLOBAL.PROPERTIES.FIEND.Hyperlink}>> мають ранг {rank}"
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@CULTURE_TRAIT_WARLOCK@EFFECT3_DESCRIPTION"
-msgstr "Спустошення міст дає постійний дохід +{amount1} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink], +{amount2} одиниць [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] і +{amount3} одиниць {GLOBAL.KnowledgeConcept.Hyperlink} за кожні {Poptarget} {GLOBAL.PopulationConcept.Hyperlink} пограбованого міста."
+msgstr "Спустошення міст дає постійний дохід +{amount1} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink], +{amount2} одиниць [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] і +{amount3} одиниць {GLOBAL.KnowledgeConcept.Hyperlink} за кожні {Poptarget} {GLOBAL.PopulationConcept.Hyperlink} пограбованого міста."
 
 msgid "META_EMPIRE@PROGRESSION_ITEM@CULTURE_TRAIT_WARLOCK@EFFECT4_DESCRIPTION"
 msgstr "Не можна приєднувати нові [hyperlink,GLOBAL.CityConcept]міста[/hyperlink], а завойовані міста можуть бути лише зруйновані."
@@ -99683,7 +99683,7 @@ msgid "META_EMPIRE@TRAIT_ARCTIC_BLIZZARDS@COMBAT_PROPERTY_DESCRIPTION"
 msgstr "Наприкінці [turn/][hyperlink,GLOBAL.TurnConcept]ходів[/hyperlink] атакуючого:[bulletlist][bullet/]Усі юніти, не під впливом ефекту <<c:{GLOBAL.PROPERTIES.FROSTLING_TRANSFORMATION_PROPERTY_GROUP.Hyperlink}>>, отримують {Frostdamage} одиниць [hyperlink,GLOBAL.FrostDamageConcept]морозної шкоди[/hyperlink].[bullet/]Базовий шанс {frozenchange}, що всі [hyperlink,GLOBAL.PROPERTIES.WET]мокрі[/hyperlink] юніти стануть [hyperlink,GLOBAL.PROPERTIES.FROZEN]замороженими[/hyperlink[.[/bulletlist]"
 
 msgid "META_EMPIRE@TRAIT_ARCTIC_BLIZZARDS@DESCRIPTION"
-msgstr "Лютують снігові бурі в усіх арктичних регіонах цієї землі:[bulletlist][bullet/]Усі арктичні <<ins:c:m:{GLOBAL.ProvinceConcept.Hyperlink}>> потрапляють під вплив арктичних бур.[bullet/]Усі наземні поля битв отримують ефект <<c:{GLOBAL.PROPERTIES.COMBATPROPERTY_ARCTIC_BLIZZARDS.Hyperlink}>>.[bullet/][hyperlink,GLOBAL.UnitConcept]Підрозділи[/hyperlink] у цих провінціях отримують ефект <<c:{GLOBAL.PROPERTIES.ARCTIC_BLIZZARDS_UNIT_PROPERTY.Hyperlink}>>.[/bulletlist]"
+msgstr "Лютують снігові бурі в усіх арктичних регіонах цієї землі:[bulletlist][bullet/]Усі арктичні <<ins:c:m:{GLOBAL.ProvinceConcept.Hyperlink}>> потрапляють під вплив арктичних бур.[bullet/]Усі наземні поля битв отримують ефект <<c:{GLOBAL.PROPERTIES.COMBATPROPERTY_ARCTIC_BLIZZARDS.Hyperlink}>>.[bullet/][hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] у цих провінціях отримують ефект <<c:{GLOBAL.PROPERTIES.ARCTIC_BLIZZARDS_UNIT_PROPERTY.Hyperlink}>>.[/bulletlist]"
 
 msgid "META_EMPIRE@TRAIT_ARCTIC_BLIZZARDS@DISPLAY_DESCRIPTION"
 msgstr "Підрозділи в цій <<loc:c:{GLOBAL.ProvinceConcept.Hyperlink}>> отримують:[bulletlist][bullet/]{GLOBAL.PROPERTIES.ARCTIC_BLIZZARDS_UNIT_PROPERTY.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.COMBATPROPERTY_ARCTIC_BLIZZARDS.Hyperlink} у бою[/bulletlist]"
@@ -99914,7 +99914,7 @@ msgid "META_EMPIRE@TRAIT_ENDLESS_FIELDS_REALM@NAME"
 msgstr "Нескінченні поляa"
 
 msgid "META_EMPIRE@TRAIT_ETERNAL_BATTLEGROUND@DESCRIPTION"
-msgstr "Земля, наповнена насильством, де єдиним законом є війна.[bulletlist][bullet/]Усі [hyperlink,GLOBAL.LeaderConcept]володарі[/hyperlink] та лорди [hyperlink,GLOBAL.IndependentCityConcept]вільним містам[/hyperlink] оголошують один одному <<acc:c:{GLOBAL.WarConcept.Hyperlink}>> при першій зустрічі. Переговори з <<gen:c:{GLOBAL.DSNeutralConcept.Hyperlink}>> неможливі.[bullet/]Це не впливає на <<c:m:{GLOBAL.CityConcept.Hyperlink}>> звільнені через <<gen:c:[hyperlink,GLOBAL.PactOfVassalageConcept]>> як васали або інші <<c:m:{GLOBAL.CityConcept.Hyperlink}>> переможених [hyperlink,GLOBAL.EmpireConcept]імперіям[/hyperlink].[/bulletlist]"
+msgstr "Земля, наповнена насильством, де єдиним законом є війна.[bulletlist][bullet/]Усі [hyperlink,GLOBAL.LeaderConcept]володарі[/hyperlink] та лорди [hyperlink,GLOBAL.IndependentCityConcept]вільним містам[/hyperlink] оголошують один одному <<acc:c:{GLOBAL.WarConcept.Hyperlink}>> при першій зустрічі. Переговори з <<gen:c:{GLOBAL.DSNeutralConcept.Hyperlink}>> неможливі.[bullet/]Це не впливає на [hyperlink,GLOBAL.CityConcept]міста[/hyperlink] звільнені через <<gen:c:[hyperlink,GLOBAL.PactOfVassalageConcept]>> як васали або інші [hyperlink,GLOBAL.CityConcept]міста[/hyperlink] переможених [hyperlink,GLOBAL.EmpireConcept]імперіям[/hyperlink].[/bulletlist]"
 
 msgid "META_EMPIRE@TRAIT_ETERNAL_BATTLEGROUND@NAME"
 msgstr "Вічне бойовище"
@@ -100124,7 +100124,7 @@ msgid "META_EMPIRE@TRAIT_NO_FREE_CITIES@NAME"
 msgstr "Без вільних міст"
 
 msgid "META_EMPIRE@TRAIT_NO_RESPITE@DESCRIPTION"
-msgstr "Ця земля активно перешкоджає природному зціленню.[bulletlist][bullet/][hyperlink,GLOBAL.UnitConcept]Підрозділи[/hyperlink] [hyperlink,GLOBAL.EmpireConcept]імперії[/hyperlink] страждають від <<acc:c:{GLOBAL.PROPERTIES.NO_RESPITE_PROPERTY.Hyperlink}>>.[/bulletlist]"
+msgstr "Ця земля активно перешкоджає природному зціленню.[bulletlist][bullet/][hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] [hyperlink,GLOBAL.EmpireConcept]імперії[/hyperlink] страждають від <<acc:c:{GLOBAL.PROPERTIES.NO_RESPITE_PROPERTY.Hyperlink}>>.[/bulletlist]"
 
 msgid "META_EMPIRE@TRAIT_NO_RESPITE@NAME"
 msgstr "Без відпочинку"
@@ -101986,7 +101986,7 @@ msgid "OPERATIONDEFINITIONS_STRATEGIC@CITY_OPERATION_ABSORB@NAME"
 msgstr "Поглинути"
 
 msgid "OPERATIONDEFINITIONS_STRATEGIC@CITY_OPERATION_RAZE@DESCRIPTION"
-msgstr "Спали місто дощенту. Покращення міста стають марними, і воно не придатне для проживання до моменту відбудови.[br/][br/]Ти отримаєш:[br/]{AlignmentChange} очок вирівнювання.[br/]Спустошення приносить +{gold} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]."
+msgstr "Спали місто дощенту. Покращення міста стають марними, і воно не придатне для проживання до моменту відбудови.[br/][br/]Ти отримаєш:[br/]{AlignmentChange} очок вирівнювання.[br/]Спустошення приносить +{gold} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]."
 
 msgid "OPERATIONDEFINITIONS_STRATEGIC@CITY_OPERATION_RAZE@INPROGRESS_DESCRIPTION"
 msgstr "Триває спустошення міста. Процес завершиться через {Duration.Turn}."
@@ -102106,7 +102106,7 @@ msgid "OPERATIONDEFINITIONS_STRATEGIC@OWN_CITY_OPERATION_RAZE@DESCRIPTION"
 msgstr "Спалює <<acc:c:{GLOBAL.CityConcept.Hyperlink}>> дотла.[bulletlist][bullet/]{GLOBAL.CityConcept.Hyperlink} перетворюється на [hyperlink,GLOBAL.CityRuinConcept]руїни[/hyperlink].[bullet/]Усі [hyperlink,GLOBAL.ProvinceImprovementConcept]покращення провінції[/hyperlink] буде видалено.[/bulletlist][br/][br/]Ти отримуєш:[br/]Схильність: {AlignmentChange}."
 
 msgid "OPERATIONDEFINITIONS_STRATEGIC@RESET_ARMY_SPAWNPOINT@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.UnitConcept]Підрозділи[/hyperlink], створені в цьому <<loc:c:{GLOBAL.CityConcept.Hyperlink}>>, з'являться в <<loc:c:{GLOBAL.CityCenterConcept.Hyperlink}>>."
+msgstr "[hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink], створені в цьому <<loc:c:{GLOBAL.CityConcept.Hyperlink}>>, з'являться в <<loc:c:{GLOBAL.CityCenterConcept.Hyperlink}>>."
 
 msgid "OPERATIONDEFINITIONS_STRATEGIC@RESET_ARMY_SPAWNPOINT@NAME"
 msgstr "Скинути точку появи юнітів у центрі міста"
@@ -102232,7 +102232,7 @@ msgid "OPERATIONDEFINITIONS_STRATEGIC@SECTOR_REPAIR_IMPROVEMENT@NAME"
 msgstr "Відновити покращення провінції"
 
 msgid "OPERATIONDEFINITIONS_STRATEGIC@SET_ARMY_SPAWNPOINT@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.UnitConcept]Підрозділи[/hyperlink], створені в цьому [hyperlink,GLOBAL.CityConcept]місті[/hyperlink], з'являться тут, а не в [hyperlink,GLOBAL.CityCenterConcept]центрі міста[/hyperlink]."
+msgstr "[hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink], створені в цьому [hyperlink,GLOBAL.CityConcept]місті[/hyperlink], з'являться тут, а не в [hyperlink,GLOBAL.CityCenterConcept]центрі міста[/hyperlink]."
 
 msgid "OPERATIONDEFINITIONS_STRATEGIC@SET_ARMY_SPAWNPOINT@NAME"
 msgstr "Встановити як точку спавну юнітів"
@@ -102292,7 +102292,7 @@ msgid "PICKUPS_STRATEGIC@FLOATSAM@NAME"
 msgstr "Уламкин"
 
 msgid "PICKUPS_STRATEGIC@FLOTSAM@DESCRIPTION"
-msgstr "Стародавній артефакт, могутній шолом чи, можливо, скриня, повна загублених багатств.[br/][br/]Переміщення сюди твоєї [hyperlink,GLOBAL.ArmyConcept]армії[/hyperlink] дозволить отримати трохи [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink], а можливо, й предмет, яким зможуть користуватися твої [hyperlink,GLOBAL.HeroConcept]герої[/hyperlink]."
+msgstr "Стародавній артефакт, могутній шолом чи, можливо, скриня, повна загублених багатств.[br/][br/]Переміщення сюди твоєї [hyperlink,GLOBAL.ArmyConcept]армії[/hyperlink] дозволить отримати трохи [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink], а можливо, й предмет, яким зможуть користуватися твої [hyperlink,GLOBAL.HeroConcept]герої[/hyperlink]."
 
 msgid "PICKUPS_STRATEGIC@FOOD_PICKUP@DESCRIPTION"
 msgstr "Ідеально збережено... принаймні, здебільшого.[br/]Переміщення сюди твоєї армії дозволить отримати трохи [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink]."
@@ -102310,13 +102310,13 @@ msgid "PICKUPS_STRATEGIC@GALLEON_WRECKAGE@DESCRIPTION"
 msgstr "Залишки галеона, що перевозив товари та валюту.[br/][br/]Переміщення сюди твоєї [hyperlink,GLOBAL.ArmyConcept]армії[/hyperlink] дозволить отримати <<acc:c:{GLOBAL.GoldConcept.Hyperlink}>>, <<acc:c:{GLOBAL.StructureProductionConcept.Hyperlink}>> або спорядження для <<gen:c:{GLOBAL.HeroConcept.Hyperlink}>>."
 
 msgid "PICKUPS_STRATEGIC@GOLD_PICKUP@DESCRIPTION"
-msgstr "Статок, вартий кількох життів… принаймні для простолюдина.[br/][br/]Переміщення сюди твоєї армії дозволить негайно отримати трохи [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]."
+msgstr "Статок, вартий кількох життів… принаймні для простолюдина.[br/][br/]Переміщення сюди твоєї армії дозволить негайно отримати трохи [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]."
 
 msgid "PICKUPS_STRATEGIC@GOLD_PICKUP@NAME"
 msgstr "Запаси золота"
 
 msgid "PICKUPS_STRATEGIC@GOLD_PICKUP_LARGE@DESCRIPTION"
-msgstr "Статок, вартий кількох життів… принаймні для простолюдина.[br/][br/]Переміщення сюди твоєї армії дозволить негайно отримати трохи [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]."
+msgstr "Статок, вартий кількох життів… принаймні для простолюдина.[br/][br/]Переміщення сюди твоєї армії дозволить негайно отримати трохи [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]."
 
 msgid "PICKUPS_STRATEGIC@KNOWLEDGE_PICKUP@DESCRIPTION"
 msgstr "Купа запилених сувоїв і зім'ятих пергаментів, що приховують багато секретів.[br/][br/]Переміщення сюди твоєї армії дозволить негайно отримати трохи {GLOBAL.KnowledgeConcept.Hyperlink}."
@@ -102349,7 +102349,7 @@ msgid "PICKUPS_STRATEGIC@MANA_PICKUP_LARGE@DESCRIPTION"
 msgstr "Збір кристалів мани — бери, скільки хочеш.[br/][br/]Переміщення сюди твоєї армії дозволить негайно отримати трохи [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
 
 msgid "PICKUPS_STRATEGIC@MOLTEN_TREASURE@DESCRIPTION"
-msgstr "Коштовності і кристали, що ледве захищені від розпаду сталевими контейнерами.[br/][br/]Переміщення сюди армії негайно принесе тобі трохи [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] та [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
+msgstr "Коштовності і кристали, що ледве захищені від розпаду сталевими контейнерами.[br/][br/]Переміщення сюди армії негайно принесе тобі трохи [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] та [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
 
 msgid "PICKUPS_STRATEGIC@MOLTEN_TREASURE@NAME"
 msgstr "Розплавлений скарб"
@@ -102901,7 +102901,7 @@ msgid "QUEST@REWARD_TYPE@TOOLTIP@GOLD@DESCRIPTION"
 msgstr "Забезпечує <<acc:c:{GLOBAL.GoldConcept.Hyperlink}>> як гарантовану нагороду."
 
 msgid "QUEST@REWARD_TYPE@TOOLTIP@GOLD@NAME"
-msgstr "Нагорода: очки [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]"
+msgstr "Нагорода: очки [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]"
 
 msgid "QUEST@REWARD_TYPE@TOOLTIP@HAPPINESS@DESCRIPTION"
 msgstr "Забезпечує очки [xp/][hyperlink,GLOBAL.ExperienceConcept]досвіду[/hyperlink] як гарантовану нагороду."
@@ -103253,7 +103253,7 @@ msgid "RACETRAITS_COUNCIL@MARK_OF_THE_BUTCHER@EFFECT_00"
 msgstr "{GLOBAL.AlignmentConcept.Hyperlink}: [xpCol]{IntEvilAlignment}[/xpCol][reputation0/]"
 
 msgid "RACETRAITS_COUNCIL@MARK_OF_THE_BUTCHER@EFFECT_01"
-msgstr "[hyperlink,GLOBAL.UnitConcept]Підрозділи[/hyperlink] цієї раси отримують [xpCol]{IntXPBuff}[/xpCol] очок [xp/][hyperlink,GLOBAL.ExperienceConcept]досвіду[/hyperlink] у бою."
+msgstr "[hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] цієї раси отримують [xpCol]{IntXPBuff}[/xpCol] очок [xp/][hyperlink,GLOBAL.ExperienceConcept]досвіду[/hyperlink] у бою."
 
 msgid "RACETRAITS_COUNCIL@MARK_OF_THE_BUTCHER@EFFECT_02"
 msgstr "[hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] цієї раси втрачають [fireCol]{IntStabilityDebuff}[/fireCol] очок [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] за кожного <<acc:c:{GLOBAL.PopulationConcept.Hyperlink}>> жителя."
@@ -103292,7 +103292,7 @@ msgid "RACETRAITS_COUNCIL@MARK_OF_THE_DOVE@BIO"
 msgstr "Їхнє суспільство найкраще процвітає в атмосфері миру та пацифізму."
 
 msgid "RACETRAITS_COUNCIL@MARK_OF_THE_DOVE@DESCRIPTION"
-msgstr "[bulletlist][bullet/]{IntGoodAlignment} [reputation8/] {GLOBAL.AlignmentConcept.Hyperlink}[bullet/][hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] цієї раси отримують {IntStabilityBuff} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] за кожного <<acc:c:{GLOBAL.PopulationConcept.Hyperlink}>> жителя.[bullet/][firecol/][hyperlink,GLOBAL.UnitConcept]Підрозділи[/hyperlink] цієї раси отримують {IntXPDebuff} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] у бою.[firecol/][/bulletlist]"
+msgstr "[bulletlist][bullet/]{IntGoodAlignment} [reputation8/] {GLOBAL.AlignmentConcept.Hyperlink}[bullet/][hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] цієї раси отримують {IntStabilityBuff} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] за кожного <<acc:c:{GLOBAL.PopulationConcept.Hyperlink}>> жителя.[bullet/][firecol/][hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] цієї раси отримують {IntXPDebuff} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] у бою.[firecol/][/bulletlist]"
 
 msgid "RACETRAITS_COUNCIL@MARK_OF_THE_DOVE@EFFECT_00"
 msgstr "{GLOBAL.AlignmentConcept.Hyperlink}: [xpCol]{IntGoodAlignment}[/xpCol][reputation8/]"
@@ -103301,7 +103301,7 @@ msgid "RACETRAITS_COUNCIL@MARK_OF_THE_DOVE@EFFECT_01"
 msgstr "[hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] цієї раси отримують [xpCol]{IntStabilityBuff}[/xpCol] очок [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] за кожного <<acc:c:{GLOBAL.PopulationConcept.Hyperlink}>> жителя."
 
 msgid "RACETRAITS_COUNCIL@MARK_OF_THE_DOVE@EFFECT_02"
-msgstr "[hyperlink,GLOBAL.UnitConcept]Підрозділи[/hyperlink] цієї раси отримують [fireCol]{IntXPDebuff}[/fireCol] очок [xp/][hyperlink,GLOBAL.ExperienceConcept]досвіду[/hyperlink] в бою."
+msgstr "[hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] цієї раси отримують [fireCol]{IntXPDebuff}[/fireCol] очок [xp/][hyperlink,GLOBAL.ExperienceConcept]досвіду[/hyperlink] в бою."
 
 msgid "RACETRAITS_COUNCIL@MARK_OF_THE_DOVE@LORE"
 msgstr "Цей народ найкраще процвітає в атмосфері миру та пацифізму."
@@ -103322,10 +103322,10 @@ msgid "RACETRAITS_COUNCIL@MARK_OF_THE_HOARD@EFFECT_00"
 msgstr "[xpCol]{IntMateriumAffinity}[/xpCol] {GLOBAL.MateriumConcept.Hyperlink}"
 
 msgid "RACETRAITS_COUNCIL@MARK_OF_THE_HOARD@EFFECT_01"
-msgstr "[hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] цієї раси отримують [xpCol]{IntStabilityBuff}[/xpCol] очок [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] за кожні {IntGoldSteps} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] у загальному запасі [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] їхнього правителя до максимальної кількості {IntMaxStability} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink]."
+msgstr "[hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] цієї раси отримують [xpCol]{IntStabilityBuff}[/xpCol] очок [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] за кожні {IntGoldSteps} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] у загальному запасі [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] їхнього правителя до максимальної кількості {IntMaxStability} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink]."
 
 msgid "RACETRAITS_COUNCIL@MARK_OF_THE_HOARD@EFFECT_02"
-msgstr "[hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] цієї раси генерують [fireCol]{IntGoldDebuff}[/fireCol] [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] за кожного <<acc:c:{GLOBAL.PopulationConcept.Hyperlink}>> жителя, якого вони мають."
+msgstr "[hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] цієї раси генерують [fireCol]{IntGoldDebuff}[/fireCol] [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] за кожного <<acc:c:{GLOBAL.PopulationConcept.Hyperlink}>> жителя, якого вони мають."
 
 msgid "RACETRAITS_COUNCIL@MARK_OF_THE_HOARD@LORE"
 msgstr "Ця раса, охоплена жагою до матеріальних багатств, понад усе цінує золото."
@@ -103900,7 +103900,7 @@ msgid "RACETRAITS_WORLD@TRAIT2@EFFECT_01@DESCRIPTION"
 msgstr "{GLOBAL.ThroneCityConcept} отримує {amount} одиниць [imperium/] [hyperlink,GLOBAL.ImperiumConcept]імперіуму[/hyperlink] за кожну [hyperlink,GLOBAL.CityStructureConcept]міську споруду[/hyperlink], яка дає <<acc:c:{GLOBAL.CityStabilityConcept}>>."
 
 msgid "RACETRAITS_WORLD@TRAIT2@EFFECT_02@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.ThroneCityConcept]Тронне місто[/hyperlink] та міста, які мають спільний кордон із ним, отримують +{amount2} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] та +{amount} одиниць доходу [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]."
+msgstr "[hyperlink,GLOBAL.ThroneCityConcept]Тронне місто[/hyperlink] та міста, які мають спільний кордон із ним, отримують +{amount2} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] та +{amount} одиниць доходу [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]."
 
 msgid "RACETRAITS_WORLD@TRAIT2@EFFECT_03@DESCRIPTION"
 msgstr "Ваше перше місто отримує +{amount} одиниць <<{GLOBAL.PopulationConcept}>>."
@@ -103915,7 +103915,7 @@ msgid "RACETRAITS_WORLD@TRAIT3@BIO"
 msgstr "Вони вбивають без жалю. Їм зацікавіше займатися розбоєм та грабежами, ніж питаннями добра та зла."
 
 msgid "RACETRAITS_WORLD@TRAIT3@EFFECT_01@DESCRIPTION"
-msgstr "Найближче ваше <<{GLOBAL.CityConcept}>> отримує {amount1} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] та {amount1} одиниць {GLOBAL.UnitProductionConcept.Hyperlink} за кожен рівень вбитих юнітів під час успішного бою."
+msgstr "Найближче ваше <<{GLOBAL.CityConcept}>> отримує {amount1} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] та {amount1} одиниць {GLOBAL.UnitProductionConcept.Hyperlink} за кожен рівень вбитих юнітів під час успішного бою."
 
 msgid "RACETRAITS_WORLD@TRAIT3@LORE"
 msgstr "Вони вбивають без жалю і більше зацікавлені в розбою та грабежах, ніж в питаннях добра та зла."
@@ -104005,7 +104005,7 @@ msgid "RACETRAITS_WORLD@TRAIT8@BIO"
 msgstr "Вони досвідчені моряки, які розповідають багато історій про моряків-пригодників та морських чудовиськ."
 
 msgid "RACETRAITS_WORLD@TRAIT8@EFFECT_01@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] отримують +{amount1} [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink], {amount2} <<gen:c:{GLOBAL.FoodConcept}>> та {amount3} <<gen:c:{GLOBAL.UnitProductionConcept}>> за кожну прибережну провінцію, а також за провінції з підводними озерами у своїх [hyperlink,GLOBAL.DomainConcept]володіннях[/hyperlink]."
+msgstr "[hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] отримують +{amount1} [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink], {amount2} <<gen:c:{GLOBAL.FoodConcept}>> та {amount3} <<gen:c:{GLOBAL.UnitProductionConcept}>> за кожну прибережну провінцію, а також за провінції з підводними озерами у своїх [hyperlink,GLOBAL.DomainConcept]володіннях[/hyperlink]."
 
 msgid "RACETRAITS_WORLD@TRAIT8@EFFECT_02@DESCRIPTION"
 msgstr "[hyperlink,GLOBAL.PROPERTIES.NAVAL_UNIT]Морські юніти[/hyperlink] мають ранг {rank}."
@@ -104029,10 +104029,10 @@ msgid "RACETRAITS_WORLD@TRAIT9@BIO"
 msgstr "Вони шанують своїх будівників та митців, пишаються своїми величними спорудами."
 
 msgid "RACETRAITS_WORLD@TRAIT9@EFFECT_01@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] отримують {amount1} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] та {amount2} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] за кожну будівлю рівня міста."
+msgstr "[hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] отримують {amount1} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] та {amount2} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink] за кожну будівлю рівня міста."
 
 msgid "RACETRAITS_WORLD@TRAIT9@EFFECT_02@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] отримують +{amount} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] за кожну каменоломню у своїх [hyperlink,GLOBAL.DomainConcept]володіннях[/hyperlink]."
+msgstr "[hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] отримують +{amount} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] за кожну каменоломню у своїх [hyperlink,GLOBAL.DomainConcept]володіннях[/hyperlink]."
 
 msgid "RACETRAITS_WORLD@TRAIT9@LORE"
 msgstr "Вони утворюють суспільство будівельників та творців, які пишаються тим, що вони будують."
@@ -104521,7 +104521,7 @@ msgid "SCORE_VICTORY@RESULT@VICTORY"
 msgstr "Очки"
 
 msgid "SCORE_VICTORY@VICTORY_CONDITION@DESCRIPTION"
-msgstr "Переможцем стає [hyperlink,GLOBAL.EmpireConcept]імперії[/hyperlink] з найбільшою кількістю очок на момент досягнення ліміту ходів.[br/][br/]На результат впливають 5 категорій: армія, дипломатія, економіка, експансія та дослідження. Те, як добре ви справляєтесь у кожній категорії в порівнянні з іншими [hyperlink,GLOBAL.LeaderConcept]правителями[/hyperlink], визначає ваш загальний рейтинг за очками. Це залежить від багатьох змінних, ось кілька прикладів:[bulletlist][bullet/]Армія: Виробництво {GLOBAL.UnitProductionConcept.Hyperlink}, сила армії та знищення ворогів.[bullet/]Дипломатія: Наявність союзників і <<gen:c:m:{GLOBAL.PvEVassalConcept.Hyperlink}>>, уникнення воєн і недопущення <<gen:c:m:{GLOBAL.CasusBelliConcept.Hyperlink}>>.[bullet/]Експансія: Кількість [hyperlink,GLOBAL.CityConcept]міста[/hyperlink] і виробництво [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink].[bullet/]Дослідження: Виробництво {GLOBAL.KnowledgeConcept.Hyperlink} та [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink].[bullet/]Економіка: Виробництво [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] та [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink].[/bulletlist]"
+msgstr "Переможцем стає [hyperlink,GLOBAL.EmpireConcept]імперії[/hyperlink] з найбільшою кількістю очок на момент досягнення ліміту ходів.[br/][br/]На результат впливають 5 категорій: армія, дипломатія, економіка, експансія та дослідження. Те, як добре ви справляєтесь у кожній категорії в порівнянні з іншими [hyperlink,GLOBAL.LeaderConcept]правителями[/hyperlink], визначає ваш загальний рейтинг за очками. Це залежить від багатьох змінних, ось кілька прикладів:[bulletlist][bullet/]Армія: Виробництво {GLOBAL.UnitProductionConcept.Hyperlink}, сила армії та знищення ворогів.[bullet/]Дипломатія: Наявність союзників і <<gen:c:m:{GLOBAL.PvEVassalConcept.Hyperlink}>>, уникнення воєн і недопущення <<gen:c:m:{GLOBAL.CasusBelliConcept.Hyperlink}>>.[bullet/]Експансія: Кількість [hyperlink,GLOBAL.CityConcept]міста[/hyperlink] і виробництво [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink].[bullet/]Дослідження: Виробництво {GLOBAL.KnowledgeConcept.Hyperlink} та [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink].[bullet/]Економіка: Виробництво [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] та [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink].[/bulletlist]"
 
 msgid "SCORE_VICTORY@VICTORY_CONDITION@NAME"
 msgstr "Перемога за очками"
@@ -124923,10 +124923,10 @@ msgid "TIERS_UNITPROPERTIES@LEVELUP_BONUSES@RESISTANCE_NAME"
 msgstr "+{LEVEL_UP_RESISTANCE>BONUS>DEFENSE>Resistance} [resistance/]"
 
 msgid "TIERS_UNITPROPERTIES@TIER_DESCRIPTION@HIGH_TIER"
-msgstr "Під час виклику: базова <<c:{GLOBAL.UnitUpkeepConcept.Hyperlink}>> складає {amountgold} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] або {amountmana} одиниць [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink].[br/]Юніт має базовий рівень <<acc:c:{GLOBAL.StatusResistanceConcept.Hyperlink}>> опору {TIER_STATUS_RESISTANCE>Resistance}."
+msgstr "Під час виклику: базова <<c:{GLOBAL.UnitUpkeepConcept.Hyperlink}>> складає {amountgold} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] або {amountmana} одиниць [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink].[br/]Юніт має базовий рівень <<acc:c:{GLOBAL.StatusResistanceConcept.Hyperlink}>> опору {TIER_STATUS_RESISTANCE>Resistance}."
 
 msgid "TIERS_UNITPROPERTIES@TIER_DESCRIPTION@LOW_TIER"
-msgstr "Під час виклику: базова <<c:{GLOBAL.UnitUpkeepConcept.Hyperlink}>> складає {amountgold} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] або {amountmana} одиниць [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
+msgstr "Під час виклику: базова <<c:{GLOBAL.UnitUpkeepConcept.Hyperlink}>> складає {amountgold} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] або {amountmana} одиниць [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
 
 msgid "TIERS_UNITPROPERTIES@TIER_NAMES@TIER_1"
 msgstr "Рівень I"
@@ -124986,7 +124986,7 @@ msgid "TOMEOFWONDERS@RESOURCES@NAME"
 msgstr "Ресурс"
 
 msgid "TOMEOFWONDERS@TERRAFORMING@DESCRIPTION"
-msgstr "Ефекти тераформування можуть змінювати зовнішній вигляд та <<m:{GLOBAL.ProvinceFeatureConcept.Hyperlink}>> в {GLOBAL.ProvinceConcept.Hyperlink}. Тераформування може змінити те, що <<m:{GLOBAL.ProvinceImprovementConcept.Hyperlink}>> можна побудувати в Провінції, але не знищує та не змінює вже побудовані Покращення Провінції.[br/][br/]Коли тераформування походить з джерела, такого як {GLOBAL.CityConcept.Hyperlink} або Покращення Провінції, видалення джерела скасує ефекти тераформування. Коли немає джерела, яке можна видалити, тераформування є постійним, доки його не буде змінено новим ефектом тераформування.[br/][br/]<<m:{GLOBAL.WorldMapSpellConcept.Hyperlink}>> може застосовувати ефекти тераформування. Коли ви скасовуєте ефект тривалого використання, такий як {GLOBAL.SustainedWorldSpellConcept.Hyperlink}, його зміни тераформування не будуть скасовані.[br/][br/]Деякі провінції або об'єкти, такі як Лава, Вода та Непридатні для життя провінції, зазвичай не можуть бути тераформовані."
+msgstr "Ефекти тераформування можуть змінювати зовнішній вигляд та <<m:{GLOBAL.ProvinceFeatureConcept.Hyperlink}>> в {GLOBAL.ProvinceConcept.Hyperlink}. Тераформування може змінити те, що [hyperlink,GLOBAL.SpecialImprovementConcept]Покращення провінцій[/hyperlink] можна побудувати в Провінції, але не знищує та не змінює вже побудовані Покращення Провінції.[br/][br/]Коли тераформування походить з джерела, такого як {GLOBAL.CityConcept.Hyperlink} або Покращення Провінції, видалення джерела скасує ефекти тераформування. Коли немає джерела, яке можна видалити, тераформування є постійним, доки його не буде змінено новим ефектом тераформування.[br/][br/]<<m:{GLOBAL.WorldMapSpellConcept.Hyperlink}>> може застосовувати ефекти тераформування. Коли ви скасовуєте ефект тривалого використання, такий як {GLOBAL.SustainedWorldSpellConcept.Hyperlink}, його зміни тераформування не будуть скасовані.[br/][br/]Деякі провінції або об'єкти, такі як Лава, Вода та Непридатні для життя провінції, зазвичай не можуть бути тераформовані."
 
 msgid "TOMEOFWONDERS@TERRAFORMING@HYPERLINK"
 msgstr "[hyperlink,GLOBAL.TerraformingConcept]Тераформування^fn[/hyperlink]"
@@ -126471,7 +126471,7 @@ msgid "TOME_DEMON_GATE@UNIT_ABILITY_3@NAME"
 msgstr "Розрив землі"
 
 msgid "TOME_DEVASTATION@PASSIVE@DESCRIPTION"
-msgstr "Грабування <<gen:c:{GLOBAL.ProvinceConcept}>> забезпечує додатково {amount} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink]."
+msgstr "Грабування <<gen:c:{GLOBAL.ProvinceConcept}>> забезпечує додатково {amount} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink]."
 
 msgid "TOME_DEVASTATION@PASSIVE@NAME"
 msgstr "Знищувальне грабування"
@@ -127365,13 +127365,13 @@ msgid "TOME_GOLDEN@SKILL4@NAME"
 msgstr "Золотий вибух"
 
 msgid "TOME_GOLDEN@SKILL5@DESCRIPTION"
-msgstr "[bulletlist][bullet/]+{amount3} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink][bullet/]+{amount1} очок [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink] за кожен <<c:{GLOBAL.MagicMaterialConcept.Hyperlink}>> у ваших [hyperlink,GLOBAL.DomainConcept]володіннях[/hyperlink].[bullet/]+{amount2} очок {GLOBAL.UnitProductionConcept.Hyperlink} за кожен <<c:{GLOBAL.MagicMaterialConcept.Hyperlink}>> у ваших [hyperlink,GLOBAL.DomainConcept]володіннях[/hyperlink].[/bulletlist]"
+msgstr "[bulletlist][bullet/]+{amount3} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink][bullet/]+{amount1} очок [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink] за кожен <<c:{GLOBAL.MagicMaterialConcept.Hyperlink}>> у ваших [hyperlink,GLOBAL.DomainConcept]володіннях[/hyperlink].[bullet/]+{amount2} очок {GLOBAL.UnitProductionConcept.Hyperlink} за кожен <<c:{GLOBAL.MagicMaterialConcept.Hyperlink}>> у ваших [hyperlink,GLOBAL.DomainConcept]володіннях[/hyperlink].[/bulletlist]"
 
 msgid "TOME_GOLDEN@SKILL5@NAME"
 msgstr "Рафінерія реагентів"
 
 msgid "TOME_GOLDEN@STATUS@DESCRIPTION"
-msgstr "Цей юніт має наступні ефекти:[bulletlist][bullet/]{GLOBAL.PROPERTIES.STUNNED.Hyperlink}.[bullet/]Коли цей юніт гине, переможець бою отримує {amount2} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] за рівень юніти.[/bulletlist]"
+msgstr "Цей юніт має наступні ефекти:[bulletlist][bullet/]{GLOBAL.PROPERTIES.STUNNED.Hyperlink}.[bullet/]Коли цей юніт гине, переможець бою отримує {amount2} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] за рівень юніти.[/bulletlist]"
 
 msgid "TOME_GOLDEN@STATUS@GOLDSEEKER_INFUSION"
 msgstr "Третій удар за хід має базовий шанс {Chance}% спричинити стан <<c:{GLOBAL.PROPERTIES.GILDED.Hyperlink}>> на {turn} [turn/][hyperlink,GLOBAL.TurnConcept]ходи[/hyperlink]."
@@ -128289,7 +128289,7 @@ msgid "TOME_REAPER@ABILITY_3@PROP_DESCRIPTION"
 msgstr "Жнець посилює цю юніта, надаючи:[bulletlist][bullet/]+{amount}% до шкоди[bullet/]+{amount2} [resistance/] [hyperlink,GLOBAL.ResistanceConcept]опору[/hyperlink].[/bulletlist]"
 
 msgid "TOME_REAPER@ABILITY_4@DESCRIPTION"
-msgstr "[bulletlist][bullet/]Має додаткові {REAPER_UPKEEP_MODIFIER>FlatUpkeep} очки утримання [souls/][hyperlink,GLOBAL.SoulConcept]душ[/hyperlink].[bullet/]{GLOBAL.UnitUpkeepConcept.Hyperlink} [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] та [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] зменшені на {REAPER_UPKEEP_MODIFIER>ResolvedUpkeepModifier}%.[/bulletlist]"
+msgstr "[bulletlist][bullet/]Має додаткові {REAPER_UPKEEP_MODIFIER>FlatUpkeep} очки утримання [souls/][hyperlink,GLOBAL.SoulConcept]душ[/hyperlink].[bullet/]{GLOBAL.UnitUpkeepConcept.Hyperlink} [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] та [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] зменшені на {REAPER_UPKEEP_MODIFIER>ResolvedUpkeepModifier}%.[/bulletlist]"
 
 msgid "TOME_REAPER@ABILITY_4@NAME"
 msgstr "Утримання душ"
@@ -128697,7 +128697,7 @@ msgid "TOME_SANCTUARY@UNIT_ABILITY1@NAME"
 msgstr "Надати прихисток"
 
 msgid "TOME_SCRYING@PASSIVE@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.UnitConcept]Підрозділи[/hyperlink] отримують {amount} одиниць [hyperlink,GLOBAL.VisionRangeConcept]діапазону огляду[/hyperlink]."
+msgstr "[hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] отримують {amount} одиниць [hyperlink,GLOBAL.VisionRangeConcept]діапазону огляду[/hyperlink]."
 
 msgid "TOME_SCRYING@PASSIVE@NAME"
 msgstr "Пронизливе розуміння"
@@ -128862,7 +128862,7 @@ msgid "TOME_SOULS@SKILL5@PROP_DESCRIPTION"
 msgstr "+{SOUL_OVERFLOW_STAT_BONUS>BONUS>HitPoints} максимальних [hp/] [hyperlink,GLOBAL.HitPointConcept]одиниць здоров'я[/hyperlink] до кінця битви."
 
 msgid "TOME_SOULS@SKILL6@DESCRIPTION"
-msgstr "[bulletlist][bullet/]Отримує прибуток у {amount1} [souls/] [hyperlink,GLOBAL.SoulConcept]душ[/hyperlink].[bullet/]Утримання закляття коштує {amount2} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink].[/bulletlist]"
+msgstr "[bulletlist][bullet/]Отримує прибуток у {amount1} [souls/] [hyperlink,GLOBAL.SoulConcept]душ[/hyperlink].[bullet/]Утримання закляття коштує {amount2} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink].[/bulletlist]"
 
 msgid "TOME_SOULS@SKILL6@NAME"
 msgstr "Колекція душ"
@@ -128937,7 +128937,7 @@ msgid "TOME_SUBJUGATION@SKILL5@NAME"
 msgstr "Палац барона"
 
 msgid "TOME_SUBJUGATION@SKILL5@STRUCTURE_DESCRIPTION"
-msgstr "Це місто отримує:[bulletlist][bullet/]{happinessAmount} {GLOBAL.CityStabilityConcept.Hyperlink}[/bulletlist][br/]Твоє <<c:{GLOBAL.ThroneCityConcept.Hyperlink}>> отримує:[bulletlist][bullet/]{goldAmount} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink][bullet/]{foodAmount} одиниць [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink][bullet/]{draftAmount} одиниць {GLOBAL.UnitProductionConcept.Hyperlink}[/bulletlist][br/][br/]Можна збудувати лише в містах іншої раси."
+msgstr "Це місто отримує:[bulletlist][bullet/]{happinessAmount} {GLOBAL.CityStabilityConcept.Hyperlink}[/bulletlist][br/]Твоє <<c:{GLOBAL.ThroneCityConcept.Hyperlink}>> отримує:[bulletlist][bullet/]{goldAmount} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink][bullet/]{foodAmount} одиниць [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink][bullet/]{draftAmount} одиниць {GLOBAL.UnitProductionConcept.Hyperlink}[/bulletlist][br/][br/]Можна збудувати лише в містах іншої раси."
 
 msgid "TOME_SUBJUGATION@SKILL6@NAME"
 msgstr "Переробний завод матеріалів"
@@ -129177,7 +129177,7 @@ msgid "TOME_TELEPORTATION@SKILL4@PROPERTY_DESCRIPTION"
 msgstr "Юніт має:[bulletlist][bullet/]Здібність <<c:{GLOBAL.PROPERTIES.PHASE.Hyperlink}>>.[/bulletlist]"
 
 msgid "TOME_TELEPORTATION@SKILL5@DESCRIPTION"
-msgstr "[bulletlist][bulletlist][bullet/]{gold} одиниць доходу [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink].[bullet/]{goldStack} одиниць доходу [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] за кожен побудований пункт астральної торгівлі в твоїй імперії.[/bulletlist][/bulletlist]"
+msgstr "[bulletlist][bulletlist][bullet/]{gold} одиниць доходу [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink].[bullet/]{goldStack} одиниць доходу [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] за кожен побудований пункт астральної торгівлі в твоїй імперії.[/bulletlist][/bulletlist]"
 
 msgid "TOME_TELEPORTATION@SKILL5@NAME"
 msgstr "Пункт астральної торгівлі"
@@ -129294,7 +129294,7 @@ msgid "TOME_TRANSMUTATION@SKILL1@PROP_DESCRIPTION"
 msgstr "Раз на [turn/][hyperlink,GLOBAL.TurnConcept]хід[/hyperlink], кожного разу, коли цей юніт отримує пошкодження, окрім [damagePhysical/] [hyperlink,GLOBAL.PhysicalDamageConcept]фізичних пошкоджень[/hyperlink], він отримує:[bulletlist][bullet/]{GLOBAL.PROPERTIES.BOLSTERED_RESISTANCE.Hyperlink}[bullet/]{GLOBAL.PROPERTIES.STATUS_PROTECTION.Hyperlink}[/bulletlist]"
 
 msgid "TOME_TRANSMUTATION@SKILL2@DESCRIPTION"
-msgstr "Вибране підконтрольне місто перетворює свій прибуток [hyperlink,GLOBAL.ManaConcept]мани[/hyperlink], отримуючи прибуток у вигляді [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink], [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink] і [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink] у кількості, що дорівнює {amount}% прибутку [hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
+msgstr "Вибране підконтрольне місто перетворює свій прибуток [hyperlink,GLOBAL.ManaConcept]мани[/hyperlink], отримуючи прибуток у вигляді [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink], [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink] і [hyperlink,GLOBAL.FoodConcept]їжі[/hyperlink] у кількості, що дорівнює {amount}% прибутку [hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
 
 msgid "TOME_TRANSMUTATION@SKILL2@NAME"
 msgstr "Перетворення ресурсів"
@@ -129702,7 +129702,7 @@ msgid "TOME_WINDS@HERO_SKILL@NAME"
 msgstr "Мстиві вітри"
 
 msgid "TOME_WINDS@PASSIVE@DESCRIPTION"
-msgstr "[bulletlist][bullet/]Річки в межах рахуються як дороги для пересування.[bullet/]Річка <<gen:c:{GLOBAL.ProvinceConcept}>> надає +{amount} одиниць [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink].[/bulletlist]"
+msgstr "[bulletlist][bullet/]Річки в межах рахуються як дороги для пересування.[bullet/]Річка <<gen:c:{GLOBAL.ProvinceConcept}>> надає +{amount} одиниць [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink].[/bulletlist]"
 
 msgid "TOME_WINDS@PASSIVE@NAME"
 msgstr "Річкові моряки"
@@ -132250,7 +132250,7 @@ msgid "TUTORIAL@ARMYUPKEEP@DESCRIPTION"
 msgstr "Навчальний посібник щодо утримання армії."
 
 msgid "TUTORIAL@ARMYUPKEEP@PAGE01@DESCRIPTION"
-msgstr "Не забувай! Твої юніти не воюють безкоштовно. Вони потребують певної кількості [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink] і [mana/] [hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] кожен <<acc:c:{GLOBAL.TurnConcept.Hyperlink}>>. Якщо бракуватиме цих ресурсів, твої юніти втратять <<acc:c:{GLOBAL.UnitMoraleConcept.Hyperlink}>> і, зрештою, дезертируватимуть."
+msgstr "Не забувай! Твої юніти не воюють безкоштовно. Вони потребують певної кількості [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink] і [mana/] [hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] кожен <<acc:c:{GLOBAL.TurnConcept.Hyperlink}>>. Якщо бракуватиме цих ресурсів, твої юніти втратять <<acc:c:{GLOBAL.UnitMoraleConcept.Hyperlink}>> і, зрештою, дезертируватимуть."
 
 msgid "TUTORIAL@ARMYUPKEEP@TITLE"
 msgstr "Утримання армії"
@@ -132466,7 +132466,7 @@ msgid "TUTORIAL@COMBATEENGAGEMENT@TITLE"
 msgstr "Початок битви"
 
 msgid "TUTORIAL@DEFENDINGYOURCITY@DESCRIPTION"
-msgstr "Брак [hyperlink,GLOBAL.CityWallStructureConcept]мурів[/hyperlink] і гарнізонів наражає твоє <<c:m:{GLOBAL.CityConcept.Hyperlink}>> на небезпеку. Подбай про захисні споруди та підтримуй [hyperlink,GLOBAL.ArmyConcept]Армію[/hyperlink] у готовності для охорони мурів, щоб ворог не захопив твої улюблені міста!"
+msgstr "Брак [hyperlink,GLOBAL.CityWallStructureConcept]мурів[/hyperlink] і гарнізонів наражає твоє [hyperlink,GLOBAL.CityConcept]міста[/hyperlink] на небезпеку. Подбай про захисні споруди та підтримуй [hyperlink,GLOBAL.ArmyConcept]Армію[/hyperlink] у готовності для охорони мурів, щоб ворог не захопив твої улюблені міста!"
 
 msgid "TUTORIAL@DEFENDINGYOURCITY@INSTRUCTIONS"
 msgstr "Місто без оборонних споруд може бути захоплене без бою."
@@ -133129,7 +133129,7 @@ msgid "TUTORIAL@RALLYOFLIEGES@PAGE01@DESCRIPTION"
 msgstr "Відкрито огляд збору васалів. Звідси ти можеш відправляти армії <<gen:c:m:{GLOBAL.PvEVassalConcept.Hyperlink}>> і підкорених <<gen:c:m:{GLOBAL.AncientWonderConcept.Hyperlink}>> на збір. Кількість військ залежить від кількості твоїх васалів і стародавніх чудес."
 
 msgid "TUTORIAL@RALLYOFLIEGES@PAGE01@INSTRUCTION"
-msgstr "Збори васалів відбуваються регулярно. Їх частоту можна прискорити, використовуючи [gold/] [hyperlink,GLOBAL.MovePointConcept]золота[/hyperlink].[br/][br/]Ти можеш повернутися до збору васалів у будь-який момент перед наступним збором, щоб завербувати більше військ."
+msgstr "Збори васалів відбуваються регулярно. Їх частоту можна прискорити, використовуючи [gold/] [hyperlink,GLOBAL.GoldConcept]золота[/hyperlink].[br/][br/]Ти можеш повернутися до збору васалів у будь-який момент перед наступним збором, щоб завербувати більше військ."
 
 msgid "TUTORIAL@RALLYOFLIEGES@PAGE01@TITLE"
 msgstr "Збір васалів"
