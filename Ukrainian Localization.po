@@ -45679,7 +45679,7 @@ msgid "DLC@GIANTKINGS@INTERFACE@CRYSTAL_DWELLING@HYPERLINK"
 msgstr "[hyperlink,GLOBAL.CrystalDwellingConcept]Кришталеве житло^n[/hyperlink]"
 
 msgid "DLC@GIANTKINGS@INTERFACE@DIPLOMACY@CRYSTAL_DWELLING_WAR@DESCRIPTION"
-msgstr "Стан [rs_war/] War з {GLOBAL.DwellingConcept.Hyperlink} означає, що <<m:{GLOBAL.ArmyConcept.Hyperlink}>> може брати участь у {GLOBAL.CombatConcept.Hyperlink} та [hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] можуть бути атаковані.[br/][br/]Під час війни Житла час від часу надсилають армії для нападу на своїх ворогів.[br/][br/]Війни закінчуються поразкою з будь-якої сторони або мирними переговорами."
+msgstr "Стан [rs_war/] War з {GLOBAL.DwellingConcept.Hyperlink} означає, що [hyperlink,GLOBAL.ArmyConcept]армії[/hyperlink] може брати участь у {GLOBAL.CombatConcept.Hyperlink} та [hyperlink,GLOBAL.CityConcept]Міста[/hyperlink] можуть бути атаковані.[br/][br/]Під час війни Житла час від часу надсилають армії для нападу на своїх ворогів.[br/][br/]Війни закінчуються поразкою з будь-якої сторони або мирними переговорами."
 
 msgid "DLC@GIANTKINGS@INTERFACE@DIPLOMACY@CRYSTAL_DWELLING_WAR@HYPERLINK"
 msgstr "[rs_war/] [hyperlink,GLOBAL.CrystalDwellingWarConcept]Війна^fn[/hyperlink]"
@@ -68895,25 +68895,25 @@ msgid "EMPIRE_DEVELOPMENT@ASTRAL@MANA_INFRASTRUCTURE@NAME"
 msgstr "Інфраструктура мани"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@PHILOSOPHER_SOLDIERS@DESCRIPTION"
-msgstr "Набирай очки {GLOBAL.KnowledgeConcept.Hyperlink} кожного разу, коли твої [hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] отримують ранги.[bulletlist][bullet/][medalIron/]Солдат забезпечує {KnowledgeSoldier} балів {GLOBAL.KnowledgeConcept.Hyperlink}[bullet/][medalBronze/]Ветеран забезпечує {KnowledgeVeteran} балів {GLOBAL.KnowledgeConcept.Hyperlink}[bullet/][medalSilver/]Елітний забезпечує {KnowledgeElite} балів {GLOBAL.KnowledgeConcept.Hyperlink}[bullet/][medalGold/]Чемпіон забезпечує {KnowledgeChampion} балів {GLOBAL.KnowledgeConcept.Hyperlink}[bullet/][medalPlatinum/]Легендарний забезпечує {KnowledgeLegend} балів {GLOBAL.KnowledgeConcept.Hyperlink}[/bulletlist]"
+msgstr "Отримаєте {GLOBAL.KnowledgeConcept.Hyperlink} кожного разу, коли ваші [hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] отримують ранги.[bulletlist][bullet/][medalIron/]Солдат забезпечує {KnowledgeSoldier} балів {GLOBAL.KnowledgeConcept.Hyperlink}[bullet/][medalBronze/]Ветеран забезпечує {KnowledgeVeteran} балів {GLOBAL.KnowledgeConcept.Hyperlink}[bullet/][medalSilver/]Елітний забезпечує {KnowledgeElite} балів {GLOBAL.KnowledgeConcept.Hyperlink}[bullet/][medalGold/]Чемпіон забезпечує {KnowledgeChampion} балів {GLOBAL.KnowledgeConcept.Hyperlink}[bullet/][medalPlatinum/]Легендарний забезпечує {KnowledgeLegend} балів {GLOBAL.KnowledgeConcept.Hyperlink}[/bulletlist]"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@PHILOSOPHER_SOLDIERS@NAME"
-msgstr "Маги-філософи^pmn{1}pmn{2}"
+msgstr "Воїни-філософи"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@QUICKENING@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.SpellConcept]Закляття[/hyperlink] можна тепер використовувати вже в першому <<dat:c:{GLOBAL.TurnConcept}>> під час [hyperlink,GLOBAL.CombatConcept]битви[/hyperlink]."
+msgstr "[hyperlink,GLOBAL.SpellConcept]Закляття[/hyperlink] можна тепер використовувати вже в першому [turn/][hyperlink,GLOBAL.TurnConcept]ході[/hyperlink] під час [hyperlink,GLOBAL.CombatConcept]битви[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@QUICKENING@NAME"
-msgstr "Прискорення^n"
+msgstr "Прискорення"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@REQUIREMENT"
 msgstr "[empirearcana/]"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@RITE_OF_ASTRAL_ABUNDANCE@DESCRIPTION"
-msgstr "Негайно отримую {Manareward} балів [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
+msgstr "Відразу дає {Manareward} [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@RITE_OF_ASTRAL_ABUNDANCE@NAME"
-msgstr "Ритуал астрального достатку^mn{1}x{2}x{3}"
+msgstr "Ритуал астрального достатку"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@RITE_OF_CONJURATION@DESCRIPTION"
 msgstr "Створює випадковий {GLOBAL.MagicMaterialConcept.Hyperlink} поблизу вашого {GLOBAL.ThroneCityConcept.Hyperlink}."
@@ -68922,10 +68922,10 @@ msgid "EMPIRE_DEVELOPMENT@ASTRAL@RITE_OF_CONJURATION@NAME"
 msgstr "Ритуал призивання"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@RITE_OF_POWER_OVERWHELMING@DESCRIPTION"
-msgstr "Негайно призиваю захищений <<c:{GLOBAL.MagicMaterialConcept.Hyperlink}>> поблизу кожного [hyperlink,GLOBAL.CityConcept]міста[/hyperlink] твого [hyperlink,GLOBAL.EmpireConcept]імперії[/hyperlink]."
+msgstr "Негайно призиває захищений {GLOBAL.MagicMaterialConcept.Hyperlink} поблизу кожного [hyperlink,GLOBAL.CityConcept]міста[/hyperlink] вашої [hyperlink,GLOBAL.EmpireConcept]імперії[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@RITE_OF_POWER_OVERWHELMING@NAME"
-msgstr "Ритуал призиву^mn{1}x{2}"
+msgstr "Ритуал призиву"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@RITE_OF_SPELL_STORM@DESCRIPTION"
 msgstr "Отримуєте {castingPointAmount} [caststrategic/] [hyperlink,GLOBAL.WorldMapCastingPointConcept]очок глобальних заклять[/hyperlink] і [casttactical/] [hyperlink,GLOBAL.CombatCastingPointConcept]очок бойових заклять[/hyperlink] до кінця ходу."
@@ -68940,46 +68940,46 @@ msgid "EMPIRE_DEVELOPMENT@ASTRAL@RITE_OF_TELEPORTATION@NAME"
 msgstr "Ритуал телепортації TMP"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@RITE_OF_THE_ASTRAL_MENTOR@DESCRIPTION"
-msgstr "Негайно закликає [hyperlink,GLOBAL.ArmyConcept]Армію[/hyperlink] [hyperlink,GLOBAL.PROPERTIES.MAGIC_ORIGIN]магічних юнітів[/hyperlink], <<acc:c:m:{GLOBAL.UnitConcept.Hyperlink}>> з <<ins:c:{GLOBAL.PROPERTIES.LOW_MAINTANANCE.Hyperlink}>> у своєму <<loc:c:{GLOBAL.ThroneCityConcept.Hyperlink}>>."
+msgstr "Негайно призиває [hyperlink,GLOBAL.ArmyConcept]армію[/hyperlink] [hyperlink,GLOBAL.PROPERTIES.MAGIC_ORIGIN]магічних юнітів[/hyperlink] з властивістю {GLOBAL.PROPERTIES.LOW_MAINTANANCE.Hyperlink} у вашому [hyperlink,GLOBAL.ThroneCityConcept]тронному місті[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@RITE_OF_THE_ASTRAL_MENTOR@NAME"
-msgstr "Ритуал астрального призиву^mn{1}x{2}x{3}"
+msgstr "Ритуал астрального призиву"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@SPELL_WARDING@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.BuffSpellConcept]закляття підсилення[/hyperlink] і [hyperlink,GLOBAL.HealingSpellConcept]закляття зцілення[/hyperlink] у бою тепер накладають {GLOBAL.PROPERTIES.BOLSTERED_RESISTANCE.Hyperlink} на дружні цілі."
+msgstr "[hyperlink,GLOBAL.BuffSpellConcept]Закляття підсилення[/hyperlink] і [hyperlink,GLOBAL.HealingSpellConcept]закляття зцілення[/hyperlink] у бою тепер застосовують {GLOBAL.PROPERTIES.BOLSTERED_RESISTANCE.Hyperlink} на дружні цілі."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@SPELL_WARDING@MODIFIER_DESCRIPTION"
-msgstr "Накладає {GLOBAL.PROPERTIES.BOLSTERED_RESISTANCE.Hyperlink} на дружні цілі."
+msgstr "Застосовує {GLOBAL.PROPERTIES.BOLSTERED_RESISTANCE.Hyperlink} на дружні цілі."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@SPELL_WARDING@NAME"
-msgstr "Оберіг заклять"
+msgstr "Оберіг від заклять"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@STUDENTS_OF_THE_ARCANE@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.ResearchPostConcept]Станції досліджень[/hyperlink] надають {Knowledgebonus} очок {GLOBAL.KnowledgeConcept.Hyperlink} та {ManaBonus} очок [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
+msgstr "[hyperlink,GLOBAL.ResearchPostConcept]Станції досліджень[/hyperlink] дають дохід {Knowledgebonus} {GLOBAL.KnowledgeConcept.Hyperlink} та {ManaBonus} [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@STUDENTS_OF_THE_ARCANE@NAME"
-msgstr "Учні таємного знання^pn{1}x{2}x{3}"
+msgstr "Учні Аркани"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@SUMMONING_BONDS@DESCRIPTION"
-msgstr "[bulletlist][bullet/]Ваші {GLOBAL.PROPERTIES.MAGIC_ORIGIN.Hyperlink} [hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] отримують {xpBonus} {GLOBAL.ExperienceConcept.Hyperlink} за кожен не-{GLOBAL.PROPERTIES.MAGIC_ORIGIN.Hyperlink} юніт у тій самій армії.[bullet/]Ваші не-{GLOBAL.PROPERTIES.MAGIC_ORIGIN.Hyperlink} [hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] отримують {statusResistanceBonus} {GLOBAL.StatusResistanceConcept.Hyperlink} за кожен {GLOBAL.PROPERTIES.MAGIC_ORIGIN.Hyperlink} юніт у тій самій армії.[/bulletlist]"
+msgstr "[bulletlist][bullet/]Ваші [hyperlink,GLOBAL.PROPERTIES.MAGIC_ORIGIN]магічні[/hyperlink] [hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] отримують {xpBonus} {GLOBAL.ExperienceConcept.Hyperlink} за кожного юніта не-магічного походження у тій самій армії.[bullet/]Ваші не-магічні юніти отримують {statusResistanceBonus} {GLOBAL.StatusResistanceConcept.Hyperlink} за кожного магічного юніта у тій самій армії.[/bulletlist]"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@SUMMONING_BONDS@NAME"
 msgstr "Узи призиву"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@SUPERCHARGED_CONDUITS@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.ConduitConcept]Канали[/hyperlink] надають дохід у вигляді {Manabonus} очок [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
+msgstr "[hyperlink,GLOBAL.ConduitConcept]Канали[/hyperlink] дають дохід {Manabonus} [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@SUPERCHARGED_CONDUITS@NAME"
-msgstr "Суперзаряджені часи^pna{1}pnn{2}"
+msgstr "Суперзаряджені канали"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@SURGE_SPELLCASTING@COMBAT_PROPERTY_DESCRIPTION"
-msgstr "Певні <<c:m:{GLOBAL.CombatSpellConcept.Hyperlink}>> коштують {Costreduction} менше для застосування."
+msgstr "Певні [hyperlink,GLOBAL.CombatSpellConcept]бойові закляття[/hyperlink] коштують на {Costreduction} менше для застосування."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@SURGE_SPELLCASTING@DESCRIPTION"
-msgstr "Використання <<gen:c:{GLOBAL.CombatSpellConcept.Hyperlink}>> знижує вартість інших типів <<gen:c:{GLOBAL.CombatSpellConcept.Hyperlink}>> на {Costreduction} протягом {duration} [turn/]."
+msgstr "Використання [hyperlink,GLOBAL.CombatSpellConcept]бойового закляття[/hyperlink] знижує вартість інших типів [hyperlink,GLOBAL.CombatSpellConcept]бойових закляття[/hyperlink] на {Costreduction} протягом {duration} [turn/][hyperlink,GLOBAL.TurnConcept]ходів[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@SURGE_SPELLCASTING@NAME"
-msgstr "Кидання енергетичних заклять"
+msgstr "Сплеск чаклунства"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@TACTICAL_CASTING_RESERVES@DESCRIPTION"
 msgstr "Отримуєте {numCastingPoints} [casttactical/] [hyperlink,GLOBAL.CombatCastingPointConcept]очок бойових заклять[/hyperlink]."
@@ -68988,28 +68988,28 @@ msgid "EMPIRE_DEVELOPMENT@ASTRAL@TACTICAL_CASTING_RESERVES@NAME"
 msgstr "Тактичні резерви чаклування"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@TELEPORTATION_MASTER@DESCRIPTION"
-msgstr "<<m:{GLOBAL.ArmyConcept.Hyperlink}>> are restored to full [hyperlink,GLOBAL.HitPointConcept]очок здоров'я[/hyperlink] and regain {RegainMovePercentage} of their <<m:{GLOBAL.MovePointConcept.Hyperlink}>> after using a {GLOBAL.STRUCTURE_UPGRADES.TELEPORTER.Hyperlink}.[br/]<<m:{GLOBAL.STRUCTURE_UPGRADES.TELEPORTER.Hyperlink}>> grant {Incombonus} {GLOBAL.ManaConcept.Hyperlink} income."
+msgstr "[hyperlink,GLOBAL.ArmyConcept]Армії[/hyperlink] відновлюють {GLOBAL.HitPointConcept.Hyperlink} та {RegainMovePercentage} своїх [hyperlink,GLOBAL.MovePointConcept]очок пересування[/hyperlink] після використання [hyperlink,GLOBAL.STRUCTURE_UPGRADES.TELEPORTER]телепорта[/hyperlink].[br/][hyperlink,GLOBAL.STRUCTURE_UPGRADES.TELEPORTER]Телепорти[/hyperlink] дають дохід {Incombonus} [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@TELEPORTATION_MASTERY@DESCRIPTION"
-msgstr "[hyperlink,GLOBAL.UnitConcept]юніти[/hyperlink] відновлює всі <<acc:c:m:{GLOBAL.HitPointConcept.Hyperlink}>> та {RegainMovePercentage} своїх <<gen:c:m:{GLOBAL.MovePointConcept.Hyperlink}>> після використання <<gen:c:{GLOBAL.STRUCTURE_UPGRADES.TELEPORTER.Hyperlink}>>, якщо вони ще не відновили жодних <<gen:c:m:{GLOBAL.MovePointConcept.Hyperlink}>> в цьому ходу.[br/]<<m:{GLOBAL.STRUCTURE_UPGRADES.TELEPORTER.Hyperlink}>> надає {Incombonus} очок [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] у вигляді доходів."
+msgstr "[hyperlink,GLOBAL.UnitConcept]Юніти[/hyperlink] відновлюють усі {GLOBAL.HitPointConcept.Hyperlink} та {RegainMovePercentage} своїх [hyperlink,GLOBAL.MovePointConcept]очок пересування[/hyperlink] після використання [hyperlink,GLOBAL.STRUCTURE_UPGRADES.TELEPORTER]телепорта[/hyperlink], якщо вони ще не відновили жодних [hyperlink,GLOBAL.MovePointConcept]очок пересування[/hyperlink] цього ходу.[br/][hyperlink,GLOBAL.STRUCTURE_UPGRADES.TELEPORTER]Телепорти[/hyperlink] дають дохід {Incombonus} [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@TELEPORTATION_MASTERY@NAME"
-msgstr "Майстерність телепортації^nn{1}x{2}"
+msgstr "Майстерність телепортації"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@TOWER_OF_ENLIGHTENMENT@DESCRIPTION"
-msgstr "Кожне покращення {GLOBAL.WizardTowerConcept.Hyperlink} надає {stability} {GLOBAL.CityStabilityConcept.Hyperlink} і {mana} {GLOBAL.ManaConcept.Hyperlink}.[br/][br/]Для Старших Вампірів покращення Вампірського Замку натомість надають цей бонус."
+msgstr "Кожне покращення {GLOBAL.WizardTowerConcept.Hyperlink} дає {stability} {GLOBAL.CityStabilityConcept.Hyperlink} і {mana} [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink].[br/][br/]Для Старших Вампірів цей бонус дають покращення Вампірського Замку."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@TOWER_OF_ENLIGHTENMENT@NAME"
 msgstr "Вежа Просвітлення"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@TRANSFORMATIVE_EXPERTISE@DESCRIPTION"
-msgstr "Закляття Зачарування й Перетворення коштують на {discount} менше {GLOBAL.ManaConcept.Hyperlink} і {GLOBAL.WorldMapCastingPointConcept.Hyperlink}."
+msgstr "Закляття Зачарування й Перетворення коштують на {discount} менше [mana/][hyperlink,GLOBAL.ManaConcept]мани[/hyperlink] і [caststrategic/] [hyperlink,GLOBAL.WorldMapCastingPointConcept]очок глобальних заклять[/hyperlink]."
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@TRANSFORMATIVE_EXPERTISE@NAME"
 msgstr "Майстерність перетворення"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@TYPE"
-msgstr "Астральні здібності імперії"
+msgstr "Навичка імперії Астралу"
 
 msgid "EMPIRE_DEVELOPMENT@ASTRAL@TYPE_REPEATABLE_RITE"
 msgstr "Повторюваний Астральний Ритуал"
@@ -69213,7 +69213,7 @@ msgid "EMPIRE_DEVELOPMENT@CHAOS@TIRELESS_MARCHERS@REQUIREMENT"
 msgstr "Вимога: <<c:{GLOBAL.SpeedMarchConcept.Hyperlink}>>"
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@TYPE"
-msgstr "Здібності імперії хаосу"
+msgstr "Навичка імперії Хаосу"
 
 msgid "EMPIRE_DEVELOPMENT@CHAOS@TYPE_REPEATABLE_RITE"
 msgstr "Повторюваний Ритуал Хаосу"
@@ -69613,14 +69613,14 @@ msgid "EMPIRE_DEVELOPMENT@MATERIUM@SUPERIOR_INDUSTRY@NAME"
 msgstr "Першокласна промисловість"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@TYPE"
-msgstr "Уміла імперія Матерії"
+msgstr "Навичка імперії Матеріуму"
 
 #| msgid "EMPIRE_DEVELOPMENT@MATERIUM@TYPE_RITE"
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@TYPE_REPEATING_RITE"
 msgstr "Повторюваний Ритуал Матеріуму"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@TYPE_RITE"
-msgstr "Ритуал Матерії"
+msgstr "Ритуал Матеріуму"
 
 msgid "EMPIRE_DEVELOPMENT@MATERIUM@VASSAL_INDUSTRY_PARTNERS@DESCRIPTION"
 msgstr "Ваші [hyperlink,GLOBAL.CityConcept]міста[/hyperlink] отримують {IncomeBonus} пт. [hyperlink,GLOBAL.StructureProductionConcept]виробництва[/hyperlink] за кожного <<acc:c:{GLOBAL.PvEVassalConcept.Hyperlink}>> під контролем вашої <<gen:c:{GLOBAL.EmpireConcept.Hyperlink}>>."
@@ -69870,7 +69870,7 @@ msgid "EMPIRE_DEVELOPMENT@NATURE@TREE_KEEPERS@NAME"
 msgstr "Хранителі дерев"
 
 msgid "EMPIRE_DEVELOPMENT@NATURE@TYPE"
-msgstr "Навичка імперії природи"
+msgstr "Навичка імперії Природи"
 
 #| msgid "EMPIRE_DEVELOPMENT@GENERAL@TYPE_REPEATABLE_RITE"
 msgid "EMPIRE_DEVELOPMENT@NATURE@TYPE_REPEATABLE_RITE"
@@ -70087,7 +70087,7 @@ msgstr "Орден Хранителів Душ"
 
 #| msgid "EMPIRE_DEVELOPMENT@ORDER@EXEMPLAR@DESCRIPTION"
 msgid "EMPIRE_DEVELOPMENT@ORDER@LEAD_BY_EXAMPLE@DESCRIPTION"
-msgstr "<<m:{GLOBAL.ArmyConcept.Hyperlink}>>, очолювані [hyperlink,GLOBAL.HeroConcept]Герої[/hyperlink], отримують {moraleBonus} {GLOBAL.UnitMoraleConcept.Hyperlink} за кожен рівень їхнього {GLOBAL.RenownConcept.Hyperlink}."
+msgstr "[hyperlink,GLOBAL.ArmyConcept]армії[/hyperlink], очолювані [hyperlink,GLOBAL.HeroConcept]Герої[/hyperlink], отримують {moraleBonus} {GLOBAL.UnitMoraleConcept.Hyperlink} за кожен рівень їхнього {GLOBAL.RenownConcept.Hyperlink}."
 
 #| msgid "EMPIRE_DEVELOPMENT@ORDER@EXEMPLAR@NAME"
 msgid "EMPIRE_DEVELOPMENT@ORDER@LEAD_BY_EXAMPLE@NAME"
@@ -70191,14 +70191,14 @@ msgid "EMPIRE_DEVELOPMENT@ORDER@TRIBUTARIES@NAME"
 msgstr "Тваринники^p"
 
 msgid "EMPIRE_DEVELOPMENT@ORDER@TYPE"
-msgstr "Навичка імперії Тіні"
+msgstr "Навичка імперії Порядку"
 
 #| msgid "EMPIRE_DEVELOPMENT@ORDER@TYPE_RITE"
 msgid "EMPIRE_DEVELOPMENT@ORDER@TYPE_REPEATING_RITE"
 msgstr "Повторюваний Ритуал Порядку"
 
 msgid "EMPIRE_DEVELOPMENT@ORDER@TYPE_RITE"
-msgstr "Ритуал Тіні"
+msgstr "Ритуал Порядку"
 
 msgid "EMPIRE_DEVELOPMENT@ORDER@UNIFIED_EMPIRE@DESCRIPTION"
 msgstr "[hyperlink,GLOBAL.CityConcept]Міста[/hyperlink], які мають спільний кордон з <<ins:c:{GLOBAL.ThroneCityConcept.Hyperlink}>>, отримують {StabilityBonus} одиниць [happiness/] [hyperlink,GLOBAL.CityStabilityConcept]стабільності міста[/hyperlink]."
@@ -70278,7 +70278,7 @@ msgid "EMPIRE_DEVELOPMENT@SHADOW@EXTRACTED_ESSENCE@NAME"
 msgstr "Видобута сутність"
 
 msgid "EMPIRE_DEVELOPMENT@SHADOW@EYES_EVERYWHERE@DESCRIPTION"
-msgstr "Негайно відкриває всю {GLOBAL.WorldMapConcept.Hyperlink}.[br/]{GLOBAL.ThroneCityConcept.Hyperlink} отримує нескінченну {GLOBAL.SensorRangeConcept.Hyperlink}.[br/]<<m:{GLOBAL.ArmyConcept.Hyperlink}>> в межах {GLOBAL.SensorRangeConcept.Hyperlink} розкривають свою чисельність і лояльність."
+msgstr "Негайно відкриває всю {GLOBAL.WorldMapConcept.Hyperlink}.[br/]{GLOBAL.ThroneCityConcept.Hyperlink} отримує нескінченну {GLOBAL.SensorRangeConcept.Hyperlink}.[br/][hyperlink,GLOBAL.ArmyConcept]армії[/hyperlink] в межах {GLOBAL.SensorRangeConcept.Hyperlink} розкривають свою чисельність і лояльність."
 
 msgid "EMPIRE_DEVELOPMENT@SHADOW@EYES_EVERYWHERE@NAME"
 msgstr "Очі всюди"
@@ -70430,7 +70430,7 @@ msgid "EMPIRE_DEVELOPMENT@SHADOW@TURNCOAT_MASTERS@NAME"
 msgstr "Майстри-перебіжчики"
 
 msgid "EMPIRE_DEVELOPMENT@SHADOW@TYPE"
-msgstr "Здібності імперії Тіні"
+msgstr "Навичка імперії Тіні"
 
 #| msgid "EMPIRE_DEVELOPMENT@SHADOW@TYPE_RITE"
 msgid "EMPIRE_DEVELOPMENT@SHADOW@TYPE_REPEATING_RITE"
@@ -92095,7 +92095,7 @@ msgid "INTERFACE@TEXT@RAZING"
 msgstr "Спустошення"
 
 msgid "INTERFACE@TEXT@RAZING_DESCRIPTION"
-msgstr "<<m:{GLOBAL.ArmyConcept.Hyperlink}>> можуть знищити <<acc:c:{GLOBAL.DomainConcept.Hyperlink}>> імперії в провінції, спустошивши центр <<gen:c:{GLOBAL.OutpostConcept.Hyperlink}>> або [hyperlink,GLOBAL.CityConcept]міста[/hyperlink]. [hyperlink,GLOBAL.SpecialImprovementConcept]Покращення провінцій[/hyperlink] не можна спустошити, але можна [hyperlink,GLOBAL.PillageConcept]розграбувати[/hyperlink].[br/][br/]Спустошення міст перетворює їх на руїни, які можна відбудувати, витративши очки [imperium/] [hyperlink,GLOBAL.ImperiumConcept]імперіуму[/hyperlink]."
+msgstr "[hyperlink,GLOBAL.ArmyConcept]армії[/hyperlink] можуть знищити <<acc:c:{GLOBAL.DomainConcept.Hyperlink}>> імперії в провінції, спустошивши центр <<gen:c:{GLOBAL.OutpostConcept.Hyperlink}>> або [hyperlink,GLOBAL.CityConcept]міста[/hyperlink]. [hyperlink,GLOBAL.SpecialImprovementConcept]Покращення провінцій[/hyperlink] не можна спустошити, але можна [hyperlink,GLOBAL.PillageConcept]розграбувати[/hyperlink].[br/][br/]Спустошення міст перетворює їх на руїни, які можна відбудувати, витративши очки [imperium/] [hyperlink,GLOBAL.ImperiumConcept]імперіуму[/hyperlink]."
 
 msgid "INTERFACE@TEXT@RAZING_HYPERLINK"
 msgstr "[hyperlink,GLOBAL.RazingConcept]Спустошення[/hyperlink]"
